@@ -1,0 +1,136 @@
+2020-12-01 13:37:53 Info: unknown Portal - index
+2020-12-01 14:13:13 Info: unknown UserLogin - index
+2020-12-01 14:13:15 Info: unknown Portal - index
+2020-12-01 14:13:16 Info: unknown AdminLogin - index
+2020-12-01 14:13:23 Info: unknown AdminLogin - index
+2020-12-01 14:13:23 Info: teacher AdminTop - index
+2020-12-01 14:13:25 Info: teacher UserTop - index
+2020-12-01 14:14:29 Info: teacher AdminTop - index
+2020-12-01 14:14:33 Info: teacher UserTop - index
+2020-12-01 14:15:45 Info: teacher UserTop - index
+2020-12-01 14:26:34 Info: teacher UserTop - index
+2020-12-01 14:27:25 Info: teacher UserTop - index
+2020-12-01 14:30:07 Info: teacher UserTop - index
+2020-12-01 14:31:45 Info: teacher UserTop - index
+2020-12-01 14:32:27 Info: teacher UserTop - index
+2020-12-01 14:37:14 Info: teacher UserTop - index
+2020-12-01 14:38:35 Info: teacher UserTop - index
+2020-12-01 14:45:09 Info: teacher UserTop - index
+2020-12-01 14:49:56 Info: teacher UserTop - index
+2020-12-01 14:50:05 Info: teacher UserTop - index
+2020-12-01 14:54:03 Info: teacher UserTop - index
+2020-12-01 14:55:12 Info: teacher UserTop - index
+2020-12-01 14:57:21 Info: teacher UserTop - index
+2020-12-01 15:02:40 Info: teacher AdminTop - index
+2020-12-01 15:02:45 Info: teacher RegUser - index
+2020-12-01 15:02:48 Info: teacher RegUser - groupIndex  gid: 2
+2020-12-01 15:02:56 Info: teacher RegUser - index
+2020-12-01 15:02:56 Info: teacher AdminTop - index
+2020-12-01 15:02:57 Info: teacher UserTop - index
+2020-12-01 15:02:59 Info: teacher Logout - index
+2020-12-01 15:02:59 Info: unknown Portal - index
+2020-12-01 15:03:01 Info: unknown UserLogin - index
+2020-12-01 15:03:08 Info: unknown UserLogin - index
+2020-12-01 15:03:08 Info: _2_st0100 UserTop - index
+2020-12-01 15:06:06 Info: _2_st0100 UserTop - index
+2020-12-01 15:53:52 Info:  UserTop - index
+2020-12-01 15:53:53 Error: [Error] Call to a member function find() on bool
+#0 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Controller/Controller.php(610): App\Controller\UserTopController->index()
+#1 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(120): Cake\Controller\Controller->invokeAction()
+#2 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\UserTopController))
+#3 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#4 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#5 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(108): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(168): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(96): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#15 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 /sdb/home/labadmin/yasube/www/cake/erams/webroot/index.php(40): Cake\Http\Server->run()
+#18 {main}
+Request URL: /UserTop
+Referer URL: https://atarime.cs.tohoku-gakuin.ac.jp/~yasube/cake/erams/user-login
+
+
+2020-12-01 16:06:17 Info:  UserTop - index
+2020-12-01 16:06:19 Info: unknown Portal - index
+2020-12-01 16:06:21 Info: unknown UserLogin - index
+2020-12-01 16:06:24 Info: unknown Portal - index
+2020-12-01 16:22:23 Info: unknown AdminLogin - index
+2020-12-01 16:22:27 Info: unknown AdminLogin - index
+2020-12-01 16:22:27 Info: teacher AdminTop - index
+2020-12-01 16:22:29 Info: teacher UserTop - index
+2020-12-01 16:34:31 Info: teacher AdminTop - index
+2020-12-01 16:34:33 Info: teacher StatTop - index
+2020-12-01 16:34:37 Info: teacher AdminTop - index
+2020-12-01 16:34:39 Info: teacher RegUser - index
+2020-12-01 16:34:40 Info: teacher RegUser - groupIndex  gid: 2
+2020-12-01 16:34:45 Info: teacher AdminTop - index
+2020-12-01 16:34:49 Info: teacher Logout - index
+2020-12-01 16:34:49 Info: unknown Portal - index
+2020-12-01 16:34:50 Info: unknown UserLogin - index
+2020-12-01 16:34:56 Info: unknown UserLogin - index
+2020-12-01 16:34:56 Info: _2_st0100 UserTop - index
+2020-12-01 16:34:56 Error: [Error] Call to a member function read() on null
+#0 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/View/View.php(1413): include()
+#1 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/View/View.php(1374): Cake\View\View->_evaluate('/sdb/home/labad...', Array)
+#2 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/View/View.php(880): Cake\View\View->_render('/sdb/home/labad...')
+#3 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Controller/Controller.php(791): Cake\View\View->render(NULL, NULL)
+#4 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(126): Cake\Controller\Controller->render()
+#5 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\UserTopController))
+#6 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(108): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(168): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#16 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(96): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#18 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#19 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#20 /sdb/home/labadmin/yasube/www/cake/erams/webroot/index.php(40): Cake\Http\Server->run()
+#21 {main}
+Request URL: /UserTop
+Referer URL: https://atarime.cs.tohoku-gakuin.ac.jp/~yasube/cake/erams/user-login
+
+
+2020-12-01 16:35:17 Info: _2_st0100 Logout - index
+2020-12-01 16:35:17 Info: unknown Portal - index
+2020-12-01 16:39:08 Info: unknown AdminLogin - index
+2020-12-01 16:39:14 Info: unknown AdminLogin - index
+2020-12-01 16:39:14 Info: teacher AdminTop - index
+2020-12-01 16:39:16 Info: teacher UserTop - index
+2020-12-01 16:39:50 Info: teacher UserTop - index
+2020-12-01 18:29:15 Info:  AdminTop - index
+2020-12-01 18:29:17 Info: unknown Portal - index
+2020-12-01 18:29:19 Info: unknown AdminLogin - index
+2020-12-01 18:29:24 Info: unknown AdminLogin - index
+2020-12-01 18:29:24 Info: teacher AdminTop - index
+2020-12-01 18:29:26 Info: teacher UserTop - index
+2020-12-01 18:29:42 Info: teacher AdminTop - index
+2020-12-01 18:33:09 Info: teacher UserTop - index
+2020-12-01 18:47:16 Info: teacher AdminTop - index
+2020-12-01 18:47:17 Info: teacher UserTop - index
+2020-12-01 18:48:27 Info: teacher UserTop - index
+2020-12-01 19:03:16 Info: teacher UserTop - index
+2020-12-01 19:04:35 Info: teacher UserTop - index
+2020-12-01 19:19:58 Info: teacher UserTop - index
+2020-12-01 19:22:11 Info: teacher UserTop - index
+2020-12-01 19:27:31 Info: teacher UserTop - index
+2020-12-01 19:29:57 Info: teacher UserTop - index
+2020-12-01 19:32:42 Info: teacher UserTop - index
+2020-12-01 19:35:38 Info: teacher UserTop - index
+2020-12-01 19:38:20 Info: teacher UserTop - index
+2020-12-01 19:39:34 Info: teacher UserTop - index
+2020-12-01 19:42:05 Info: teacher UserTop - index
+2020-12-01 19:44:38 Info: teacher UserTop - index

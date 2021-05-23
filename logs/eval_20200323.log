@@ -1,0 +1,206 @@
+2020-03-23 10:00:23 Info: unknown Portal - index
+2020-03-23 10:00:24 Info: unknown Portal - index
+2020-03-23 10:01:02 Info: unknown AdminLogin - index
+2020-03-23 10:01:24 Info: unknown AdminLogin - index
+2020-03-23 10:01:24 Info: teacher AdminTop - index
+2020-03-23 10:01:28 Info: teacher RegInstitute - index
+2020-03-23 13:22:33 Info:  AdminTop - index
+2020-03-23 13:22:38 Info: unknown Portal - index
+2020-03-23 13:22:45 Info: unknown UserLogin - index
+2020-03-23 13:23:14 Info: unknown UserLogin - index
+2020-03-23 13:23:14 Info: _2_SMU0011 UserTop - index
+2020-03-23 13:23:20 Info: _2_SMU0011 PreTest - index  eid: 1
+2020-03-23 13:23:35 Info: _2_SMU0011 PreTest - phase1  eid: 1
+2020-03-23 13:23:39 Info: _2_SMU0011 Test - index(reading)  eid: 1 sid: 1
+2020-03-23 13:23:48 Info: _2_SMU0011 Test - readend  eid: 1 sid: 1
+2020-03-23 13:23:48 Info: _2_SMU0011 Test - index(asking)  eid: 1 sid: 1 subseq: 1
+2020-03-23 13:24:02 Info: _2_SMU0011 Test - askend  eid: 1 sid: 1 qid: 1
+2020-03-23 13:24:02 Info: _2_SMU0011 Test - index(collect)  eid: 1
+2020-03-23 13:24:02 Info: _2_SMU0011 Test - collect  eid: 1
+2020-03-23 13:24:06 Info: _2_SMU0011 UserTop - index
+2020-03-23 13:24:15 Info: _2_SMU0011 Logout - index
+2020-03-23 13:24:15 Info: unknown Portal - index
+2020-03-23 13:24:18 Info: unknown AdminLogin - index
+2020-03-23 13:24:27 Info: unknown AdminLogin - index
+2020-03-23 13:24:27 Info: teacher AdminTop - index
+2020-03-23 13:24:31 Info: teacher StatTop - index
+2020-03-23 13:24:34 Info: teacher Stat - index  eid: 1
+2020-03-23 15:23:52 Info:  AdminTop - index
+2020-03-23 15:23:59 Info: unknown Portal - index
+2020-03-23 15:24:01 Info: unknown AdminLogin - index
+2020-03-23 15:24:06 Info: unknown AdminLogin - index
+2020-03-23 15:24:06 Info: teacher AdminTop - index
+2020-03-23 15:27:52 Info: unknown Portal - index
+2020-03-23 15:28:04 Info: unknown AdminLogin - index
+2020-03-23 15:28:14 Info: unknown AdminLogin - index
+2020-03-23 15:28:14 Info: teacher AdminTop - index
+2020-03-23 15:28:25 Info: teacher UserTop - index
+2020-03-23 15:28:29 Info: teacher PreTest - index  eid: 1
+2020-03-23 15:28:45 Info: teacher PreTest - phase1  eid: 1
+2020-03-23 15:28:47 Info: teacher Test - index(reading)  eid: 1 sid: 1
+2020-03-23 15:28:50 Info: teacher Test - readend  eid: 1 sid: 1
+2020-03-23 15:28:50 Info: teacher Test - index(asking)  eid: 1 sid: 1 subseq: 1
+2020-03-23 15:28:55 Info: teacher Test - askend  eid: 1 sid: 1 qid: 1
+2020-03-23 15:28:55 Info: teacher Test - index(collect)  eid: 1
+2020-03-23 15:28:55 Info: teacher Test - collect  eid: 1
+2020-03-23 15:28:57 Info: teacher UserTop - index
+2020-03-23 15:28:59 Info: teacher AdminTop - index
+2020-03-23 15:29:01 Info: teacher StatTop - index
+2020-03-23 15:29:02 Info: teacher Stat - index  eid: 1
+2020-03-23 15:29:40 Info: teacher AdminTop - index
+2020-03-23 15:29:53 Info: teacher UserTop - index
+2020-03-23 16:12:18 Info: unknown Portal - index
+2020-03-23 16:12:44 Info: unknown AdminLogin - index
+2020-03-23 16:12:45 Info: unknown Portal - index
+2020-03-23 16:12:46 Info: unknown AdminLogin - index
+2020-03-23 16:12:56 Info:  AdminTop - index
+2020-03-23 16:12:57 Info: unknown AdminLogin - index
+2020-03-23 16:12:58 Info: teacher AdminTop - index
+2020-03-23 16:13:06 Info: unknown Portal - index
+2020-03-23 16:13:07 Info: unknown AdminLogin - index
+2020-03-23 16:13:15 Info: unknown AdminLogin - index
+2020-03-23 16:13:15 Info: teacher AdminTop - index
+2020-03-23 16:13:23 Info: unknown AdminLogin - index
+2020-03-23 16:13:38 Info: teacher UserTop - index
+2020-03-23 16:13:42 Info: teacher AdminTop - index
+2020-03-23 16:13:48 Info: teacher EsetTop - index
+2020-03-23 16:13:55 Info: teacher Eset - index  eid : 1 mode: 1
+2020-03-23 16:13:58 Info: teacher Section - index  eid: 1 mode: 1 sid: 1
+2020-03-23 16:14:02 Info: teacher Eset - index  eid : 1 mode: 1
+2020-03-23 16:14:03 Info: teacher EsetTop - index
+2020-03-23 16:14:05 Info: teacher AdminTop - index
+2020-03-23 16:14:08 Info: teacher RegUser - index
+2020-03-23 16:14:10 Info: teacher AdminTop - index
+2020-03-23 16:14:12 Info: unknown AdminLogin - index
+2020-03-23 16:14:12 Info: teacher AdminTop - index
+2020-03-23 16:14:13 Info: teacher StatTop - index
+2020-03-23 16:14:15 Info: teacher AdminTop - index
+2020-03-23 16:16:00 Info:  UserTop - index
+2020-03-23 16:16:02 Info: unknown Portal - index
+2020-03-23 16:16:06 Info: unknown AdminLogin - index
+2020-03-23 16:16:12 Info: unknown AdminLogin - index
+2020-03-23 16:16:12 Info: teacher AdminTop - index
+2020-03-23 16:16:15 Info: teacher UserTop - index
+2020-03-23 16:16:25 Info: teacher PreTest - index  eid: 1
+2020-03-23 16:16:27 Info: teacher UserTop - index
+2020-03-23 16:16:34 Info: teacher PreTest - index  eid: 1
+2020-03-23 16:16:35 Info: teacher UserTop - index
+2020-03-23 16:16:37 Info: teacher PreTest - index  eid: 13
+2020-03-23 16:17:13 Info: teacher PreTest - phase1  eid: 1
+2020-03-23 16:17:14 Info: teacher PreTest - phase1  eid: 13
+2020-03-23 16:17:32 Info: teacher Test - index(reading)  eid: 13 sid: 18
+2020-03-23 16:17:32 Info: teacher Test - index(reading)  eid: 1 sid: 1
+2020-03-23 16:17:41 Info: teacher Test - readend  eid: 13 sid: 18
+2020-03-23 16:17:41 Info: teacher Test - index(asking)  eid: 13 sid: 18 subseq: 1
+2020-03-23 16:17:46 Info: teacher AdminTop - index
+2020-03-23 16:17:48 Info: teacher UserTop - index
+2020-03-23 16:17:49 Info: teacher Test - readend  eid: 1 sid: 1
+2020-03-23 16:17:49 Info: teacher Test - index(asking)  eid: 1 sid: 1 subseq: 1
+2020-03-23 16:17:50 Info: teacher PreTest - index  eid: 1
+2020-03-23 16:17:53 Info: teacher PreTest - phase1  eid: 1
+2020-03-23 16:17:55 Info: teacher Test - index(reading)  eid: 1 sid: 1
+2020-03-23 16:17:56 Info: teacher Test - readend  eid: 1 sid: 1
+2020-03-23 16:17:56 Info: teacher Test - index(asking)  eid: 1 sid: 1 subseq: 1
+2020-03-23 16:18:10 Info: teacher Test - askend  eid: 1 sid: 1 qid: 1
+2020-03-23 16:18:10 Info: teacher Test - index(collect)  eid: 1
+2020-03-23 16:18:10 Info: teacher Test - collect  eid: 1
+2020-03-23 16:18:13 Info: teacher Test - askend  eid: 1 sid: 1 qid: 1
+2020-03-23 16:18:13 Info: teacher Test - index(collect)  eid: 1
+2020-03-23 16:18:13 Info: teacher Test - collect  eid: 1
+2020-03-23 16:18:22 Info: teacher AdminTop - index
+2020-03-23 16:18:23 Info: teacher AdminTop - index
+2020-03-23 16:18:29 Info: teacher StatTop - index
+2020-03-23 16:18:35 Info: teacher StatTop - index
+2020-03-23 16:18:44 Info: teacher Stat - index  eid: 1
+2020-03-23 16:18:46 Info: teacher Stat - index  eid: 1
+2020-03-23 16:20:28 Info: teacher AdminTop - index
+2020-03-23 16:20:33 Info: teacher EsetTop - index
+2020-03-23 16:20:54 Info: teacher AdminTop - index
+2020-03-23 16:20:58 Info: teacher EsetTop - index
+2020-03-23 16:20:59 Info: teacher AdminTop - index
+2020-03-23 16:21:00 Info: teacher StatTop - index
+2020-03-23 16:22:04 Info: teacher EsetTop - createEset
+2020-03-23 16:22:04 Info: teacher EsetTop - index
+2020-03-23 16:22:20 Info: teacher Eset - index  eid : 15 mode: 0
+2020-03-23 16:22:27 Info: teacher AdminTop - index
+2020-03-23 16:22:32 Info: teacher EsetTop - index
+2020-03-23 16:22:42 Info: teacher Eset - save  eid : 15 mode: 0
+2020-03-23 16:22:42 Info: teacher Eset - index  eid : 15 mode: 0
+2020-03-23 16:22:56 Info: teacher EsetTop - index
+2020-03-23 16:23:06 Info: teacher EsetTop - changeMode  eid: 15 mode: 0
+2020-03-23 16:23:33 Info: teacher AdminTop - index
+2020-03-23 16:23:41 Info: teacher EsetTop - index
+2020-03-23 16:23:54 Info: teacher EsetTop - changeMode  eid: 15 mode: 0
+2020-03-23 16:24:02 Info: teacher Eset - index  eid : 15 mode: 0
+2020-03-23 16:24:05 Info: teacher Eset - createSec  eid : 15 mode: 0
+2020-03-23 16:24:06 Info: teacher Eset - index  eid : 15 mode: 0
+2020-03-23 16:24:11 Info: teacher Section - index  eid: 15 mode: 0 sid: 20
+2020-03-23 16:25:40 Info: teacher Section - index  eid: 15 mode: 0 sid: 20
+2020-03-23 16:25:57 Info: teacher Section - createQuestion  eid: 15 mode: 0 sid: 20
+2020-03-23 16:25:57 Info: teacher Section - index  eid: 15 mode: 0 sid: 20
+2020-03-23 16:26:16 Info: teacher Section - save  eid: 15 mode: 0 sid: 20
+2020-03-23 16:26:16 Info: teacher Section - index  eid: 15 mode: 0 sid: 20
+2020-03-23 16:26:29 Info: teacher Question - index  eid: 15 mode: 0 sid: 20 qid: 17
+2020-03-23 16:26:44 Info: teacher Question - createChoice  eid: 15 mode: 0 sid: 20 qid: 17
+2020-03-23 16:26:44 Info: teacher Question - index  eid: 15 mode: 0 sid: 20 qid: 17
+2020-03-23 16:27:04 Info: teacher Question - save  eid: 15 mode: 0 sid: 20 qid: 17
+2020-03-23 16:27:04 Info: teacher Question - index  eid: 15 mode: 0 sid: 20 qid: 17
+2020-03-23 16:27:09 Info: teacher Question - moveDown  eid: 15 mode: 0 sid: 20 qid: 17 cid: 40
+2020-03-23 16:27:09 Info: teacher Question - index  eid: 15 mode: 0 sid: 20 qid: 17
+2020-03-23 16:27:13 Info: teacher Question - createChoice  eid: 15 mode: 0 sid: 20 qid: 17
+2020-03-23 16:27:13 Info: teacher Question - index  eid: 15 mode: 0 sid: 20 qid: 17
+2020-03-23 16:27:24 Info: teacher Question - createChoice  eid: 15 mode: 0 sid: 20 qid: 17
+2020-03-23 16:27:24 Info: teacher Question - index  eid: 15 mode: 0 sid: 20 qid: 17
+2020-03-23 16:27:33 Info: teacher Question - save  eid: 15 mode: 0 sid: 20 qid: 17
+2020-03-23 16:27:33 Info: teacher Question - index  eid: 15 mode: 0 sid: 20 qid: 17
+2020-03-23 16:27:43 Info: teacher Question - save  eid: 15 mode: 0 sid: 20 qid: 17
+2020-03-23 16:27:43 Info: teacher Question - index  eid: 15 mode: 0 sid: 20 qid: 17
+2020-03-23 16:27:47 Info: teacher Question - save  eid: 15 mode: 0 sid: 20 qid: 17
+2020-03-23 16:27:47 Info: teacher Question - index  eid: 15 mode: 0 sid: 20 qid: 17
+2020-03-23 16:27:51 Info: teacher Question - createChoice  eid: 15 mode: 0 sid: 20 qid: 17
+2020-03-23 16:27:51 Info: teacher Question - index  eid: 15 mode: 0 sid: 20 qid: 17
+2020-03-23 16:27:59 Info: teacher Question - save  eid: 15 mode: 0 sid: 20 qid: 17
+2020-03-23 16:27:59 Info: teacher Question - index  eid: 15 mode: 0 sid: 20 qid: 17
+2020-03-23 16:28:14 Info: teacher Question - save  eid: 15 mode: 0 sid: 20 qid: 17
+2020-03-23 16:28:14 Info: teacher Question - index  eid: 15 mode: 0 sid: 20 qid: 17
+2020-03-23 16:28:23 Info: teacher Question - save  eid: 15 mode: 0 sid: 20 qid: 17
+2020-03-23 16:28:23 Info: teacher Question - index  eid: 15 mode: 0 sid: 20 qid: 17
+2020-03-23 16:28:36 Info: teacher Question - index  eid: 15 mode: 0 sid: 20 qid: 17
+2020-03-23 16:29:12 Info: teacher Section - index  eid: 15 mode: 0 sid: 20
+2020-03-23 16:29:22 Info: teacher Eset - index  eid : 15 mode: 0
+2020-03-23 16:29:26 Info: teacher EsetTop - index
+2020-03-23 16:29:36 Info: teacher EsetTop - changeMode  eid: 15 mode: 0
+2020-03-23 16:29:36 Info: teacher EsetTop - index
+2020-03-23 16:30:03 Info: teacher AdminTop - index
+2020-03-23 16:30:05 Info: teacher UserTop - index
+2020-03-23 16:30:07 Info: teacher PreTest - index  eid: 15
+2020-03-23 16:30:10 Info: teacher AdminTop - index
+2020-03-23 16:30:11 Info: teacher UserTop - index
+2020-03-23 16:30:14 Info: teacher PreTest - index  eid: 15
+2020-03-23 16:30:17 Info: teacher PreTest - phase1  eid: 15
+2020-03-23 16:30:25 Info: teacher Test - index(reading)  eid: 15 sid: 20
+2020-03-23 16:30:33 Info: teacher Test - readend  eid: 15 sid: 20
+2020-03-23 16:30:33 Info: teacher Test - index(asking)  eid: 15 sid: 20 subseq: 1
+2020-03-23 16:30:39 Info: teacher Test - askend  eid: 15 sid: 20 qid: 17
+2020-03-23 16:30:39 Info: teacher Test - index(collect)  eid: 15
+2020-03-23 16:30:39 Info: teacher Test - collect  eid: 15
+2020-03-23 16:30:47 Info: teacher AdminTop - index
+2020-03-23 17:18:45 Info:  Eset - index  eid : 1 mode: 1
+2020-03-23 17:18:48 Info: unknown Portal - index
+2020-03-23 17:18:49 Info: unknown AdminLogin - index
+2020-03-23 17:18:58 Info: unknown AdminLogin - index
+2020-03-23 17:18:58 Info: teacher AdminTop - index
+2020-03-23 17:19:01 Info: teacher StatTop - index
+2020-03-23 17:19:04 Info: teacher AdminTop - index
+2020-03-23 17:19:05 Info: teacher StatTop - index
+2020-03-23 17:19:06 Info: teacher AdminTop - index
+2020-03-23 17:19:09 Info: teacher UserTop - index
+2020-03-23 17:19:10 Info: teacher AdminTop - index
+2020-03-23 17:19:12 Info: teacher RegUser - index
+2020-03-23 17:19:16 Info: teacher RegUser - groupIndex  gid: 5
+2020-03-23 17:19:19 Info: teacher RegUser - index
+2020-03-23 17:19:20 Info: teacher AdminTop - index
+2020-03-23 17:19:30 Info: teacher EsetTop - index
+2020-03-23 17:19:37 Info: teacher AdminTop - index
+2020-03-23 17:19:44 Info: teacher UserTop - index
+2020-03-23 17:19:45 Info: teacher PreTest - index  eid: 15

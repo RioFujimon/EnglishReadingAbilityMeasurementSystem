@@ -1,0 +1,24 @@
+@import url('/~yasube/cake/erams/css/erams_style.css');
+
+:root {
+    --site-colot: #000000;
+    --site-bg-color: #ffffff;
+
+    --thema-color: #808080;
+    --thema-color-dark: #000000;
+
+    --label-color: #c0c0c0;
+    --label-color-dark: #000000;
+
+    --login-color: #d0d0d0;
+    --login-color-dark: #000000;
+
+    --error-color: #ee4444;
+    --error-color-dark: #301010;
+
+    --warn-color: #ee8888;
+    --warn-color-dark: #302020;
+    
+    --info-color: #66ddff;
+    --info-color-dark: #332211;
+}

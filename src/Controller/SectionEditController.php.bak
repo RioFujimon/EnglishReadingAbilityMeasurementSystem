@@ -1,0 +1,418 @@
+<?php
+// セクション編集ページ
+namespace App\Controller;
+
+use Cake\Controller\Controller;
+use Cake\Event\Event;
+use Cake\ORM\Table;
+
+class SectionEditController extends AppAdminController {
+
+    public function initialize() {
+        // 親クラスをロードする
+        parent::initialize();
+        // ページのタイトルセット
+        $this->Erams->setTitle('セクション編集ページ');
+    }
+
+    public function index() {
+        // get 変数を取得
+        $eid = h(trim($this->request->getQuery('eid')));
+        $sid = h(trim($this->request->getQuery('sid')));
+
+        // eid がなければ
+        if( empty($eid) ) {
+            $this->Erams->error("セクションを登録するセットが見つかりません。");
+            $this->redirect('/EsetList');
+            return;
+        }
+        // セットのモードを取得
+        $esets = $this->EramsDB->get( 'esets', null, [ 'id' => $eid ]);
+        if( $esets->count() != 0 ) {
+            $eset = $esets->first();
+            $mode = $eset->mode;
+        }
+        
+        // セクションを取得
+        $sections = $this->EramsDB->get( 'sections', null, [ 'id' => $sid ]);
+        if( $sid != 0 ) {
+            // セクションがなければセット編集ページに戻る
+            if ( $sections->count() != 1 ) {
+                $this->Erams->error("セクションが見つかりません。");
+                $this->redirect('/EsetEdit?'.'eid='.$eid);
+                return;
+            }
+            $result = $sections->first();
+            $text = preg_replace('/<br>/','',$result->text);
+            $prop = preg_replace('/<br>/','',$result->property);
+            $secInfo = [
+                //'title' => html_entity_decode($result->title, ENT_QUOTES),
+                //'prop' => html_entity_decode($result->property, ENT_QUOTES),
+                //'text' => html_entity_decode($result->text, ENT_QUOTES),
+                'title' => $result->title,
+                'prop' => $prop,
+                'text' => $text,
+                'tlimit' => $result->tlimit
+            ];
+        } else {
+            $secInfo = [
+                'title' => '', 'prop' => '', 'text' => '', 'tlimit' => '' ];
+        }
+        // 問題のリストを取得
+        $questions = $this->EramsDB->get( 'questions', 'subseq', [ 'sid' => $sid ]);
+
+        // 問題情報を集計する
+        $quesInfo = array();
+        foreach ( $questions as $question ) {
+            // 問題文の最初の２０文字を切り取る
+            $qtext = mb_substr($question->text, 0, 20);
+            $quesInfo[$question->id] = array();
+            $quesInfo[$question->id]['qid'] = $question->id;
+            $quesInfo[$question->id]['text'] =
+                html_entity_decode($qtext, ENT_QUOTES);
+            $quesInfo[$question->id]['subseq'] = $question->subseq;
+        }
+        
+        $this->set('EramsSecInfo', $secInfo);
+        $this->set('EramsQuesInfo', $quesInfo);
+        $this->set('eid', $eid);
+        $this->set('sid', $sid);
+        $this->set('EramsSetMode', $mode);
+        
+        $this->Erams->setBackPage('/EsetEdit', [ 'eid' => $eid ]);
+    }
+
+    // セクションを保存する
+    public function saveSec() {
+        // post 変数を取得
+        //$stitle = htmlentities($this->request->getData('stitle'), ENT_QUOTES);
+        $stitle = $this->request->getData('stitle');
+        //$sprop = htmlentities($this->request->getData('sproperty'), ENT_QUOTES);
+        $sprop = $this->request->getData('sproperty');
+        //$stext = htmlentities($this->request->getData('stext'), ENT_QUOTES);
+        $stext = $this->request->getData('stext');
+        $tlimit = $this->request->getData('tlimit');
+        $eid = h(trim($this->request->getData('eid')));
+        $sid = h(trim($this->request->getData('sid')));
+
+        // post 変数のチェック
+        // eid が無ければセット編集ページのトップへリダイレクト
+        if( empty($eid) ) {
+            $this->Erams->error("セクションを登録するセットが見つかりません。");
+            $this->redirect('/EsetList');
+            return;
+        }
+        // sid が無ければ上の階層にリダイレクト
+        if( ! isset($sid) ) {
+            $this->Erams->error("セクションが見つかりません。");
+            $this->redirect('/EsetEdit?'.'eid='.$eid);
+            return;
+        }
+        // title がなければ
+        if( !isset($stitle) || strcmp($stitle, '') == 0 ) {
+            $this->Flash->set("タイトルが入力されていないため、保存できませんでした。");
+            $this->redirect('/SectionEdit?'.'eid='.$eid.'&sid='.$sid);
+            return;
+        }
+        
+        // tlimit がなければ30を代入
+        if( empty($tlimit) ) {
+            $tlimit = 10;
+        }
+
+        // 文字を変換する
+        $stitle = preg_replace("/'/", '&#039;', $stitle);
+        $stitle = preg_replace("/\"/", '&quot;', $stitle);
+        $stitle = preg_replace("/_/", '&#095;', $stitle);
+        $stitle = preg_replace("/\//", '&#047;', $stitle);
+        $stitle = preg_replace("/\r/", '', $stitle);
+        $stitle = preg_replace("/\\\/", '&#092;', $stitle);
+        
+        $stext= preg_replace("/'/", '&#039;',$stext);
+        $stext = preg_replace("/\"/", '&quot;',$stext);
+        $stext= preg_replace("/_/", '&#095;',$stext);
+        $stext= preg_replace("/\//", '&#047;',$stext);
+        $stext = preg_replace("/\r/", '', $stext);
+        $stext = preg_replace("/\n/", '<br>', $stext);
+        $stext= preg_replace("/\\\/", '&#092;',$stext);
+        
+        $sprop = preg_replace("/'/", '&#039;',$sprop);
+        $sprop = preg_replace("/\"/", '&quot;',$sprop);
+        $sprop = preg_replace("/_/", '&#095;',$sprop);
+        $sprop = preg_replace("/\//", '&#047;',$sprop);
+        $sprop = preg_replace("/\r/", '', $sprop);
+        $sprop = preg_replace("/\n/", '<br>',$sprop);
+        $sprop = preg_replace("/\\\/", '&#092;',$sprop);
+        
+        // セクションテーブルを確保
+        $sec = $this->EramsDB->get('sections', null, [ 'id' => $sid ]);
+        // 保存する
+        if( $sid != 0 ){
+            // セクションがなければ
+            if ( $sec->count() != 1 ) {
+                $this->Erams->error("セクションを登録するセットが見つかりません。");
+                $this->redirect('/EsetEdit?'.'eid='.$eid);
+                return;
+            }
+            // eid と 取得したセクションの setid が異なるならば
+            if ( $eid != $sec->first()->eid ) {
+                // error
+                $this->Erams->error("セクションが見つかりません。");
+                $this->redirect('/EsetList');
+                return;
+            }
+            // セットが存在していたら保存
+            $sections = $this->getTableLocator()->get('sections');
+            $entity = $sec->first();
+            
+            $entity->title = $stitle;
+            $entity->property = $sprop;
+            $entity->text = $stext;
+            $entity->tlimit = $tlimit;
+            // 保存してメッセージ表示
+            if($sections->save($entity)){
+                $this->Flash->set("セクションを更新しました。");
+            }else{
+                $this->Erams->error("セクションを更新できませんでした。");
+            }
+        }
+        // 新規作成ならば新しく保存
+        else {
+            // subseq を求める
+            $secs = $this->EramsDB->get('sections', null, [ 'eid' => $eid ]);
+            $subseq = count($secs) + 1;
+            
+            $sections = $this->getTableLocator()->get('sections');
+            
+            $entity = $sections->newEntity();
+            $entity->eid = $eid;
+            $entity->subseq = $subseq;
+            $entity->title = $stitle;
+            $entity->property = $sprop;
+            $entity->text = $stext;
+            $entity->tlimit = $tlimit;
+            // 保存してメッセージ表示
+            $result = $sections->save($entity);
+            if($result){
+                $sid = $result->id;
+                $this->Flash->set("セクションを新規保存しました。");
+            }else{
+                $this->Erams->error("セクションを新規保存できませんでした。");
+            }
+        }
+        // ページを表示
+        $this->redirect('/SectionEdit?'.'eid='.$eid.'&sid='.$sid);
+        return;
+    }
+
+    // 問題を入れ替える
+    public function swapQues() {
+        // post 変数を取得
+        $eid = h(trim($this->request->getData('eid')));
+        $sid = h(trim($this->request->getData('sid')));
+        $qid = h(trim($this->request->getData('qid')));
+        $moveto = $this->request->getData('moveto');
+
+        // post 変数のチェック
+        // eid が無ければセット編集ページのトップへリダイレクト
+        if( empty($eid) ) {
+            $this->Erams->error("テストセットのidが指定されていません。");
+            $this->redirect('/EsetList');
+            return;
+        }
+        // sid が無ければ2つ上の階層にリダイレクト
+        if( empty($sid) ) {
+            $this->Erams->error("セクションのidが指定されていません。");
+            $this->redirect('/EsetEdit?'.'eid='.$eid);
+            return;
+        }
+        // qid が無ければ上の階層にリダイレクト
+        if( empty($qid) ) {
+            $this->Erams->error("問題のidが指定されていません。");
+            $this->redirect('/SectionEdit?'.'eid='.$eid.'&sid='.$sid);
+            return;
+        }
+        // moveto が u, d でなければ上の階層にリダイレクト
+        echo 'xxxxxx'.$moveto;
+        if( strcmp($moveto, 'u') != 0 && strcmp($moveto, 'd') != 0 ) {
+            $this->Erams->error("予期せぬエラーが発生しました");
+            $this->redirect('/SectionEdit?'.'eid='.$eid.'&sid='.$sid);
+            return;
+        }
+
+        // 問題を取得
+        $question = $this->EramsDB->get('questions', null, [ 'id' => $qid ]);
+        if( $question->count() != 1 ) {
+            $this->Erams->error("問題が見つかりません。");
+            $this->redirect('/SectionEdit?'.'eid='.$eid.'&sid='.$sid);
+            return;
+        }
+        // sid と 取得したセクションの sid が異なるならば
+        if ( $sid != $question->first()->sid ) {
+            // error
+            $this->Erams->error("問題が含まれているセクションのidと指定されたセクションのidが不一致です。");
+            $this->redirect('/EsetEdit?'.'eid='.$eid);
+            return;
+        }
+        $src_ques = $question->first();
+        $src_subseq = $src_ques->subseq;
+//        echo $src_subseq;
+
+
+        // セクションに含まれる問題を取得
+        $rows = $this->EramsDB->get('questions', 'subseq', [ 'sid' => $sid ]);
+        $ques_array = array();
+        foreach ( $rows as $row ) {
+            $ques_array[] = $row;
+            echo 'aa'.$row->subseq.'<br>';
+        }
+
+        // subseq を入れ替える
+        for ( $c = 0 ; $c < count($ques_array) ; $c++ ) {
+            if ( $ques_array[$c]->id == $qid ) {
+                // UPボタンを押したとき
+                if ( strcmp($moveto, 'u') == 0 ) {
+                    if ( $c == 0 ) {
+                        $dest_subseq = -1;
+                        $dest_qid = -1;
+                    } else {
+                        $dest_subseq = $ques_array[$c-1]->subseq;
+                        $dest_qid = $ques_array[$c-1]->id;
+                    }
+                }
+                // DOWNボタンを押したとき
+                else {
+                    if ( $c == count($ques_array) - 1 ) {
+                        $dest_subseq = -1;
+                        $dest_qid = -1;
+                    } else {
+                        $dest_subseq = $ques_array[$c+1]->subseq;
+                        $dest_qid = $ques_array[$c+1]->id;
+                    }
+                }
+            }
+        }
+        // 一番上でUPまたは一番下でDOWNを押したとき
+        if ( $dest_qid == -1 ) {
+//            $this->Flash->set("");
+            $this->redirect('/SectionEdit?'.'eid='.$eid.'&sid='.$sid);
+            return;
+        }
+
+        // セクションテーブルを確保
+        $questions = $this->getTableLocator()->get('questions');
+        $entities = array();
+        $entities[0] = $questions->get($qid);
+        $entities[1] = $questions->get($dest_qid);
+
+        // トランザクション処理で登録を行う
+        $ret = $questions->getConnection()->transactional(
+            function () use ($questions, $entities) {
+                $tmp = $entities[0]->subseq;
+                $entities[0]->subseq = $entities[1]->subseq;
+                $entities[1]->subseq = $tmp;
+                foreach ($entities as $entity) {
+                    if ( ! $questions->save($entity, ['atomic' => false]) ) {
+                        return false;
+                    }
+                }
+                return true;
+            });
+
+        // 結果を判断して表示を変える
+        if ( $ret ) {
+        } else {
+            $this->Erams->error("セクションの保存に失敗しました。");
+        }
+        
+        // ページを表示
+        $this->redirect('/SectionEdit?'.'eid='.$eid.'&sid='.$sid);
+        return;
+    }
+
+    // 問題を削除する
+    public function delQues() {
+        // post 変数を取得
+        $eid = h(trim($this->request->getData('eid')));
+        $sid = h(trim($this->request->getData('sid')));
+        $qid = h(trim($this->request->getData('qid')));
+
+        // post 変数のチェック
+        // eid が無ければセット編集ページのトップへリダイレクト
+        if( empty($eid) ) {
+            $this->Erams->error(
+                "テストセットのidが指定されていません。");
+            $this->redirect('/EsetList');
+            return;
+        }
+        // sid が無ければ2つ上の階層にリダイレクト
+        if( empty($sid) ) {
+            $this->Erams->error("セクションのidが指定されていません。");
+            $this->redirect('/EsetEdit?'.'eid='.$eid);
+            return;
+        }
+        // qid が無ければ上の階層にリダイレクト
+        if( empty($qid) ) {
+            $this->Erams->error("問題のidが指定されていません。");
+            $this->redirect('/SectionEdit?'.'eid='.$eid.'&sid='.$sid);
+            return;
+        }
+        
+        // 問題を取得
+        $question = $this->EramsDB->get('questions', null, [ 'id' => $qid ]);
+        if( $question->count() != 1 ) {
+            $this->Erams->error("問題が見つかりません。");
+            $this->redirect('/SectionEdit?'.'eid='.$eid.'&sid='.$sid);
+            return;
+        }
+        // sid と 取得したセクションの sid が異なるならば
+        if ( $sid != $question->first()->sid ) {
+            // error
+            $this->Erams->error("問題が含まれているセクションのidと指定されたセクションのidが不一致です。");
+            $this->redirect('/EsetEdit?'.'eid='.$eid);
+            return;
+        }
+        $ques = $question->first();
+        $subseq = $ques->subseq;
+        echo 'yy'.$subseq;
+
+        // セクションに含まれる問題を取得
+        $rows = $this->EramsDB->get('questions', 'subseq', [ 'sid' => $sid ]);
+        $ques_array = array();
+        foreach ( $rows as $row ) {
+            $ques_array[] = $row;
+//            echo 'aa'.$row->subseq.'<br>';
+        }
+        
+        $questions = $this->getTableLocator()->get('questions');
+        // subseq を入れ替える
+        // 削除するセクションよりも後ろのセクションのとき subseq を付け替える
+        $ret = $questions->getConnection()->transactional(
+            function () use ($questions, $ques_array, $subseq) {
+                foreach ($ques_array as $entity) {
+                    $tmp = $entity->subseq - 1;
+                    $entity->subseq = $tmp;
+                    echo $tmp;
+                    if( $subseq <= $tmp ) {
+//                        echo 'uuuuuuuuu';
+                        if( ! $questions->save($entity, ['atomic' => false] )) {
+                            return false;
+                        }
+                    }
+                }
+                return true;
+            });
+        // つけなおしができたら
+        if( $ret ) {
+            // レコードがあれば削除
+            $this->Flash->set('指定された問題を削除しました。');
+            $entity = $questions->get($qid);
+            $questions->delete($entity);
+        } else {
+            $this->Erams->error("問題の削除に失敗しました。");
+        }
+        // ページを表示
+        $this->redirect('/SectionEdit?'.'eid='.$eid.'&sid='.$sid);
+        return;
+    }
+}

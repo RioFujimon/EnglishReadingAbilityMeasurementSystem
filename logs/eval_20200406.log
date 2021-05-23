@@ -1,0 +1,300 @@
+2020-04-06 13:01:47 Info: unknown Portal - index
+2020-04-06 13:09:50 Info: unknown AdminLogin - index
+2020-04-06 13:10:04 Info: unknown AdminLogin - index
+2020-04-06 13:10:04 Info: teacher AdminTop - index
+2020-04-06 13:10:09 Info: teacher RegInstitute - index
+2020-04-06 13:10:22 Info: teacher AdminTop - index
+2020-04-06 13:10:26 Info: teacher Logout - index
+2020-04-06 13:10:26 Info: unknown Portal - index
+2020-04-06 13:10:28 Info: unknown UserLogin - index
+2020-04-06 13:10:36 Info: unknown AdminLogin - index
+2020-04-06 13:11:12 Info: unknown Portal - index
+2020-04-06 13:11:12 Info: unknown Portal - index
+2020-04-06 13:11:29 Info: unknown Portal - index
+2020-04-06 13:12:12 Info: unknown Portal - index
+2020-04-06 13:12:23 Info: unknown Portal - index
+2020-04-06 13:12:59 Info: unknown AdminLogin - index
+2020-04-06 13:13:01 Info: unknown AdminLogin - index
+2020-04-06 13:13:02 Info: unknown AdminLogin - index
+2020-04-06 13:13:24 Info: unknown AdminLogin - index
+2020-04-06 13:13:24 Info: teacher AdminTop - index
+2020-04-06 13:13:27 Info: unknown AdminLogin - index
+2020-04-06 13:13:28 Info: teacher AdminTop - index
+2020-04-06 13:13:54 Info: teacher RegInstitute - index
+2020-04-06 13:13:57 Info: teacher RegInstitute - index
+2020-04-06 13:13:58 Info: unknown AdminLogin - index
+2020-04-06 13:13:58 Info: teacher AdminTop - index
+2020-04-06 13:14:02 Info: teacher RegInstitute - index
+2020-04-06 13:14:17 Info: teacher RegInstitute - add  gname: Test2020
+2020-04-06 13:14:17 Info: teacher RegInstitute - index
+2020-04-06 13:14:22 Info: teacher AdminTop - index
+2020-04-06 13:14:24 Info: teacher RegInstitute - index
+2020-04-06 13:14:27 Info: teacher RegInstitute - index
+2020-04-06 13:14:50 Info: teacher AdminTop - index
+2020-04-06 13:14:51 Info: teacher AdminTop - index
+2020-04-06 13:14:52 Info: teacher AdminTop - index
+2020-04-06 13:15:09 Info: teacher RegUser - index
+2020-04-06 13:15:10 Info: teacher RegUser - index
+2020-04-06 13:15:10 Info: teacher RegUser - index
+2020-04-06 13:15:27 Info: teacher RegUser - groupIndex  gid: 12
+2020-04-06 13:15:30 Info: teacher RegUser - groupIndex  gid: 11
+2020-04-06 13:15:30 Info: teacher RegUser - groupIndex  gid: 12
+2020-04-06 13:15:33 Info: teacher AdminTop - index
+2020-04-06 13:15:34 Info: teacher RegUser - index
+2020-04-06 13:15:36 Info: teacher RegUser - groupIndex  gid: 12
+2020-04-06 13:18:53 Info: teacher AdminTop - index
+2020-04-06 13:18:58 Info: teacher RegUser - index
+2020-04-06 13:19:21 Info: teacher RegUser - groupIndex  gid: 12
+2020-04-06 13:20:24 Info: teacher RegUser - add  gid: 12
+2020-04-06 13:20:24 Info: teacher RegUser - groupIndex  gid: 12
+2020-04-06 13:20:39 Info: teacher RegUser - add  gid: 12
+2020-04-06 13:20:39 Info: teacher RegUser - groupIndex  gid: 12
+2020-04-06 13:21:06 Info: teacher RegUser - changePass  gid: 12 uid: 174
+2020-04-06 13:21:06 Info: teacher RegUser - groupIndex  gid: 12
+2020-04-06 13:23:30 Info: teacher AdminTop - index
+2020-04-06 13:23:37 Info: teacher EsetTop - index
+2020-04-06 13:24:02 Info: teacher AdminTop - index
+2020-04-06 13:24:14 Info: teacher AdminTop - index
+2020-04-06 13:24:17 Info: teacher EsetTop - index
+2020-04-06 13:25:55 Info: teacher EsetTop - index
+2020-04-06 13:26:06 Info: teacher EsetTop - createEset
+2020-04-06 13:26:06 Info: teacher EsetTop - index
+2020-04-06 13:26:13 Info: teacher Eset - index  eid : 16 mode: 0
+2020-04-06 13:26:26 Info: teacher Eset - save  eid : 16 mode: 0
+2020-04-06 13:26:26 Info: teacher Eset - index  eid : 16 mode: 0
+2020-04-06 13:26:57 Info: teacher Eset - createSec  eid : 16 mode: 0
+2020-04-06 13:26:57 Info: teacher Eset - index  eid : 16 mode: 0
+2020-04-06 13:27:07 Info: teacher Section - index  eid: 16 mode: 0 sid: 21
+2020-04-06 13:27:47 Info: teacher Section - save  eid: 16 mode: 0 sid: 21
+2020-04-06 13:27:47 Info: teacher Section - index  eid: 16 mode: 0 sid: 21
+2020-04-06 13:29:01 Info: teacher Section - index  eid: 16 mode: 0 sid: 21
+2020-04-06 13:29:08 Info: teacher Section - createQuestion  eid: 16 mode: 0 sid: 21
+2020-04-06 13:29:08 Info: teacher Section - index  eid: 16 mode: 0 sid: 21
+2020-04-06 13:29:15 Info: teacher Section - save  eid: 16 mode: 0 sid: 21
+2020-04-06 13:29:15 Info: teacher Section - index  eid: 16 mode: 0 sid: 21
+2020-04-06 13:30:43 Info: teacher Section - save  eid: 16 mode: 0 sid: 21
+2020-04-06 13:30:43 Info: teacher Section - index  eid: 16 mode: 0 sid: 21
+2020-04-06 13:30:57 Info: teacher Section - createQuestion  eid: 16 mode: 0 sid: 21
+2020-04-06 13:30:58 Info: teacher Section - index  eid: 16 mode: 0 sid: 21
+2020-04-06 13:31:05 Info: teacher Question - index  eid: 16 mode: 0 sid: 21 qid: 18
+2020-04-06 13:31:24 Info: teacher Question - save  eid: 16 mode: 0 sid: 21 qid: 18
+2020-04-06 13:31:25 Info: teacher Question - index  eid: 16 mode: 0 sid: 21 qid: 18
+2020-04-06 13:31:29 Info: teacher Question - createChoice  eid: 16 mode: 0 sid: 21 qid: 18
+2020-04-06 13:31:29 Info: teacher Question - index  eid: 16 mode: 0 sid: 21 qid: 18
+2020-04-06 13:31:43 Info: teacher Question - createChoice  eid: 16 mode: 0 sid: 21 qid: 18
+2020-04-06 13:31:43 Info: teacher Question - index  eid: 16 mode: 0 sid: 21 qid: 18
+2020-04-06 13:32:00 Info: teacher Question - save  eid: 16 mode: 0 sid: 21 qid: 18
+2020-04-06 13:32:00 Info: teacher Question - index  eid: 16 mode: 0 sid: 21 qid: 18
+2020-04-06 13:32:11 Info: teacher Question - save  eid: 16 mode: 0 sid: 21 qid: 18
+2020-04-06 13:32:11 Info: teacher Question - index  eid: 16 mode: 0 sid: 21 qid: 18
+2020-04-06 13:32:13 Info: teacher Question - createChoice  eid: 16 mode: 0 sid: 21 qid: 18
+2020-04-06 13:32:13 Info: teacher Question - index  eid: 16 mode: 0 sid: 21 qid: 18
+2020-04-06 13:32:24 Info: teacher Question - save  eid: 16 mode: 0 sid: 21 qid: 18
+2020-04-06 13:32:24 Info: teacher Question - index  eid: 16 mode: 0 sid: 21 qid: 18
+2020-04-06 13:32:28 Info: teacher Question - createChoice  eid: 16 mode: 0 sid: 21 qid: 18
+2020-04-06 13:32:28 Info: teacher Question - index  eid: 16 mode: 0 sid: 21 qid: 18
+2020-04-06 13:32:50 Info: teacher Question - save  eid: 16 mode: 0 sid: 21 qid: 18
+2020-04-06 13:32:50 Info: teacher Question - index  eid: 16 mode: 0 sid: 21 qid: 18
+2020-04-06 13:32:54 Info: teacher Section - index  eid: 16 mode: 0 sid: 21
+2020-04-06 13:33:06 Info: teacher Section - delQuestion  eid: 16 mode: 0 sid: 21 qid: 19
+2020-04-06 13:33:06 Info: teacher Section - index  eid: 16 mode: 0 sid: 21
+2020-04-06 13:33:48 Info: teacher Question - index  eid: 16 mode: 0 sid: 21 qid: 18
+2020-04-06 13:33:58 Info: teacher Question - moveUp  eid: 16 mode: 0 sid: 21 qid: 18 cid: 45
+2020-04-06 13:33:58 Info: teacher Question - index  eid: 16 mode: 0 sid: 21 qid: 18
+2020-04-06 13:34:04 Info: teacher Question - moveDown  eid: 16 mode: 0 sid: 21 qid: 18 cid: 46
+2020-04-06 13:34:04 Info: teacher Question - index  eid: 16 mode: 0 sid: 21 qid: 18
+2020-04-06 13:35:36 Info: teacher Section - index  eid: 16 mode: 0 sid: 21
+2020-04-06 13:35:50 Info: teacher Eset - index  eid : 16 mode: 0
+2020-04-06 13:35:57 Info: teacher EsetTop - index
+2020-04-06 13:36:07 Info: teacher EsetTop - changeMode  eid: 16 mode: 0
+2020-04-06 13:36:07 Info: teacher EsetTop - index
+2020-04-06 13:36:44 Info: teacher AdminTop - index
+2020-04-06 13:37:10 Info: teacher AdminTop - index
+2020-04-06 13:37:12 Info: teacher RegUser - index
+2020-04-06 13:37:14 Info: teacher RegUser - groupIndex  gid: 12
+2020-04-06 13:37:24 Info: teacher AdminTop - index
+2020-04-06 13:37:27 Info: teacher RegInstitute - index
+2020-04-06 13:37:57 Info: teacher RegUser - index
+2020-04-06 13:38:06 Info: teacher AdminTop - index
+2020-04-06 13:38:06 Info: teacher AdminTop - index
+2020-04-06 13:38:12 Info: teacher UserTop - index
+2020-04-06 13:38:12 Info: teacher UserTop - index
+2020-04-06 13:38:25 Info: teacher AdminTop - index
+2020-04-06 13:38:40 Info: teacher AdminTop - index
+2020-04-06 13:38:44 Info: teacher Logout - index
+2020-04-06 13:38:44 Info: unknown Portal - index
+2020-04-06 13:38:46 Info: teacher Logout - index
+2020-04-06 13:38:46 Info: unknown Portal - index
+2020-04-06 13:38:49 Info: teacher AdminTop - index
+2020-04-06 13:38:52 Info: teacher Logout - index
+2020-04-06 13:38:52 Info: unknown Portal - index
+2020-04-06 13:38:54 Info: unknown UserLogin - index
+2020-04-06 13:38:55 Info: unknown UserLogin - index
+2020-04-06 13:38:55 Info: unknown UserLogin - index
+2020-04-06 13:39:23 Info: unknown UserLogin - index
+2020-04-06 13:39:24 Info: unknown UserLogin - index
+2020-04-06 13:39:27 Info: unknown UserLogin - index
+2020-04-06 13:39:29 Info: unknown UserLogin - index
+2020-04-06 13:39:30 Info: _12_TT1001 UserTop - index
+2020-04-06 13:39:44 Info: unknown UserLogin - index
+2020-04-06 13:39:44 Info: unknown UserLogin - index
+2020-04-06 13:39:44 Info: _12_TT1000 UserTop - index
+2020-04-06 13:39:48 Info: unknown Portal - index
+2020-04-06 13:39:50 Info: unknown AdminLogin - index
+2020-04-06 13:39:58 Info: unknown AdminLogin - index
+2020-04-06 13:39:59 Info: teacher AdminTop - index
+2020-04-06 13:40:01 Info: teacher RegUser - index
+2020-04-06 13:40:10 Info: _12_TT1000 PreTest - index  eid: 16
+2020-04-06 13:40:13 Info: teacher RegUser - groupIndex  gid: 12
+2020-04-06 13:40:19 Info: teacher AdminTop - index
+2020-04-06 13:40:19 Info: _12_TT1000 UserTop - index
+2020-04-06 13:40:20 Info: _12_TT1001 PreTest - index  eid: 16
+2020-04-06 13:40:20 Info: teacher Logout - index
+2020-04-06 13:40:20 Info: unknown Portal - index
+2020-04-06 13:40:58 Info: _12_TT1000 PreTest - index  eid: 16
+2020-04-06 13:41:15 Info: _12_TT1000 PreTest - phase1  eid: 16
+2020-04-06 13:41:19 Info: _12_TT1001 PreTest - phase1  eid: 16
+2020-04-06 13:41:27 Info: unknown UserLogin - index
+2020-04-06 13:41:38 Info: _12_TT1000 Test - index(reading)  eid: 16 sid: 21
+2020-04-06 13:41:40 Info: unknown UserLogin - index
+2020-04-06 13:41:40 Info: _12_TT1002 UserTop - index
+2020-04-06 13:41:43 Info: _12_TT1001 Test - index(reading)  eid: 16 sid: 21
+2020-04-06 13:41:49 Info: _12_TT1000 Test - readend  eid: 16 sid: 21
+2020-04-06 13:41:49 Info: _12_TT1000 Test - index(asking)  eid: 16 sid: 21 subseq: 1
+2020-04-06 13:41:54 Info: _12_TT1001 Test - readend  eid: 16 sid: 21
+2020-04-06 13:41:54 Info: _12_TT1001 Test - index(asking)  eid: 16 sid: 21 subseq: 1
+2020-04-06 13:42:04 Info: _12_TT1001 Test - askend  eid: 16 sid: 21 qid: 18
+2020-04-06 13:42:04 Info: _12_TT1001 Test - index(collect)  eid: 16
+2020-04-06 13:42:05 Info: _12_TT1001 Test - collect  eid: 16
+2020-04-06 13:42:23 Info: _12_TT1001 UserTop - index
+2020-04-06 13:42:55 Info: _12_TT1001 PreTest - index  eid: 16
+2020-04-06 13:43:00 Info: _12_TT1001 UserTop - index
+2020-04-06 13:43:09 Info: _12_TT1000 Test - askend  eid: 16 sid: 21 qid: 18
+2020-04-06 13:43:09 Info: _12_TT1000 Test - index(collect)  eid: 16
+2020-04-06 13:43:09 Info: _12_TT1000 Test - collect  eid: 16
+2020-04-06 13:43:16 Info: _12_TT1002 Logout - index
+2020-04-06 13:43:16 Info: unknown Portal - index
+2020-04-06 13:43:16 Info: _12_TT1001 Logout - index
+2020-04-06 13:43:16 Info: unknown Portal - index
+2020-04-06 13:43:19 Info: _12_TT1000 UserTop - index
+2020-04-06 13:43:20 Info: unknown AdminLogin - index
+2020-04-06 13:43:23 Info: _12_TT1000 Logout - index
+2020-04-06 13:43:23 Info: unknown Portal - index
+2020-04-06 13:43:24 Info: unknown AdminLogin - index
+2020-04-06 13:43:25 Info: unknown AdminLogin - index
+2020-04-06 13:43:26 Info: unknown AdminLogin - index
+2020-04-06 13:43:26 Info: teacher AdminTop - index
+2020-04-06 13:43:31 Info: unknown AdminLogin - index
+2020-04-06 13:43:31 Info: teacher AdminTop - index
+2020-04-06 13:43:37 Info: teacher StatTop - index
+2020-04-06 13:43:37 Info: teacher StatTop - index
+2020-04-06 13:43:39 Info: unknown AdminLogin - index
+2020-04-06 13:43:39 Info: teacher AdminTop - index
+2020-04-06 13:43:41 Info: teacher StatTop - index
+2020-04-06 13:43:43 Info: teacher Stat - index  eid: 16
+2020-04-06 13:43:47 Info: teacher Stat - index  eid: 16
+2020-04-06 13:48:56 Info: teacher Stat - index  eid: 16
+2020-04-06 13:54:04 Info: teacher Stat - sdownload  eid: 16
+2020-04-06 13:54:09 Info: teacher Stat - sdownload  eid: 16
+2020-04-06 13:54:15 Info: teacher Stat - sdownload  eid: 16
+2020-04-06 13:55:20 Info: teacher Stat - edownload  eid: 16
+2020-04-06 13:55:33 Info: teacher Stat - edownload  eid: 16
+2020-04-06 13:55:34 Info: teacher Stat - edownload  eid: 16
+2020-04-06 13:55:39 Info: teacher Stat - edownload  eid: 16
+2020-04-06 13:56:32 Info: teacher Stat - edownload  eid: 16
+2020-04-06 13:58:45 Info: teacher AdminTop - index
+2020-04-06 13:58:48 Info: teacher UserTop - index
+2020-04-06 13:58:53 Info: teacher PreTest - index  eid: 16
+2020-04-06 13:58:56 Info: teacher PreTest - phase1  eid: 16
+2020-04-06 13:58:58 Info: teacher Test - index(reading)  eid: 16 sid: 21
+2020-04-06 13:59:00 Info: teacher Test - readend  eid: 16 sid: 21
+2020-04-06 13:59:00 Info: teacher Test - index(asking)  eid: 16 sid: 21 subseq: 1
+2020-04-06 13:59:49 Info: teacher Stat - edownload  eid: 16
+2020-04-06 14:00:16 Info: teacher Stat - edownload  eid: 16
+2020-04-06 14:00:51 Info: teacher Stat - index  eid: 16
+2020-04-06 14:00:54 Info: teacher Stat - edownload  eid: 16
+2020-04-06 14:03:51 Info: teacher AdminTop - index
+2020-04-06 14:04:01 Info: teacher AdminTop - index
+2020-04-06 14:04:03 Info: teacher Logout - index
+2020-04-06 14:04:03 Info: unknown Portal - index
+2020-04-06 14:04:05 Info: teacher Logout - index
+2020-04-06 14:04:05 Info: unknown Portal - index
+2020-04-06 14:04:05 Info: unknown AdminLogin - index
+2020-04-06 14:04:16 Info: unknown AdminLogin - index
+2020-04-06 14:04:17 Info: teacher AdminTop - index
+2020-04-06 14:04:18 Info: teacher Logout - index
+2020-04-06 14:04:18 Info: unknown Portal - index
+2020-04-06 14:04:21 Info: unknown AdminLogin - index
+2020-04-06 14:04:21 Info: unknown AdminLogin - index
+2020-04-06 14:04:24 Info: unknown AdminLogin - index
+2020-04-06 14:04:24 Info: teacher AdminTop - index
+2020-04-06 14:04:25 Info: unknown AdminLogin - index
+2020-04-06 14:04:26 Info: teacher AdminTop - index
+2020-04-06 14:04:27 Info: teacher StatTop - index
+2020-04-06 14:04:30 Info: teacher StatTop - index
+2020-04-06 14:04:31 Info: teacher Stat - index  eid: 16
+2020-04-06 14:04:35 Info: teacher Stat - edownload  eid: 16
+2020-04-06 14:04:35 Info: teacher Stat - index  eid: 13
+2020-04-06 14:04:35 Info: unknown AdminLogin - index
+2020-04-06 14:04:37 Info: unknown AdminLogin - index
+2020-04-06 14:04:37 Info: teacher Stat - edownload  eid: 13
+2020-04-06 14:04:40 Info: unknown AdminLogin - index
+2020-04-06 14:04:46 Info: unknown AdminLogin - index
+2020-04-06 14:04:56 Info: unknown AdminLogin - index
+2020-04-06 14:05:05 Info: unknown AdminLogin - index
+2020-04-06 14:05:17 Info: unknown AdminLogin - index
+2020-04-06 14:05:25 Info: teacher AdminTop - index
+2020-04-06 14:05:27 Info: teacher AdminTop - index
+2020-04-06 14:05:28 Info: unknown AdminLogin - index
+2020-04-06 14:05:28 Info: teacher AdminTop - index
+2020-04-06 14:05:31 Info: teacher Logout - index
+2020-04-06 14:05:31 Info: unknown Portal - index
+2020-04-06 14:05:32 Info: teacher StatTop - index
+2020-04-06 14:05:32 Info: unknown Portal - index
+2020-04-06 14:05:35 Info: unknown AdminLogin - index
+2020-04-06 14:05:38 Info: teacher Stat - index  eid: 16
+2020-04-06 14:05:40 Info: unknown AdminLogin - index
+2020-04-06 14:05:40 Info: teacher AdminTop - index
+2020-04-06 14:05:43 Info: teacher StatTop - index
+2020-04-06 14:05:43 Info: teacher Stat - edownload  eid: 16
+2020-04-06 14:05:45 Info: teacher Stat - index  eid: 16
+2020-04-06 14:05:49 Info: teacher Stat - edownload  eid: 16
+2020-04-06 14:07:45 Info: teacher StatTop - index
+2020-04-06 14:07:48 Info: teacher Stat - index  eid: 16
+2020-04-06 14:07:55 Info: teacher Stat - edownload  eid: 16
+2020-04-06 14:08:14 Info: teacher Stat - edownload  eid: 16
+2020-04-06 14:08:30 Info: teacher AdminTop - index
+2020-04-06 14:13:18 Info: teacher Stat - edownload  eid: 16
+2020-04-06 14:14:18 Info: teacher Stat - edownload  eid: 16
+2020-04-06 14:15:06 Info: teacher Stat - index  eid: 16
+2020-04-06 14:15:11 Info: teacher Stat - index  eid: 16
+2020-04-06 14:15:11 Info: teacher Stat - index  eid: 
+2020-04-06 14:15:11 Info: teacher StatTop - index
+2020-04-06 14:15:14 Info: teacher Stat - index  eid: 16
+2020-04-06 14:15:18 Info: teacher Stat - edownload  eid: 16
+2020-04-06 14:15:26 Info: teacher Stat - edownload  eid: 16
+2020-04-06 14:22:51 Info: teacher Stat - sdownload  eid: 16
+2020-04-06 14:23:01 Info: teacher Stat - edownload  eid: 16
+2020-04-06 14:23:20 Info: teacher StatTop - index
+2020-04-06 14:23:23 Info: teacher Stat - index  eid: 16
+2020-04-06 14:23:27 Info: teacher Stat - edownload  eid: 16
+2020-04-06 14:25:25 Info: teacher Stat - edownload  eid: 16
+2020-04-06 14:27:44 Info: teacher AdminTop - index
+2020-04-06 14:37:17 Info: teacher AdminTop - index
+2020-04-06 14:37:32 Info: unknown Portal - index
+2020-04-06 14:52:35 Info: unknown Portal - index
+2020-04-06 14:52:38 Info: unknown UserLogin - index
+2020-04-06 14:53:01 Info: unknown UserLogin - index
+2020-04-06 14:53:01 Info: _12_TT1000 UserTop - index
+2020-04-06 14:53:14 Info: _12_TT1000 PreTest - index  eid: 16
+2020-04-06 14:53:17 Info: _12_TT1000 PreTest - phase1  eid: 16
+2020-04-06 14:53:20 Info: _12_TT1000 Test - index(reading)  eid: 16 sid: 21
+2020-04-06 14:53:30 Info: _12_TT1000 Test - readend  eid: 16 sid: 21
+2020-04-06 14:53:30 Info: _12_TT1000 Test - index(asking)  eid: 16 sid: 21 subseq: 1
+2020-04-06 14:53:38 Info: _12_TT1000 Test - askend  eid: 16 sid: 21 qid: 18
+2020-04-06 14:53:38 Info: _12_TT1000 Test - index(collect)  eid: 16
+2020-04-06 14:53:38 Info: _12_TT1000 Test - collect  eid: 16
+2020-04-06 14:53:42 Info: _12_TT1000 UserTop - index
+2020-04-06 16:17:53 Info:  Stat - sdownload  eid: 16
+2020-04-06 16:28:52 Info:  Logout - index
+2020-04-06 16:28:52 Info: unknown Portal - index

@@ -1,0 +1,51 @@
+2019-04-28 07:47:03 Error: [Cake\Database\Exception] Cannot describe eset. It has 0 columns. in /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Database/Schema/Collection.php on line 99
+Stack Trace:
+#0 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php(63): Cake\Database\Schema\Collection->describe('eset', Array)
+#1 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/ORM/Table.php(555): Cake\Database\Schema\CachedCollection->describe('eset')
+#2 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/ORM/Table.php(680): Cake\ORM\Table->getSchema()
+#3 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(221): Cake\ORM\Table->getPrimaryKey()
+#4 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(131): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#5 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(114): Bake\Shell\Task\ModelTask->getTableContext(Object(Cake\ORM\Table), 'eset', 'Eset')
+#6 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(101): Bake\Shell\Task\ModelTask->bake('Eset')
+#7 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Console/Shell.php(532): Bake\Shell\Task\ModelTask->main('eset')
+#8 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Console/Shell.php(525): Cake\Console\Shell->runCommand(Array, false, Array)
+#9 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Console/CommandRunner.php(371): Cake\Console\Shell->runCommand(Array, true)
+#10 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Console/CommandRunner.php(166): Cake\Console\CommandRunner->runShell(Object(Bake\Shell\BakeShell), Array)
+#11 /sdb/home/labadmin/yasube/www/cake/erams/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
+#12 {main}
+
+
+2019-04-28 07:50:10 Error: [Cake\Database\Exception] Cannot describe secions. It has 0 columns. in /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Database/Schema/Collection.php on line 99
+Stack Trace:
+#0 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php(63): Cake\Database\Schema\Collection->describe('secions', Array)
+#1 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/ORM/Table.php(555): Cake\Database\Schema\CachedCollection->describe('secions')
+#2 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/ORM/Table.php(680): Cake\ORM\Table->getSchema()
+#3 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(221): Cake\ORM\Table->getPrimaryKey()
+#4 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(131): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#5 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(114): Bake\Shell\Task\ModelTask->getTableContext(Object(Cake\ORM\Table), 'secions', 'Secions')
+#6 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(101): Bake\Shell\Task\ModelTask->bake('Secions')
+#7 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Console/Shell.php(532): Bake\Shell\Task\ModelTask->main('secions')
+#8 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Console/Shell.php(525): Cake\Console\Shell->runCommand(Array, false, Array)
+#9 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Console/CommandRunner.php(371): Cake\Console\Shell->runCommand(Array, true)
+#10 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Console/CommandRunner.php(166): Cake\Console\CommandRunner->runShell(Object(Bake\Shell\BakeShell), Array)
+#11 /sdb/home/labadmin/yasube/www/cake/erams/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
+#12 {main}
+
+
+2019-04-28 08:03:34 Error: [Cake\Database\Exception] Cannot describe rreslts. It has 0 columns. in /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Database/Schema/Collection.php on line 99
+Stack Trace:
+#0 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php(63): Cake\Database\Schema\Collection->describe('rreslts', Array)
+#1 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/ORM/Table.php(555): Cake\Database\Schema\CachedCollection->describe('rreslts')
+#2 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/ORM/Table.php(680): Cake\ORM\Table->getSchema()
+#3 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(221): Cake\ORM\Table->getPrimaryKey()
+#4 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(131): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#5 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(114): Bake\Shell\Task\ModelTask->getTableContext(Object(Cake\ORM\Table), 'rreslts', 'Rreslts')
+#6 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(101): Bake\Shell\Task\ModelTask->bake('Rreslts')
+#7 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Console/Shell.php(532): Bake\Shell\Task\ModelTask->main('rreslts')
+#8 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Console/Shell.php(525): Cake\Console\Shell->runCommand(Array, false, Array)
+#9 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Console/CommandRunner.php(371): Cake\Console\Shell->runCommand(Array, true)
+#10 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Console/CommandRunner.php(166): Cake\Console\CommandRunner->runShell(Object(Bake\Shell\BakeShell), Array)
+#11 /sdb/home/labadmin/yasube/www/cake/erams/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
+#12 {main}
+
+

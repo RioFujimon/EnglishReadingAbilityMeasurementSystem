@@ -1,0 +1,71 @@
+2020-04-28 19:43:36 Info: unknown Portal - index
+2020-04-28 19:43:36 Error: [Cake\Database\Exception\MissingExtensionException] Database driver Cake\Database\Driver\Postgres cannot be used due to a missing PHP extension or unmet dependency
+Exception Attributes: array (
+  'driver' => 'Cake\\Database\\Driver\\Postgres',
+)
+#0 /sdb/atarime/local/CakePHP/apps/erams/vendor/cakephp/cakephp/src/Database/Connection.php(120): Cake\Database\Connection->setDriver(Object(Cake\Database\Driver\Postgres), Array)
+#1 /sdb/atarime/local/CakePHP/apps/erams/vendor/cakephp/cakephp/src/Datasource/ConnectionRegistry.php(89): Cake\Database\Connection->__construct(Array)
+#2 /sdb/atarime/local/CakePHP/apps/erams/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php(97): Cake\Datasource\ConnectionRegistry->_create('Cake\\Database\\C...', 'default', Array)
+#3 /sdb/atarime/local/CakePHP/apps/erams/vendor/cakephp/cakephp/src/Datasource/ConnectionManager.php(205): Cake\Core\ObjectRegistry->load('Cake\\Database\\C...', Array)
+#4 /sdb/atarime/local/CakePHP/apps/erams/vendor/cakephp/cakephp/src/ORM/Locator/TableLocator.php(216): Cake\Datasource\ConnectionManager::get('default')
+#5 /sdb/atarime/local/CakePHP/apps/erams/src/Controller/PortalController.php(25): Cake\ORM\Locator\TableLocator->get('Users')
+#6 /sdb/atarime/local/CakePHP/apps/erams/vendor/cakephp/cakephp/src/Controller/Controller.php(610): App\Controller\PortalController->index()
+#7 /sdb/atarime/local/CakePHP/apps/erams/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(120): Cake\Controller\Controller->invokeAction()
+#8 /sdb/atarime/local/CakePHP/apps/erams/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\PortalController))
+#9 /sdb/atarime/local/CakePHP/apps/erams/vendor/cakephp/cakephp/src/Http/BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 /sdb/atarime/local/CakePHP/apps/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 /sdb/atarime/local/CakePHP/apps/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 /sdb/atarime/local/CakePHP/apps/erams/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(104): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 /sdb/atarime/local/CakePHP/apps/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 /sdb/atarime/local/CakePHP/apps/erams/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 /sdb/atarime/local/CakePHP/apps/erams/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(168): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 /sdb/atarime/local/CakePHP/apps/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#17 /sdb/atarime/local/CakePHP/apps/erams/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#18 /sdb/atarime/local/CakePHP/apps/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#19 /sdb/atarime/local/CakePHP/apps/erams/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(96): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#20 /sdb/atarime/local/CakePHP/apps/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#21 /sdb/atarime/local/CakePHP/apps/erams/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#22 /sdb/atarime/local/CakePHP/apps/erams/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#23 /sdb/atarime/local/CakePHP/apps/erams/webroot/index.php(40): Cake\Http\Server->run()
+#24 {main}
+Request URL: /
+
+
+2020-04-28 19:49:34 Info: unknown Portal - index
+2020-04-28 19:49:34 Error: [Cake\Database\Exception\MissingExtensionException] Database driver Cake\Database\Driver\Postgres cannot be used due to a missing PHP extension or unmet dependency
+Exception Attributes: array (
+  'driver' => 'Cake\\Database\\Driver\\Postgres',
+)
+#0 /sdb/atarime/local/CakePHP/apps/erams/vendor/cakephp/cakephp/src/Database/Connection.php(120): Cake\Database\Connection->setDriver(Object(Cake\Database\Driver\Postgres), Array)
+#1 /sdb/atarime/local/CakePHP/apps/erams/vendor/cakephp/cakephp/src/Datasource/ConnectionRegistry.php(89): Cake\Database\Connection->__construct(Array)
+#2 /sdb/atarime/local/CakePHP/apps/erams/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php(97): Cake\Datasource\ConnectionRegistry->_create('Cake\\Database\\C...', 'default', Array)
+#3 /sdb/atarime/local/CakePHP/apps/erams/vendor/cakephp/cakephp/src/Datasource/ConnectionManager.php(205): Cake\Core\ObjectRegistry->load('Cake\\Database\\C...', Array)
+#4 /sdb/atarime/local/CakePHP/apps/erams/vendor/cakephp/cakephp/src/ORM/Locator/TableLocator.php(216): Cake\Datasource\ConnectionManager::get('default')
+#5 /sdb/atarime/local/CakePHP/apps/erams/src/Controller/PortalController.php(25): Cake\ORM\Locator\TableLocator->get('Users')
+#6 /sdb/atarime/local/CakePHP/apps/erams/vendor/cakephp/cakephp/src/Controller/Controller.php(610): App\Controller\PortalController->index()
+#7 /sdb/atarime/local/CakePHP/apps/erams/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(120): Cake\Controller\Controller->invokeAction()
+#8 /sdb/atarime/local/CakePHP/apps/erams/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\PortalController))
+#9 /sdb/atarime/local/CakePHP/apps/erams/vendor/cakephp/cakephp/src/Http/BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 /sdb/atarime/local/CakePHP/apps/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 /sdb/atarime/local/CakePHP/apps/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 /sdb/atarime/local/CakePHP/apps/erams/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(104): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 /sdb/atarime/local/CakePHP/apps/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 /sdb/atarime/local/CakePHP/apps/erams/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 /sdb/atarime/local/CakePHP/apps/erams/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(168): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 /sdb/atarime/local/CakePHP/apps/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#17 /sdb/atarime/local/CakePHP/apps/erams/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#18 /sdb/atarime/local/CakePHP/apps/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#19 /sdb/atarime/local/CakePHP/apps/erams/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(96): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#20 /sdb/atarime/local/CakePHP/apps/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#21 /sdb/atarime/local/CakePHP/apps/erams/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#22 /sdb/atarime/local/CakePHP/apps/erams/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#23 /sdb/atarime/local/CakePHP/apps/erams/webroot/index.php(40): Cake\Http\Server->run()
+#24 {main}
+Request URL: /
+
+
+2020-04-28 19:49:56 Info: unknown Portal - index
+2020-04-28 19:49:56 Info: unknown Init - index
+2020-04-28 19:54:51 Info: unknown Portal - index
+2020-04-28 19:54:51 Info: unknown Init - index
+2020-04-28 19:54:52 Info:  AdminTop - index

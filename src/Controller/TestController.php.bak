@@ -1,0 +1,222 @@
+<?php
+// 学生トップページ
+namespace App\Controller;
+
+use Cake\Controller\Controller;
+use Cake\Event\Event;
+use Cake\ORM\Table;
+
+class TestController extends AppUserController {
+
+    public function initialize(){
+        // 親クラスをロードする
+        parent::initialize();
+        // ページのタイトルセット
+        $this->Erams->setTitle('テストページ（リーディング）');
+        // セッションを確保
+        $session = $this->request->getSession();
+        // 統計情報（stat）をセッションから取得
+        $stat = $session->read('Erams.Test.Stat');
+        // stat が無ければ eid をセッションから構築
+        if ( empty($stat) ) {
+            $eid = $session->read('Erams.Test.Eid');
+            if ( empty($eid) || ! preg_match('/^[0-9]+$/', $eid) ) {
+                $session->delete('Erams.Test');
+                $this->Flash->set("テストセットのidが指定されていません。");
+                $this->redirect('/UserTop');
+                return;
+            }
+            $session->delete('Erams.Test.Eid');
+        }
+        // stat があれば、この後の処理を抜けてしまう。
+        else {
+            // 情報をセット
+            $this->set('EramsTestStat', $stat);
+            return;
+        }
+        // 生徒の結果を保存する配列のフォーマット
+        // $info['eid'] = eset の id
+        // $info['gid'], $info['gname'], $info['uid'], $info['uname'],
+        // $info['eversion'] = eset のバージョン
+        // $info['sids'][0-N:seq] = eset に含まれる section の id
+        // $info['qids'][0-N:seq] = section に含まれる question の id
+        // $r_res[0-N:seq_s]
+        // [ 'valid', 'start' => 開始, 'end' => 終了 'time' => 時間 ]
+        // $a_res[0-N:seq_s][0-N:seq_q]
+        // [ 'valid', 'start' => 開始, 'end' => 終了 'time' => 時間,
+        //   'corrct' => 正解番号, 'answer' => 解答番号 'iscorrect' => 正解か ]
+        // このページで必要とされる最低限の情報をDBから構築
+        $now = date("Y/m/d H:i:s");
+        $info = [
+            'eid' => $eid,
+            'gid' => $session->read('Erams.gid'),
+            'gname' => $session->read('Erams.gname'),
+            'uid' => $session->read('Erams.uid'),
+            'uname' => $session->read('Erams.uname'),
+            'eversion' => null,
+            'sids' => array(),
+            'qids' => array()
+        ];
+        $r_res_element = [
+            'touched' => false,
+            'valid' => false,
+            'start' => $now,
+            'end' => $now
+        ];
+        $a_res_element = [
+            'touched' => false,
+            'valid' => false,
+            'start' => $now,
+            'end' => $now,
+            'correct' => 99,
+            'answer' => 99,
+            'iscorrect' => false
+        ];
+        $r_res = array();
+        $a_res = array();
+        // eset に関するレコードを取得
+        $row = $this->EramsDB->get('esets', null, [ 'id' => $eid, 'mode' => 'W' ]);
+        if ( $row->count() != 1 ) {
+            $session->delete('Erams.Test');
+            $this->Flash->set("テストセットが見つかりません。");
+            $this->redirect('/PreTest/index?eid='.$eid);
+            return;
+        }
+        $info['eversion'] = $row->first()->eversion;
+        // section に関する情報
+        $row = $this->EramsDB->get('sections', 'subseq', [ 'eid' => $eid ]);
+        if ( $row->count() == 0 ) {
+            $session->delete('Erams.Test');
+            $this->Flash->set("テストセットにセクションが含まれていません。");
+            $this->redirect('/PreTest/index?eid='.$eid);
+            return;
+        }
+        $count = 0;
+        foreach ( $row as $r ) {
+            $info['sids'][$count++] = $r->id;
+        }
+        $info['qids'] = array_pad(array(), $row->count(), array());
+        $r_res = array_pad(array(), $row->count(), $r_res_element);
+        $a_res = array_pad(array(), $row->count(), array());
+        // question に関する情報
+        for ( $c = 0 ; $c < count($info['sids']) ; $c++ ) {
+            $sid = $info['sids'][$c];
+            $row = $this->EramsDB->get('questions', 'subseq', [ 'sid' => $sid ]);
+            if ( $row->count() == 0 ) {
+                $this->Flash->set("テストセットのセクションに問題が含まれていません。");
+                $this->redirect('/PreTest/index?eid='.$eid);
+                return;
+            }
+            $count = 0;
+            foreach ( $row as $r ) {
+                $info['qids'][$c][$count] = $r->id;
+                $a_res[$c][$count] = $a_res_element;
+                $count++;
+            }
+        }
+        // 情報をセッションに保存
+        $stat = [ 'info' => $info, 'r_res' => $r_res, 'a_res' => $a_res ];
+        $session->write('Erams.Test.Stat', $stat);
+        // 情報をセット
+        $this->set('EramsTestStat', $stat);
+    }
+    
+    public function index() {
+        // セッションを確保
+        $session = $this->request->getSession();
+        // 統計情報を取得
+        $stat = $session->read('Erams.Test.Stat');
+        if ( empty($stat) ) {
+            $session->delete('Erams.Test');
+            $this->Flash->set("不正な画面遷移が発生したのでテストを終了します。");
+            $this->redirect('/UserTop');
+            return;
+        }
+        // リダイレクトするべき場所を検査する
+        $sec_count = count($stat['info']['sids']);
+        for ( $sec = 0 ; $sec < $sec_count ; $sec++ ) {
+            if ( $stat['r_res'][$sec]['touched'] == false ) {
+                $stat['r_res'][$sec]['touched'] = true;
+                $session->write('Erams.Test.Stat', $stat);
+                $session->write('Erams.Test.Reading', $stat['info']['sids'][$sec]);
+                $session->write('Erams.Test.Asking', null);
+                $this->redirect("/Test/reading");
+                return;
+            } else {
+                $q_count = count($stat['info']['qids'][$sec]);
+                for ( $q = 0 ; $q < $q_count ; $q ++ ) {
+                    if ( $stat['a_res'][$sec][$q]['touched'] == false ) {
+                        $stat['a_res'][$sec][$q]['touched'] = true; 
+                        $session->write('Erams.Test.Stat', $stat);
+                        $session->write('Erams.Test.Reading', null);
+                        $session->write('Erams.Test.Asking',
+                        $stat['info']['qids'][$sec][$q]);
+                        $this->redirect("/Test/asking");
+                        return;
+                    }
+                }
+            }
+        }
+        $this->redirect("/Test/collect");
+        return;        
+    }
+
+    public function collect() {
+        // セッションを確保
+        $session = $this->request->getSession();
+        // 統計情報を取得
+        $stat = $session->read('Erams.Test.Stat');
+        // 統計情報をリセット
+        $session->delete('Erams.Test');
+    }
+
+    public function reading() {
+        // セッションを確保
+        $session = $this->request->getSession();
+        // 統計情報を取得
+        $stat = $session->read('Erams.Test.Stat');
+        // sid を取得
+        $sid = $session->read('Erams.Test.Reading');
+        // セクションのデータを取得
+        $sections = $this->EramsDB->get('sections', null, [ 'id' => $sid ] );
+        if ( $sections->count() != 1 ) {
+            $this->Flash->set('不正な画面遷移が行われたためテストを終了します。');
+            $this->redirect('/Test/collect');
+            return;
+        }
+        // セクションデータを view に渡す準備
+        $this->set('Erams.Test.Section', $sections->first());        
+        // 統計情報をセット
+        $session->write('Erams.Test.Stat', $stat);
+    }
+
+    public function asking() {
+        // セッションを確保
+        $session = $this->request->getSession();
+        // 統計情報を取得
+        $stat = $session->read('Erams.Test.Stat');
+        // qid を取得
+        $qid = $session->read('Erams.Test.Asking');
+        // 問題データを取得
+        $questions = $this->EramsDB->get('questions', null, [ 'id' => $qid ] );
+        if ( $questions->count() != 1 ) {
+            $this->Flash->set('不正な画面遷移が行われたためテストを終了します。');
+            $this->redirect('/Test/collect');
+            return;
+        }
+        // 選択肢データを取得
+        $choices = $this->EramsDB->get('choices', 'subseq', [ 'qid' => $qid ] );
+        if ( $choices->count() == 0 ) {
+            $this->Flash->set('不正な画面遷移が行われたためテストを終了します。');
+            $this->redirect('/Test/collect');
+            return;
+        }
+        
+        // 統計情報をセット
+        $this->set('Erams.Test.Question', $questions->first());
+        $this->set('Erams.Test.Choices', $choices);
+        // 統計情報をセット
+        $session->write('Erams.Test.Stat', $stat);
+    }
+}
+?>

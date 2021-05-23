@@ -1,0 +1,211 @@
+2020-12-09 12:54:00 Info: unknown Portal - index
+2020-12-09 12:54:07 Info: unknown AdminLogin - index
+2020-12-09 12:54:13 Info: unknown AdminLogin - index
+2020-12-09 12:54:13 Info: teacher AdminTop - index
+2020-12-09 12:54:18 Info: teacher UserTop - index
+2020-12-09 12:54:31 Info: teacher UserTop - index
+2020-12-09 12:54:32 Info: teacher AdminTop - index
+2020-12-09 12:54:35 Info: teacher StatTop - index
+2020-12-09 12:54:36 Info: teacher Stat - index  eid: 1
+2020-12-09 12:55:26 Info: teacher AdminTop - index
+2020-12-09 12:55:29 Info: teacher UserTop - index
+2020-12-09 12:59:40 Info: teacher UserTop - index
+2020-12-09 13:04:00 Info: teacher UserTop - index
+2020-12-09 13:10:23 Info: teacher UserTop - index
+2020-12-09 13:13:57 Info: teacher UserTop - index
+2020-12-09 13:15:12 Info: teacher UserTop - index
+2020-12-09 13:16:54 Info: teacher UserTop - index
+2020-12-09 13:16:58 Info: teacher AdminTop - index
+2020-12-09 13:17:06 Info: teacher StatTop - index
+2020-12-09 13:17:08 Info: teacher AdminTop - index
+2020-12-09 13:17:12 Info: teacher StatTop - index
+2020-12-09 13:17:13 Info: teacher AdminTop - index
+2020-12-09 13:17:14 Info: teacher UserTop - index
+2020-12-09 13:17:17 Info: teacher UserTop - index
+2020-12-09 13:21:20 Info: teacher AdminTop - index
+2020-12-09 13:21:21 Info: teacher UserTop - index
+2020-12-09 13:21:51 Info: teacher UserTop - index
+2020-12-09 13:21:55 Info: teacher AdminTop - index
+2020-12-09 13:21:56 Info: teacher RegInstitute - index
+2020-12-09 13:21:58 Info: teacher AdminTop - index
+2020-12-09 13:22:01 Info: teacher StatTop - index
+2020-12-09 13:22:02 Info: teacher Stat - index  eid: 1
+2020-12-09 13:22:07 Info: teacher AdminTop - index
+2020-12-09 13:22:41 Info: teacher UserTop - index
+2020-12-09 13:23:12 Info: teacher UserTop - index
+2020-12-09 13:23:15 Info: teacher AdminTop - index
+2020-12-09 13:23:18 Info: teacher RegUser - index
+2020-12-09 13:23:19 Info: teacher RegUser - groupIndex  gid: 2
+2020-12-09 13:23:28 Info: teacher AdminTop - index
+2020-12-09 13:41:16 Info: teacher EsetTop - index
+2020-12-09 13:41:18 Info: teacher EsetTop - createEset
+2020-12-09 13:41:18 Info: teacher EsetTop - index
+2020-12-09 13:41:25 Info: teacher Eset - index  eid : 11 mode: 0
+2020-12-09 13:41:28 Info: teacher Eset - createSec  eid : 11 mode: 0
+2020-12-09 13:41:28 Info: teacher Eset - index  eid : 11 mode: 0
+2020-12-09 13:41:35 Info: teacher Section - index  eid: 11 mode: 0 sid: 14
+2020-12-09 13:41:41 Info: teacher Section - createQuestion  eid: 11 mode: 0 sid: 14
+2020-12-09 13:41:41 Info: teacher Section - index  eid: 11 mode: 0 sid: 14
+2020-12-09 13:41:50 Error: [ParseError] syntax error, unexpected ';'
+#0 /sdb/home/labadmin/yasube/www/cake/erams/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/sdb/home/labad...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controller\\...')
+#2 [internal function]: spl_autoload_call('App\\Controller\\...')
+#3 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Core/App.php(152): class_exists('App\\Controller\\...')
+#4 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Core/App.php(64): Cake\Core\App::_classExistsInBase('\\Controller\\Que...', 'App')
+#5 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(92): Cake\Core\App::className('Question', 'Controller', 'Controller')
+#6 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(37): Cake\Http\ControllerFactory->getControllerClass(Object(Cake\Http\ServerRequest))
+#7 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(91): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(108): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(168): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#16 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#18 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(96): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#19 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#20 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#21 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#22 /sdb/home/labadmin/yasube/www/cake/erams/webroot/index.php(40): Cake\Http\Server->run()
+#23 {main}
+Request URL: /question?eid=11&sid=14&qid=9
+Referer URL: https://atarime.cs.tohoku-gakuin.ac.jp/~yasube/cake/erams/Section?eid=11&sid=14
+
+
+2020-12-09 13:43:16 Info: teacher Section - index  eid: 11 mode: 0 sid: 14
+2020-12-09 13:43:25 Error: [ParseError] syntax error, unexpected ';'
+#0 /sdb/home/labadmin/yasube/www/cake/erams/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/sdb/home/labad...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controller\\...')
+#2 [internal function]: spl_autoload_call('App\\Controller\\...')
+#3 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Core/App.php(152): class_exists('App\\Controller\\...')
+#4 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Core/App.php(64): Cake\Core\App::_classExistsInBase('\\Controller\\Que...', 'App')
+#5 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(92): Cake\Core\App::className('Question', 'Controller', 'Controller')
+#6 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(37): Cake\Http\ControllerFactory->getControllerClass(Object(Cake\Http\ServerRequest))
+#7 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(91): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(108): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(168): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#16 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#18 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(96): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#19 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#20 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#21 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#22 /sdb/home/labadmin/yasube/www/cake/erams/webroot/index.php(40): Cake\Http\Server->run()
+#23 {main}
+Request URL: /question?eid=11&sid=14&qid=9
+Referer URL: https://atarime.cs.tohoku-gakuin.ac.jp/~yasube/cake/erams/Section?eid=11&sid=14
+
+
+2020-12-09 13:50:24 Info: teacher Section - index  eid: 11 mode: 0 sid: 14
+2020-12-09 13:50:31 Error: [ParseError] syntax error, unexpected ';'
+#0 /sdb/home/labadmin/yasube/www/cake/erams/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/sdb/home/labad...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controller\\...')
+#2 [internal function]: spl_autoload_call('App\\Controller\\...')
+#3 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Core/App.php(152): class_exists('App\\Controller\\...')
+#4 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Core/App.php(64): Cake\Core\App::_classExistsInBase('\\Controller\\Que...', 'App')
+#5 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(92): Cake\Core\App::className('Question', 'Controller', 'Controller')
+#6 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(37): Cake\Http\ControllerFactory->getControllerClass(Object(Cake\Http\ServerRequest))
+#7 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(91): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(108): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(168): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#16 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#18 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(96): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#19 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#20 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#21 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#22 /sdb/home/labadmin/yasube/www/cake/erams/webroot/index.php(40): Cake\Http\Server->run()
+#23 {main}
+Request URL: /question?eid=11&sid=14&qid=9
+Referer URL: https://atarime.cs.tohoku-gakuin.ac.jp/~yasube/cake/erams/Section?eid=11&sid=14
+
+
+2020-12-09 13:51:32 Info: teacher Section - index  eid: 11 mode: 0 sid: 14
+2020-12-09 13:51:34 Error: [ParseError] syntax error, unexpected ';'
+#0 /sdb/home/labadmin/yasube/www/cake/erams/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/sdb/home/labad...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controller\\...')
+#2 [internal function]: spl_autoload_call('App\\Controller\\...')
+#3 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Core/App.php(152): class_exists('App\\Controller\\...')
+#4 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Core/App.php(64): Cake\Core\App::_classExistsInBase('\\Controller\\Que...', 'App')
+#5 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(92): Cake\Core\App::className('Question', 'Controller', 'Controller')
+#6 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(37): Cake\Http\ControllerFactory->getControllerClass(Object(Cake\Http\ServerRequest))
+#7 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(91): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(108): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(168): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#16 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#18 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(96): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#19 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#20 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#21 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#22 /sdb/home/labadmin/yasube/www/cake/erams/webroot/index.php(40): Cake\Http\Server->run()
+#23 {main}
+Request URL: /question?eid=11&sid=14&qid=9
+Referer URL: https://atarime.cs.tohoku-gakuin.ac.jp/~yasube/cake/erams/Section?eid=11&sid=14
+
+
+2020-12-09 13:54:30 Info: unknown Portal - index
+2020-12-09 14:07:16 Info:  Section - index  eid: 11 mode: 0 sid: 14
+2020-12-09 14:07:18 Info: unknown Portal - index
+2020-12-09 14:07:20 Info: unknown AdminLogin - index
+2020-12-09 14:07:24 Info: unknown AdminLogin - index
+2020-12-09 14:07:24 Info: teacher AdminTop - index
+2020-12-09 14:07:27 Info: teacher EsetTop - index
+2020-12-09 14:07:29 Info: teacher Eset - index  eid : 11 mode: 0
+2020-12-09 14:07:31 Info: teacher Section - index  eid: 11 mode: 0 sid: 14
+2020-12-09 14:07:41 Info: teacher Question - index  eid: 11 mode: 0 sid: 14 qid: 9
+2020-12-09 14:07:47 Info: teacher Question - save  eid: 11 mode: 0 sid: 14 qid: 9
+2020-12-09 14:09:44 Info: teacher Question - index  eid: 11 mode: 0 sid: 14 qid: 9
+2020-12-09 14:09:50 Info: teacher Question - save  eid: 11 mode: 0 sid: 14 qid: 9
+2020-12-09 14:16:39 Info: teacher Question - index  eid: 11 mode: 0 sid: 14 qid: 9
+2020-12-09 14:16:45 Info: teacher Question - save  eid: 11 mode: 0 sid: 14 qid: 9
+2020-12-09 14:17:41 Info: teacher Question - index  eid: 11 mode: 0 sid: 14 qid: 9
+2020-12-09 14:17:44 Info: teacher Question - save  eid: 11 mode: 0 sid: 14 qid: 9
+2020-12-09 14:19:40 Info: teacher Question - index  eid: 11 mode: 0 sid: 14 qid: 9
+2020-12-09 14:19:42 Info: teacher Question - save  eid: 11 mode: 0 sid: 14 qid: 9
+2020-12-09 14:22:10 Info: teacher Question - index  eid: 11 mode: 0 sid: 14 qid: 9
+2020-12-09 14:22:12 Info: teacher Question - save  eid: 11 mode: 0 sid: 14 qid: 9
+2020-12-09 14:23:47 Info: teacher Question - index  eid: 11 mode: 0 sid: 14 qid: 9
+2020-12-09 14:23:49 Info: teacher Question - save  eid: 11 mode: 0 sid: 14 qid: 9
+2020-12-09 14:25:57 Info: teacher Question - index  eid: 11 mode: 0 sid: 14 qid: 9
+2020-12-09 14:26:00 Info: teacher Question - save  eid: 11 mode: 0 sid: 14 qid: 9
+2020-12-09 14:28:05 Info: teacher Question - index  eid: 11 mode: 0 sid: 14 qid: 9
+2020-12-09 14:28:08 Info: teacher Question - save  eid: 11 mode: 0 sid: 14 qid: 9
+2020-12-09 14:28:08 Info: teacher Question - index  eid: 11 mode: 0 sid: 14 qid: 9
+2020-12-09 14:28:32 Info: teacher Question - createChoice  eid: 11 mode: 0 sid: 14 qid: 9
+2020-12-09 14:28:32 Info: teacher Question - index  eid: 11 mode: 0 sid: 14 qid: 9
+2020-12-09 14:28:40 Info: teacher Question - save  eid: 11 mode: 0 sid: 14 qid: 9
+2020-12-09 14:28:40 Info: teacher Question - index  eid: 11 mode: 0 sid: 14 qid: 9
+2020-12-09 14:29:06 Info: teacher Question - deleteChoice  eid: 11 mode: 0 sid: 14 qid: 9 cid: 10
+2020-12-09 14:29:06 Info: teacher Question - index  eid: 11 mode: 0 sid: 14 qid: 9
+2020-12-09 14:29:08 Info: teacher Question - save  eid: 11 mode: 0 sid: 14 qid: 9
+2020-12-09 14:29:08 Info: teacher Question - index  eid: 11 mode: 0 sid: 14 qid: 9
+2020-12-09 14:38:32 Info: teacher Question - index  eid: 11 mode: 0 sid: 14 qid: 9
+2020-12-09 14:38:38 Info: teacher Question - save  eid: 11 mode: 0 sid: 14 qid: 9
+2020-12-09 14:38:38 Info: teacher Question - index  eid: 11 mode: 0 sid: 14 qid: 9
+2020-12-09 14:41:14 Info: teacher AdminTop - index
+2020-12-09 14:41:16 Info: teacher UserTop - index
+2020-12-09 14:46:59 Info: teacher UserTop - index
+2020-12-09 14:47:05 Info: teacher UserTop - index
+2020-12-09 14:47:06 Info: teacher AdminTop - index

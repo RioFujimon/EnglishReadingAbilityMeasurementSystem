@@ -1,0 +1,171 @@
+2021-03-21 11:44:55 Info: unknown Portal - index
+2021-03-21 11:45:23 Info: unknown AdminLogin - index
+2021-03-21 11:45:30 Info: unknown AdminLogin - index
+2021-03-21 11:45:30 Info: teacher AdminTop - index
+2021-03-21 11:45:33 Info: teacher RegInstitute - index
+2021-03-21 11:46:01 Info: teacher RegInstitute - add  gname: test_for_TOEFL
+2021-03-21 11:46:01 Info: teacher RegInstitute - index
+2021-03-21 11:46:16 Info: teacher RegInstitute - add  gname: test-for-TOEFL
+2021-03-21 11:46:16 Info: teacher RegInstitute - index
+2021-03-21 11:46:26 Info: teacher RegInstitute - add  gname: testTOEFL
+2021-03-21 11:46:26 Info: teacher RegInstitute - index
+2021-03-21 11:46:36 Info: teacher AdminTop - index
+2021-03-21 11:46:42 Info: teacher EsetTop - index
+2021-03-21 11:49:23 Info: teacher EsetTop - createEset
+2021-03-21 11:49:23 Info: teacher EsetTop - index
+2021-03-21 11:49:36 Info: teacher Eset - index  eid : 16 mode: 0
+2021-03-21 11:50:40 Info: teacher Eset - save  eid : 16 mode: 0
+2021-03-21 11:50:40 Info: teacher Eset - index  eid : 16 mode: 0
+2021-03-21 11:50:49 Info: teacher EsetTop - index
+2021-03-21 11:50:54 Info: teacher Eset - index  eid : 16 mode: 0
+2021-03-21 11:51:08 Info: teacher Eset - save  eid : 16 mode: 0
+2021-03-21 11:51:08 Info: teacher Eset - index  eid : 16 mode: 0
+2021-03-21 11:51:11 Info: teacher EsetTop - index
+2021-03-21 11:51:37 Info: teacher Eset - index  eid : 16 mode: 0
+2021-03-21 11:51:48 Info: teacher Eset - createSec  eid : 16 mode: 0
+2021-03-21 11:51:48 Info: teacher Eset - index  eid : 16 mode: 0
+2021-03-21 11:51:55 Info: teacher Section - index  eid: 16 mode: 0 sid: 20
+2021-03-21 11:52:05 Info: teacher Eset - index  eid : 16 mode: 0
+2021-03-21 11:52:53 Info: teacher Eset - save  eid : 16 mode: 0
+2021-03-21 11:52:53 Info: teacher Eset - index  eid : 16 mode: 0
+2021-03-21 11:52:55 Info: teacher Eset - createSec  eid : 16 mode: 0
+2021-03-21 11:52:55 Info: teacher Eset - index  eid : 16 mode: 0
+2021-03-21 11:53:03 Info: teacher Section - index  eid: 16 mode: 0 sid: 20
+2021-03-21 11:54:37 Info: teacher Section - save  eid: 16 mode: 0 sid: 20
+2021-03-21 11:54:37 Info: teacher Section - index  eid: 16 mode: 0 sid: 20
+2021-03-21 11:54:47 Info: teacher Eset - index  eid : 16 mode: 0
+2021-03-21 11:54:53 Info: teacher Section - index  eid: 16 mode: 0 sid: 20
+2021-03-21 11:54:57 Info: teacher Section - createQuestion  eid: 16 mode: 0 sid: 20
+2021-03-21 11:54:57 Info: teacher Section - index  eid: 16 mode: 0 sid: 20
+2021-03-21 11:55:19 Info: teacher Section - createQuestion  eid: 16 mode: 0 sid: 20
+2021-03-21 11:55:19 Info: teacher Section - index  eid: 16 mode: 0 sid: 20
+2021-03-21 11:55:27 Info: teacher Section - delQuestion  eid: 16 mode: 0 sid: 20 qid: 17
+2021-03-21 11:55:27 Info: teacher Section - index  eid: 16 mode: 0 sid: 20
+2021-03-21 11:55:52 Info: teacher Section - index  eid: 16 mode: 0 sid: 21
+2021-03-21 11:56:04 Info: teacher Eset - index  eid : 16 mode: 0
+2021-03-21 11:56:12 Info: teacher Section - index  eid: 16 mode: 0 sid: 20
+2021-03-21 11:56:32 Info: teacher Question - index  eid: 16 mode: 0 sid: 20 qid: 16
+2021-03-21 11:58:24 Info: teacher Question - createChoice  eid: 16 mode: 0 sid: 20 qid: 16
+2021-03-21 11:58:24 Info: teacher Question - index  eid: 16 mode: 0 sid: 20 qid: 16
+2021-03-21 11:58:56 Info: teacher Question - save  eid: 16 mode: 0 sid: 20 qid: 16
+2021-03-21 11:58:56 Info: teacher Question - index  eid: 16 mode: 0 sid: 20 qid: 16
+2021-03-21 11:59:01 Info: teacher Question - createChoice  eid: 16 mode: 0 sid: 20 qid: 16
+2021-03-21 11:59:01 Info: teacher Question - index  eid: 16 mode: 0 sid: 20 qid: 16
+2021-03-21 11:59:22 Info: teacher Question - createChoice  eid: 16 mode: 0 sid: 20 qid: 16
+2021-03-21 11:59:22 Info: teacher Question - index  eid: 16 mode: 0 sid: 20 qid: 16
+2021-03-21 11:59:41 Info: teacher Question - save  eid: 16 mode: 0 sid: 20 qid: 16
+2021-03-21 11:59:41 Info: teacher Question - index  eid: 16 mode: 0 sid: 20 qid: 16
+2021-03-21 11:59:46 Info: teacher Question - createChoice  eid: 16 mode: 0 sid: 20 qid: 16
+2021-03-21 11:59:46 Info: teacher Question - index  eid: 16 mode: 0 sid: 20 qid: 16
+2021-03-21 12:02:13 Info: teacher Question - save  eid: 16 mode: 0 sid: 20 qid: 16
+2021-03-21 12:02:13 Info: teacher Question - index  eid: 16 mode: 0 sid: 20 qid: 16
+2021-03-21 12:02:22 Info: teacher Question - index  eid: 16 mode: 0 sid: 20 qid: 16
+2021-03-21 12:03:05 Info: teacher Question - save  eid: 16 mode: 0 sid: 20 qid: 16
+2021-03-21 12:03:05 Info: teacher Question - index  eid: 16 mode: 0 sid: 20 qid: 16
+2021-03-21 12:03:28 Info: teacher Question - index  eid: 16 mode: 0 sid: 20 qid: 16
+2021-03-21 12:03:40 Info: teacher Section - index  eid: 16 mode: 0 sid: 20
+2021-03-21 12:03:50 Info: teacher AdminTop - index
+2021-03-21 12:03:54 Info: teacher EsetTop - index
+2021-03-21 12:04:06 Info: teacher Eset - index  eid : 16 mode: 0
+2021-03-21 12:04:17 Info: teacher AdminTop - index
+2021-03-21 12:04:20 Info: teacher EsetTop - index
+2021-03-21 12:04:32 Info: teacher EsetTop - changeMode  eid: 16 mode: 0
+2021-03-21 12:04:47 Info: teacher Eset - index  eid : 16 mode: 0
+2021-03-21 12:04:58 Info: teacher Section - index  eid: 16 mode: 0 sid: 21
+2021-03-21 12:05:03 Info: teacher Eset - index  eid : 16 mode: 0
+2021-03-21 12:05:13 Info: teacher Section - index  eid: 16 mode: 0 sid: 21
+2021-03-21 12:06:11 Info: teacher Section - save  eid: 16 mode: 0 sid: 21
+2021-03-21 12:06:11 Info: teacher Section - index  eid: 16 mode: 0 sid: 21
+2021-03-21 12:06:17 Info: teacher Section - createQuestion  eid: 16 mode: 0 sid: 21
+2021-03-21 12:06:17 Info: teacher Section - index  eid: 16 mode: 0 sid: 21
+2021-03-21 12:06:28 Info: teacher Question - index  eid: 16 mode: 0 sid: 21 qid: 18
+2021-03-21 12:08:08 Info: teacher Question - createChoice  eid: 16 mode: 0 sid: 21 qid: 18
+2021-03-21 12:08:08 Info: teacher Question - index  eid: 16 mode: 0 sid: 21 qid: 18
+2021-03-21 12:08:37 Info: teacher Question - save  eid: 16 mode: 0 sid: 21 qid: 18
+2021-03-21 12:08:37 Info: teacher Question - index  eid: 16 mode: 0 sid: 21 qid: 18
+2021-03-21 12:08:39 Info: teacher Question - createChoice  eid: 16 mode: 0 sid: 21 qid: 18
+2021-03-21 12:08:39 Info: teacher Question - index  eid: 16 mode: 0 sid: 21 qid: 18
+2021-03-21 12:08:55 Info: teacher Question - save  eid: 16 mode: 0 sid: 21 qid: 18
+2021-03-21 12:08:55 Info: teacher Question - index  eid: 16 mode: 0 sid: 21 qid: 18
+2021-03-21 12:08:57 Info: teacher Question - createChoice  eid: 16 mode: 0 sid: 21 qid: 18
+2021-03-21 12:08:57 Info: teacher Question - index  eid: 16 mode: 0 sid: 21 qid: 18
+2021-03-21 12:09:15 Info: teacher Question - save  eid: 16 mode: 0 sid: 21 qid: 18
+2021-03-21 12:09:15 Info: teacher Question - index  eid: 16 mode: 0 sid: 21 qid: 18
+2021-03-21 12:09:17 Info: teacher Question - createChoice  eid: 16 mode: 0 sid: 21 qid: 18
+2021-03-21 12:09:17 Info: teacher Question - index  eid: 16 mode: 0 sid: 21 qid: 18
+2021-03-21 12:09:34 Info: teacher Question - save  eid: 16 mode: 0 sid: 21 qid: 18
+2021-03-21 12:09:34 Info: teacher Question - index  eid: 16 mode: 0 sid: 21 qid: 18
+2021-03-21 12:09:47 Info: teacher Question - index  eid: 16 mode: 0 sid: 21 qid: 18
+2021-03-21 12:10:15 Info: teacher Question - save  eid: 16 mode: 0 sid: 21 qid: 18
+2021-03-21 12:10:15 Info: teacher Question - index  eid: 16 mode: 0 sid: 21 qid: 18
+2021-03-21 12:10:22 Info: teacher AdminTop - index
+2021-03-21 12:10:27 Info: teacher EsetTop - index
+2021-03-21 12:42:58 Info:  Eset - index  eid : 16 mode: 0
+2021-03-21 12:43:03 Info: unknown Portal - index
+2021-03-21 12:43:05 Info: unknown AdminLogin - index
+2021-03-21 12:43:11 Info: unknown AdminLogin - index
+2021-03-21 12:43:11 Info: teacher AdminTop - index
+2021-03-21 12:43:13 Info: teacher EsetTop - index
+2021-03-21 12:43:18 Info: teacher Eset - index  eid : 16 mode: 0
+2021-03-21 12:43:21 Info: teacher Section - index  eid: 16 mode: 0 sid: 20
+2021-03-21 12:44:06 Info: teacher Section - save  eid: 16 mode: 0 sid: 20
+2021-03-21 12:44:06 Info: teacher Section - index  eid: 16 mode: 0 sid: 20
+2021-03-21 12:44:10 Info: teacher Section - index  eid: 16 mode: 0 sid: 21
+2021-03-21 12:44:34 Info: teacher Section - save  eid: 16 mode: 0 sid: 21
+2021-03-21 12:44:34 Info: teacher Section - index  eid: 16 mode: 0 sid: 21
+2021-03-21 12:44:39 Info: teacher AdminTop - index
+2021-03-21 12:44:41 Info: teacher EsetTop - index
+2021-03-21 12:44:43 Info: teacher EsetTop - changeMode  eid: 16 mode: 0
+2021-03-21 12:44:43 Info: teacher EsetTop - index
+2021-03-21 12:44:53 Info: teacher AdminTop - index
+2021-03-21 12:44:56 Info: teacher UserTop - index
+2021-03-21 12:45:07 Info: teacher PreTest - index  eid: 16
+2021-03-21 12:45:13 Info: teacher PreTest - phase1  eid: 16
+2021-03-21 12:45:22 Info: teacher Test - index(reading)  eid: 16 sid: 20
+2021-03-21 12:45:49 Info: teacher Test - readend  eid: 16 sid: 20
+2021-03-21 12:45:49 Info: teacher Test - index(asking)  eid: 16 sid: 20 subseq: 1
+2021-03-21 12:45:57 Info: teacher Test - askend  eid: 16 sid: 20 qid: 16
+2021-03-21 12:45:57 Info: teacher Test - index(reading)  eid: 16 sid: 21
+2021-03-21 12:46:03 Info: teacher Test - readend  eid: 16 sid: 21
+2021-03-21 12:46:03 Info: teacher Test - index(asking)  eid: 16 sid: 21 subseq: 1
+2021-03-21 12:46:07 Info: teacher AdminTop - index
+2021-03-21 12:46:21 Info: unknown Portal - index
+2021-03-21 12:46:25 Info: unknown UserLogin - index
+2021-03-21 12:46:55 Info: unknown UserLogin - index
+2021-03-21 12:47:01 Info: unknown UserLogin - index
+2021-03-21 12:47:16 Info: unknown Portal - index
+2021-03-21 12:47:19 Info: unknown AdminLogin - index
+2021-03-21 12:47:24 Info: unknown AdminLogin - index
+2021-03-21 12:47:24 Info: teacher AdminTop - index
+2021-03-21 12:47:28 Info: teacher RegInstitute - index
+2021-03-21 12:47:37 Info: teacher AdminTop - index
+2021-03-21 12:47:41 Info: teacher RegUser - index
+2021-03-21 12:47:44 Info: teacher RegUser - groupIndex  gid: 4
+2021-03-21 12:49:32 Info: teacher RegUser - add  gid: 4
+2021-03-21 12:49:33 Info: teacher RegUser - groupIndex  gid: 4
+2021-03-21 12:50:17 Info: teacher AdminTop - index
+2021-03-21 12:50:25 Info: unknown Portal - index
+2021-03-21 12:50:27 Info: unknown UserLogin - index
+2021-03-21 12:50:46 Info: unknown UserLogin - index
+2021-03-21 12:50:46 Info: _4_TU0000 UserTop - index
+2021-03-21 12:51:08 Info: _4_TU0000 PreTest - index  eid: 16
+2021-03-21 12:51:12 Info: _4_TU0000 PreTest - phase1  eid: 16
+2021-03-21 12:51:20 Info: _4_TU0000 PreTest - index  eid: 16
+2021-03-21 12:51:37 Info: _4_TU0000 PreTest - phase1  eid: 16
+2021-03-21 12:51:41 Info: _4_TU0000 Test - index(reading)  eid: 16 sid: 20
+2021-03-21 12:51:56 Info: _4_TU0000 Test - readend  eid: 16 sid: 20
+2021-03-21 12:51:56 Info: _4_TU0000 Test - index(asking)  eid: 16 sid: 20 subseq: 1
+2021-03-21 12:52:05 Info: _4_TU0000 Test - askend  eid: 16 sid: 20 qid: 16
+2021-03-21 12:52:05 Info: _4_TU0000 Test - index(reading)  eid: 16 sid: 21
+2021-03-21 12:52:14 Info: _4_TU0000 Test - readend  eid: 16 sid: 21
+2021-03-21 12:52:14 Info: _4_TU0000 Test - index(asking)  eid: 16 sid: 21 subseq: 1
+2021-03-21 12:52:21 Info: _4_TU0000 Test - askend  eid: 16 sid: 21 qid: 18
+2021-03-21 12:52:21 Info: _4_TU0000 Test - index(collect)  eid: 16
+2021-03-21 12:52:21 Info: _4_TU0000 Test - collect  eid: 16
+2021-03-21 12:52:31 Info: unknown Portal - index
+2021-03-21 12:52:32 Info: unknown Portal - index
+2021-03-21 12:52:34 Info: unknown AdminLogin - index
+2021-03-21 12:52:40 Info: unknown AdminLogin - index
+2021-03-21 12:52:40 Info: teacher AdminTop - index
+2021-03-21 12:52:45 Info: teacher StatTop - index
+2021-03-21 12:52:50 Info: teacher Stat - index  eid: 16

@@ -1,0 +1,29 @@
+Database の編集 [ Database.memo ]
+
+/config/app.php の編集
+  データベース接続設定
+  セキュリティ対策 'Security' => [ 'salt' の値の変更
+
+/config/routes.php の編集
+  / でアクセスしてきたものを PortalController へ回す処理
+
+/src/Controller/Component に EramsComponent を作成
+/src/Controller/AppController を編集
+/src/Controller/AppAdminController を作成
+/src/Controller/AppUserController を作成
+
+/src/Template/Layout/erams.ctp を作成
+/src/Template/Error/erams.ctp を作成
+
+/webroot/css/erams_admin.css を作成
+/webroot/css/erams_user.css を作成
+/webroot/css/erams.css を作成
+
+/src/Controller/InitController を作成
+
+/src/Init/Element/Info.ctp を作成
+/src/Init/Element/Flash/default.ctp を編集
+  <div class="message"> ... </div>
+  <div class="info"> ... </div> に変更、改行を <br> にする処理を追加。
+  
+  

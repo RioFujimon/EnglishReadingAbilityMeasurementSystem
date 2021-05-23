@@ -1,0 +1,47 @@
+2020-01-20 00:22:41 Info:  UserTop - index
+2020-01-20 00:22:43 Info: unknown Portal - index
+2020-01-20 00:22:44 Info: unknown UserLogin - index
+2020-01-20 00:22:57 Info: unknown Portal - index
+2020-01-20 00:22:59 Info: unknown AdminLogin - index
+2020-01-20 00:23:02 Info: unknown AdminLogin - index
+2020-01-20 00:23:02 Info: teacher AdminTop - index
+2020-01-20 00:23:04 Info: teacher RegUser - index
+2020-01-20 00:23:06 Info: teacher RegUser - groupIndex  gid: 5
+2020-01-20 00:23:09 Info: teacher AdminTop - index
+2020-01-20 00:23:11 Info: teacher Logout - index
+2020-01-20 00:23:11 Info: unknown Portal - index
+2020-01-20 00:23:11 Info: unknown UserLogin - index
+2020-01-20 00:23:18 Info: unknown UserLogin - index
+2020-01-20 00:23:18 Info: _5_Test0010 UserTop - index
+2020-01-20 00:23:19 Info: _5_Test0010 PreTest - index  eid: 8
+2020-01-20 00:23:21 Info: _5_Test0010 PreTest - phase1  eid: 8
+2020-01-20 00:23:34 Info: _5_Test0010 Test - index(reading)  eid: 8 sid: 10
+2020-01-20 00:24:20 Info: _5_Test0010 Test - readend  eid: 8 sid: 10
+2020-01-20 00:24:20 Info: _5_Test0010 Test - index(asking)  eid: 8 sid: 10 subseq: 1
+2020-01-20 00:24:30 Info: _5_Test0010 Test - askend  eid: 8 sid: 10 qid: 7
+2020-01-20 00:24:30 Info: _5_Test0010 Test - index(asking)  eid: 8 sid: 10 subseq: 2
+2020-01-20 00:24:50 Info: _5_Test0010 Test - askend  eid: 8 sid: 10 qid: 8
+2020-01-20 00:24:50 Info: _5_Test0010 Test - index(collect)  eid: 8
+2020-01-20 00:24:50 Info: _5_Test0010 Test - collect  eid: 8
+2020-01-20 00:25:42 Info: _5_Test0010 UserTop - index
+2020-01-20 00:25:43 Info: _5_Test0010 PreTest - index  eid: 8
+2020-01-20 00:25:45 Info: _5_Test0010 PreTest - phase1  eid: 8
+2020-01-20 00:25:49 Info: _5_Test0010 Test - index(reading)  eid: 8 sid: 10
+2020-01-20 00:26:34 Info: _5_Test0010 Test - readend  eid: 8 sid: 10
+2020-01-20 00:26:34 Info: _5_Test0010 Test - index(asking)  eid: 8 sid: 10 subseq: 1
+2020-01-20 00:26:45 Info: _5_Test0010 Test - askend  eid: 8 sid: 10 qid: 7
+2020-01-20 00:26:45 Info: _5_Test0010 Test - index(asking)  eid: 8 sid: 10 subseq: 2
+2020-01-20 00:27:05 Info: _5_Test0010 Test - askend  eid: 8 sid: 10 qid: 8
+2020-01-20 00:27:05 Info: _5_Test0010 Test - index(collect)  eid: 8
+2020-01-20 00:27:05 Info: _5_Test0010 Test - collect  eid: 8
+2020-01-20 00:28:20 Info: _5_Test0010 UserTop - index
+2020-01-20 00:28:22 Info: _5_Test0010 PreTest - index  eid: 5
+2020-01-20 00:28:24 Info: _5_Test0010 PreTest - phase1  eid: 5
+2020-01-20 00:28:25 Info: _5_Test0010 Test - index(reading)  eid: 5 sid: 7
+2020-01-20 00:28:26 Info: _5_Test0010 PreTest - phase1  eid: empty
+2020-01-20 00:28:26 Info: _5_Test0010 UserTop - index
+2020-01-20 00:28:29 Info: _5_Test0010 PreTest - index  eid: 5
+2020-01-20 00:28:31 Info: _5_Test0010 PreTest - phase1  eid: 5
+2020-01-20 00:28:32 Info: _5_Test0010 Test - index(reading)  eid: 5 sid: 7
+2020-01-20 00:28:33 Info: _5_Test0010 PreTest - phase1  eid: empty
+2020-01-20 00:28:33 Info: _5_Test0010 UserTop - index

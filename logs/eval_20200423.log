@@ -1,0 +1,132 @@
+2020-04-23 10:22:38 Info: unknown Portal - index
+2020-04-23 10:22:52 Info: unknown AdminLogin - index
+2020-04-23 10:23:01 Info: unknown AdminLogin - index
+2020-04-23 10:23:01 Info: teacher AdminTop - index
+2020-04-23 10:23:12 Info: teacher EsetTop - index
+2020-04-23 10:23:31 Info: teacher EsetTop - createEset
+2020-04-23 10:23:31 Info: teacher EsetTop - index
+2020-04-23 10:23:50 Info: teacher Eset - index  eid : 17 mode: 0
+2020-04-23 10:25:02 Info: teacher Eset - save  eid : 17 mode: 0
+2020-04-23 10:25:02 Info: teacher Eset - index  eid : 17 mode: 0
+2020-04-23 10:25:12 Info: teacher Eset - createSec  eid : 17 mode: 0
+2020-04-23 10:25:12 Info: teacher Eset - index  eid : 17 mode: 0
+2020-04-23 10:25:25 Info: teacher Eset - createSec  eid : 17 mode: 0
+2020-04-23 10:25:25 Info: teacher Eset - index  eid : 17 mode: 0
+2020-04-23 10:25:31 Info: teacher Section - index  eid: 17 mode: 0 sid: 22
+2020-04-23 10:29:42 Info: teacher Section - save  eid: 17 mode: 0 sid: 22
+2020-04-23 10:29:42 Info: teacher Section - index  eid: 17 mode: 0 sid: 22
+2020-04-23 10:30:02 Info: teacher Section - createQuestion  eid: 17 mode: 0 sid: 22
+2020-04-23 10:30:02 Info: teacher Section - index  eid: 17 mode: 0 sid: 22
+2020-04-23 10:30:16 Info: teacher Section - createQuestion  eid: 17 mode: 0 sid: 22
+2020-04-23 10:30:16 Info: teacher Section - index  eid: 17 mode: 0 sid: 22
+2020-04-23 10:30:26 Info: teacher Section - delQuestion  eid: 17 mode: 0 sid: 22 qid: 21
+2020-04-23 10:30:26 Info: teacher Section - index  eid: 17 mode: 0 sid: 22
+2020-04-23 10:30:30 Info: teacher Question - index  eid: 17 mode: 0 sid: 22 qid: 20
+2020-04-23 10:31:16 Info: teacher Question - createChoice  eid: 17 mode: 0 sid: 22 qid: 20
+2020-04-23 10:31:16 Info: teacher Question - index  eid: 17 mode: 0 sid: 22 qid: 20
+2020-04-23 10:33:33 Info: teacher Question - createChoice  eid: 17 mode: 0 sid: 22 qid: 20
+2020-04-23 10:33:33 Info: teacher Question - index  eid: 17 mode: 0 sid: 22 qid: 20
+2020-04-23 10:34:34 Info: teacher Question - createChoice  eid: 17 mode: 0 sid: 22 qid: 20
+2020-04-23 10:34:35 Info: teacher Question - index  eid: 17 mode: 0 sid: 22 qid: 20
+2020-04-23 10:34:41 Info: teacher Question - createChoice  eid: 17 mode: 0 sid: 22 qid: 20
+2020-04-23 10:34:41 Info: teacher Question - index  eid: 17 mode: 0 sid: 22 qid: 20
+2020-04-23 10:36:36 Info: teacher Question - save  eid: 17 mode: 0 sid: 22 qid: 20
+2020-04-23 10:36:36 Info: teacher Question - index  eid: 17 mode: 0 sid: 22 qid: 20
+2020-04-23 10:37:03 Info: teacher Question - save  eid: 17 mode: 0 sid: 22 qid: 20
+2020-04-23 10:37:03 Info: teacher Question - index  eid: 17 mode: 0 sid: 22 qid: 20
+2020-04-23 10:37:14 Info: teacher AdminTop - index
+2020-04-23 10:37:16 Info: teacher EsetTop - index
+2020-04-23 10:37:27 Info: teacher EsetTop - changeMode  eid: 17 mode: 0
+2020-04-23 10:38:20 Info: unknown Portal - index
+2020-04-23 10:38:22 Info: unknown UserLogin - index
+2020-04-23 10:38:40 Info: unknown UserLogin - index
+2020-04-23 10:39:00 Info: unknown UserLogin - index
+2020-04-23 10:39:00 Info: _12_TT1000 UserTop - index
+2020-04-23 10:39:14 Info: _12_TT1000 PreTest - index  eid: 12
+2020-04-23 10:39:33 Info: _12_TT1000 UserTop - index
+2020-04-23 10:39:59 Info:  EsetTop - changeMode  eid: 17 mode: 0
+2020-04-23 10:40:10 Info: unknown Portal - index
+2020-04-23 10:40:13 Info: unknown AdminLogin - index
+2020-04-23 10:40:19 Info: unknown AdminLogin - index
+2020-04-23 10:40:19 Info: teacher AdminTop - index
+2020-04-23 10:40:24 Info: teacher EsetTop - index
+2020-04-23 10:40:30 Info: teacher Eset - index  eid : 17 mode: 0
+2020-04-23 10:40:38 Info: teacher Section - index  eid: 17 mode: 0 sid: 22
+2020-04-23 10:40:50 Info: teacher Section - createQuestion  eid: 17 mode: 0 sid: 22
+2020-04-23 10:40:50 Info: teacher Section - index  eid: 17 mode: 0 sid: 22
+2020-04-23 10:41:02 Info: teacher Question - index  eid: 17 mode: 0 sid: 22 qid: 20
+2020-04-23 10:41:12 Info: teacher Question - save  eid: 17 mode: 0 sid: 22 qid: 20
+2020-04-23 10:41:12 Info: teacher Question - index  eid: 17 mode: 0 sid: 22 qid: 20
+2020-04-23 10:41:34 Info: teacher Question - index  eid: 17 mode: 0 sid: 22 qid: 20
+2020-04-23 10:41:38 Info: teacher Question - save  eid: 17 mode: 0 sid: 22 qid: 20
+2020-04-23 10:41:38 Info: teacher Question - index  eid: 17 mode: 0 sid: 22 qid: 20
+2020-04-23 10:41:49 Info: teacher Question - save  eid: 17 mode: 0 sid: 22 qid: 20
+2020-04-23 10:41:49 Info: teacher Question - index  eid: 17 mode: 0 sid: 22 qid: 20
+2020-04-23 10:42:03 Info: teacher AdminTop - index
+2020-04-23 10:42:08 Info: teacher Logout - index
+2020-04-23 10:42:08 Info: unknown Portal - index
+2020-04-23 10:42:12 Info: unknown UserLogin - index
+2020-04-23 10:42:43 Info: unknown UserLogin - index
+2020-04-23 10:42:44 Info: _12_TT1000 UserTop - index
+2020-04-23 10:43:01 Info: _12_TT1000 PreTest - index  eid: 12
+2020-04-23 10:43:04 Info: _12_TT1000 UserTop - index
+2020-04-23 10:43:06 Info: _12_TT1000 PreTest - index  eid: 8
+2020-04-23 10:43:09 Info: _12_TT1000 UserTop - index
+2020-04-23 10:43:11 Info: _12_TT1000 PreTest - index  eid: 15
+2020-04-23 10:43:13 Info: _12_TT1000 UserTop - index
+2020-04-23 10:43:15 Info: _12_TT1000 PreTest - index  eid: 16
+2020-04-23 10:43:19 Info: _12_TT1000 UserTop - index
+2020-04-23 10:43:23 Info: _12_TT1000 PreTest - index  eid: 13
+2020-04-23 10:43:25 Info: _12_TT1000 UserTop - index
+2020-04-23 10:43:37 Info:  RegInstitute - index
+2020-04-23 10:43:40 Info: unknown Portal - index
+2020-04-23 10:43:41 Info: unknown AdminLogin - index
+2020-04-23 10:43:47 Info: unknown AdminLogin - index
+2020-04-23 10:43:47 Info: teacher AdminTop - index
+2020-04-23 10:43:52 Info: teacher EsetTop - index
+2020-04-23 10:44:12 Info: teacher EsetTop - changeMode  eid: 17 mode: 0
+2020-04-23 10:44:33 Info: teacher Eset - index  eid : 17 mode: 0
+2020-04-23 10:44:46 Info: teacher Eset - deleteSec  eid : 17 mode: 0 sid: 23
+2020-04-23 10:44:46 Info: teacher Eset - index  eid : 17 mode: 0
+2020-04-23 10:44:49 Info: teacher Section - index  eid: 17 mode: 0 sid: 22
+2020-04-23 10:44:57 Info: teacher Section - delQuestion  eid: 17 mode: 0 sid: 22 qid: 22
+2020-04-23 10:44:58 Info: teacher Section - index  eid: 17 mode: 0 sid: 22
+2020-04-23 10:45:07 Info: teacher Section - save  eid: 17 mode: 0 sid: 22
+2020-04-23 10:45:07 Info: teacher Section - index  eid: 17 mode: 0 sid: 22
+2020-04-23 10:45:18 Info: teacher Eset - index  eid : 17 mode: 0
+2020-04-23 10:45:21 Info: teacher EsetTop - index
+2020-04-23 10:45:25 Info: teacher EsetTop - changeMode  eid: 17 mode: 0
+2020-04-23 10:45:25 Info: teacher EsetTop - index
+2020-04-23 10:45:33 Info: teacher EsetTop - changeMode  eid: 17 mode: 1
+2020-04-23 10:45:33 Info: teacher EsetTop - index
+2020-04-23 10:45:37 Info: teacher EsetTop - changeMode  eid: 17 mode: 0
+2020-04-23 10:45:37 Info: teacher EsetTop - index
+2020-04-23 10:45:49 Info: teacher Logout - index
+2020-04-23 10:45:49 Info: unknown Portal - index
+2020-04-23 10:45:51 Info: unknown UserLogin - index
+2020-04-23 10:46:08 Info: unknown UserLogin - index
+2020-04-23 10:46:08 Info: _12_TT1000 UserTop - index
+2020-04-23 10:46:11 Info: _12_TT1000 PreTest - index  eid: 17
+2020-04-23 10:46:14 Info: _12_TT1000 UserTop - index
+2020-04-23 10:46:17 Info: _12_TT1000 PreTest - index  eid: 17
+2020-04-23 10:46:25 Info: _12_TT1000 PreTest - phase1  eid: 17
+2020-04-23 10:46:33 Info: _12_TT1000 Test - index(reading)  eid: 17 sid: 22
+2020-04-23 10:46:45 Info: _12_TT1000 Test - readend  eid: 17 sid: 22
+2020-04-23 10:46:45 Info: _12_TT1000 Test - index(asking)  eid: 17 sid: 22 subseq: 1
+2020-04-23 10:46:52 Info: _12_TT1000 Test - askend  eid: 17 sid: 22 qid: 20
+2020-04-23 10:46:52 Info: _12_TT1000 Test - index(collect)  eid: 17
+2020-04-23 10:46:52 Info: _12_TT1000 Test - collect  eid: 17
+2020-04-23 10:46:56 Info: _12_TT1000 UserTop - index
+2020-04-23 10:46:59 Info: _12_TT1000 PreTest - index  eid: 17
+2020-04-23 10:47:08 Info: _12_TT1000 PreTest - phase1  eid: 17
+2020-04-23 10:47:12 Info: _12_TT1000 Test - index(reading)  eid: 17 sid: 22
+2020-04-23 10:47:26 Info: _12_TT1000 Test - readend  eid: 17 sid: 22
+2020-04-23 10:47:26 Info: _12_TT1000 Test - index(asking)  eid: 17 sid: 22 subseq: 1
+2020-04-23 10:47:31 Info: _12_TT1000 Test - askend  eid: 17 sid: 22 qid: 20
+2020-04-23 10:47:31 Info: _12_TT1000 Test - index(collect)  eid: 17
+2020-04-23 10:47:31 Info: _12_TT1000 Test - collect  eid: 17
+2020-04-23 10:47:33 Info: _12_TT1000 UserTop - index
+2020-04-23 10:47:35 Info: _12_TT1000 Logout - index
+2020-04-23 10:47:35 Info: unknown Portal - index
+2020-04-23 10:47:39 Info:  AdminTop - index
+2020-04-23 10:47:45 Info: unknown Portal - index

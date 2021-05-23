@@ -1,0 +1,171 @@
+/* ページ全体はブラウザの 90% を利用して中央寄せ */
+body {
+    width: 90%;
+    color: var(--site-color);
+    background-color: var(--site-bg-color);
+    margin-right: auto;
+    margin-left : auto;
+}
+
+/* <div class="header"> はヘッダ部分のみに利用 */
+.header {
+    color: var(--thema-color-rev);
+    background-color: var(--thema-color);
+    margine: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+/* <div class="footer"> はフッダ部分のみに利用 */
+.footer {
+    color: var(--thema-color-rev);
+    background-color: var(--thema-color);
+    margine: 5px;
+    padding: 5px;
+}
+
+/* <div class="context"> は一般的な内容の部分 */
+.context {
+    width: 90%;
+    margin-right: auto;
+    margin-left : auto;
+}
+
+/* <table class="login"> はブラウザの 60% を利用して中央寄せ */
+table.login {
+    width: 60%;
+    color: var(--thema-color-rev);
+    background-color: var(--login-color);
+    border: solid 1px var(--login-color-rev);
+    border-collapse: separate;
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: 0;
+    border-radius: 6px;
+    overflow: hidden;
+}
+table.login th, table.login td {
+    text-align: center;
+    margine: 3px;
+    padding: 3px;
+}
+
+/* <table> は一般的な一覧表 */
+table {
+    width: 80%;
+    color: var(--thema-color-rev);
+    background-color: var(--site-bg-color);
+    border: solid 1px var(--thema-color);
+    border-collapse: separate;
+    margin-left: 5%;
+    border-spacing: 0;
+    border-radius: 6px;
+    overflow: hidden;
+}
+table th, table td {
+    text-align: center;
+    border: solid 1px var(--thema-color);
+}
+table tbody tr:first-child th,
+table tbody tr:first-child td {
+    border-top: none;
+}
+table tbody tr:last-child th,
+table tbody tr:last-child td {
+    border-bottom: none;
+}
+
+/* 小見出し*/
+.label {
+    width: 80%;
+    color: var(--label-color-rev);
+    background-color: var(--label-color);
+    margin-left : 5%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+p {
+    width: 80%;
+    margin-left : 5%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* <div class="spacer"> はスペースを挿入 */
+.spacer {
+    background-color: var(--site-bg-color);
+    margine: 5px;
+    padding: 5px;
+}
+
+
+/* <div class="error"> でエラーメッセージの表示 */
+.error {
+    width: 90%;
+    color: var(--error-color-rev);
+    background-color: var(--error-color);
+    margin-right: auto;
+    margin-left : auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* <div class="warn"> でワーニングメッセージの表示 */
+/* $this->Flash->set('.....') は全てワーニング */
+.warn {
+    width: 90%;
+    color: var(--warn-color-rev);
+    background-color: var(--warn-color);
+    margin-right: auto;
+    margin-left : auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* <div class="info"> でインフォーメーションの表示 */
+/* $this->Flash->set('.....') は全てワーニング */
+.info {
+    width: 70%;
+    color: var(--info-color-rev);
+    background-color: var(--info-color);
+    margin-left : 10%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+:root {
+    --site-colot: #000000;
+    --site-bg-color: #f0f0f0;
+
+    --thema-color: #f08020;
+    --thema-color-rev: #000000;
+
+    --label-color: #f0c0a0;
+    --label-color-rev: #000000;
+
+    --login-color: #f0a080;
+    --login-color-rev: #603020;
+
+    --error-color: #ee4444;
+    --error-color-rev: #330000;
+
+    --warn-color: #ee8888;
+    --warn-color-rev: #330000;
+    
+    --info-color: #66ddff;
+    --info-color-rev: #000033;
+}
+

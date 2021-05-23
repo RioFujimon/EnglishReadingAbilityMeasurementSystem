@@ -1,0 +1,386 @@
+2021-03-18 13:15:37 Info: unknown Portal - index
+2021-03-18 13:15:41 Info: unknown AdminLogin - index
+2021-03-18 13:15:55 Info: unknown AdminLogin - index
+2021-03-18 13:15:55 Info: teacher AdminTop - index
+2021-03-18 13:51:15 Info: teacher UserTop - index
+2021-03-18 13:51:20 Info: teacher AdminTop - index
+2021-03-18 13:51:24 Info: teacher RegUser - index
+2021-03-18 13:51:35 Info: teacher RegUser - groupIndex  gid: 2
+2021-03-18 13:54:23 Info: teacher RegUser - index
+2021-03-18 13:54:26 Info: teacher AdminTop - index
+2021-03-18 13:54:32 Info: teacher UserTop - index
+2021-03-18 13:54:57 Info: teacher PreTest - index  eid: 1
+2021-03-18 13:55:00 Info: teacher UserTop - index
+2021-03-18 13:55:02 Info: teacher AdminTop - index
+2021-03-18 13:55:04 Info: teacher EsetTop - index
+2021-03-18 13:55:20 Info: teacher EsetTop - changeMode  eid: 12 mode: 1
+2021-03-18 13:55:20 Info: teacher EsetTop - index
+2021-03-18 13:55:23 Info: teacher Eset - index  eid : 12 mode: 0
+2021-03-18 13:55:33 Info: teacher Eset - createSec  eid : 12 mode: 0
+2021-03-18 13:55:33 Info: teacher Eset - index  eid : 12 mode: 0
+2021-03-18 13:55:40 Info: teacher Eset - deleteSec  eid : 12 mode: 0 sid: 17
+2021-03-18 13:55:41 Info: teacher Eset - index  eid : 12 mode: 0
+2021-03-18 13:56:02 Info: teacher Eset - save  eid : 12 mode: 0
+2021-03-18 13:56:02 Info: teacher Eset - index  eid : 12 mode: 0
+2021-03-18 13:56:05 Info: teacher Section - index  eid: 12 mode: 0 sid: 15
+2021-03-18 13:56:52 Info: teacher Section - save  eid: 12 mode: 0 sid: 15
+2021-03-18 13:56:52 Info: teacher Section - index  eid: 12 mode: 0 sid: 15
+2021-03-18 13:57:14 Info: teacher Section - index  eid: 12 mode: 0 sid: 15
+2021-03-18 13:57:24 Info: teacher Question - index  eid: 12 mode: 0 sid: 15 qid: 12
+2021-03-18 13:58:05 Info: teacher Question - save  eid: 12 mode: 0 sid: 15 qid: 12
+2021-03-18 13:58:05 Info: teacher Question - index  eid: 12 mode: 0 sid: 15 qid: 12
+2021-03-18 13:58:21 Info: teacher Question - index  eid: 12 mode: 0 sid: 15 qid: 12
+2021-03-18 13:58:27 Info: teacher Section - index  eid: 12 mode: 0 sid: 15
+2021-03-18 13:58:38 Info: teacher Eset - index  eid : 12 mode: 0
+2021-03-18 13:58:41 Info: teacher EsetTop - index
+2021-03-18 13:58:52 Info: teacher EsetTop - changeMode  eid: 12 mode: 0
+2021-03-18 13:58:52 Info: teacher EsetTop - index
+2021-03-18 13:58:58 Info: teacher AdminTop - index
+2021-03-18 13:59:02 Info: teacher Logout - index
+2021-03-18 13:59:02 Info: unknown Portal - index
+2021-03-18 13:59:04 Info: unknown UserLogin - index
+2021-03-18 13:59:25 Info: unknown UserLogin - index
+2021-03-18 13:59:25 Info: _2_st0151 UserTop - index
+2021-03-18 13:59:28 Info: _2_st0151 PreTest - index  eid: 12
+2021-03-18 13:59:43 Info: _2_st0151 PreTest - phase1  eid: 12
+2021-03-18 13:59:53 Info: _2_st0151 Test - index(reading)  eid: 12 sid: 15
+2021-03-18 14:00:00 Info: _2_st0151 Test - readend  eid: 12 sid: 15
+2021-03-18 14:00:00 Info: _2_st0151 Test - index(asking)  eid: 12 sid: 15 subseq: 1
+2021-03-18 14:00:04 Info: _2_st0151 Test - askend  eid: 12 sid: 15 qid: 12
+2021-03-18 14:00:04 Info: _2_st0151 Test - index(collect)  eid: 12
+2021-03-18 14:00:04 Info: _2_st0151 Test - collect  eid: 12
+2021-03-18 14:00:07 Info: _2_st0151 UserTop - index
+2021-03-18 14:00:27 Info: _2_st0151 UserTop - index
+2021-03-18 14:00:32 Info: _2_st0151 Logout - index
+2021-03-18 14:00:32 Info: unknown Portal - index
+2021-03-18 14:00:35 Info: unknown AdminLogin - index
+2021-03-18 14:00:40 Info: unknown Portal - index
+2021-03-18 14:00:42 Info: unknown AdminLogin - index
+2021-03-18 14:30:14 Info: unknown Portal - index
+2021-03-18 14:30:17 Info: unknown AdminLogin - index
+2021-03-18 15:09:27 Info: unknown Portal - index
+2021-03-18 15:28:37 Info:  UserTop - index
+2021-03-18 15:28:44 Info: unknown Portal - index
+2021-03-18 16:43:53 Info: unknown AdminLogin - index
+2021-03-18 16:43:53 Info: teacher AdminTop - index
+2021-03-18 16:44:08 Info: unknown AdminLogin - index
+2021-03-18 16:44:08 Info: teacher AdminTop - index
+2021-03-18 16:44:12 Info: unknown Portal - index
+2021-03-18 16:44:12 Info: unknown Portal - index
+2021-03-18 16:44:12 Info: unknown Portal - index
+2021-03-18 16:44:13 Info: unknown AdminLogin - index
+2021-03-18 16:44:14 Info: unknown AdminLogin - index
+2021-03-18 16:44:15 Info: unknown AdminLogin - index
+2021-03-18 16:44:24 Info: unknown AdminLogin - index
+2021-03-18 16:44:24 Info: teacher AdminTop - index
+2021-03-18 16:44:30 Info: unknown AdminLogin - index
+2021-03-18 16:44:30 Info: teacher AdminTop - index
+2021-03-18 16:44:52 Info: teacher UserTop - index
+2021-03-18 16:45:00 Info: teacher AdminTop - index
+2021-03-18 16:45:57 Info: teacher UserTop - index
+2021-03-18 16:45:57 Info: teacher Logout - index
+2021-03-18 16:45:58 Info: unknown Portal - index
+2021-03-18 16:46:04 Info: teacher AdminTop - index
+2021-03-18 16:46:04 Info: teacher Logout - index
+2021-03-18 16:46:05 Info: unknown Portal - index
+2021-03-18 16:46:06 Info: teacher Logout - index
+2021-03-18 16:46:06 Info: unknown Portal - index
+2021-03-18 16:46:09 Info: unknown UserLogin - index
+2021-03-18 16:46:13 Info: unknown UserLogin - index
+2021-03-18 16:46:16 Info: unknown UserLogin - index
+2021-03-18 16:46:22 Info: teacher UserTop - index
+2021-03-18 16:46:34 Info: teacher AdminTop - index
+2021-03-18 16:46:58 Info: unknown Portal - index
+2021-03-18 16:47:01 Info:  AdminTop - index
+2021-03-18 16:47:04 Info: unknown Portal - index
+2021-03-18 16:47:05 Info: unknown Portal - index
+2021-03-18 16:47:09 Info: unknown UserLogin - index
+2021-03-18 16:47:10 Info: unknown UserLogin - index
+2021-03-18 16:47:34 Info: unknown UserLogin - index
+2021-03-18 16:48:56 Info: unknown UserLogin - index
+2021-03-18 16:48:56 Info: _2_st0151 UserTop - index
+2021-03-18 16:49:14 Info: unknown UserLogin - index
+2021-03-18 16:49:14 Info: _2_st0171 UserTop - index
+2021-03-18 16:49:34 Info: unknown UserLogin - index
+2021-03-18 16:49:34 Info: _2_st0181 UserTop - index
+2021-03-18 16:50:03 Info: unknown UserLogin - index
+2021-03-18 16:50:03 Info: _2_st0191 UserTop - index
+2021-03-18 16:50:57 Info: _2_st0191 PreTest - index  eid: 12
+2021-03-18 16:50:58 Info: _2_st0171 PreTest - index  eid: 12
+2021-03-18 16:51:47 Info: _2_st0191 PreTest - phase1  eid: 12
+2021-03-18 16:51:53 Info: _2_st0171 PreTest - phase1  eid: 12
+2021-03-18 16:52:14 Info: _2_st0191 Test - index(reading)  eid: 12 sid: 15
+2021-03-18 16:52:19 Info: unknown Portal - index
+2021-03-18 16:52:34 Info: _2_st0191 Test - readend  eid: 12 sid: 15
+2021-03-18 16:52:34 Info: _2_st0191 Test - index(asking)  eid: 12 sid: 15 subseq: 1
+2021-03-18 16:52:49 Info: unknown Portal - index
+2021-03-18 16:52:51 Info: _2_st0191 Test - askend  eid: 12 sid: 15 qid: 12
+2021-03-18 16:52:51 Info: _2_st0191 Test - index(collect)  eid: 12
+2021-03-18 16:52:51 Info: _2_st0191 Test - collect  eid: 12
+2021-03-18 16:52:55 Info: _2_st0191 UserTop - index
+2021-03-18 16:54:15 Info: _2_st0191 UserTop - index
+2021-03-18 16:55:14 Info: _2_st0151 PreTest - index  eid: 12
+2021-03-18 17:02:02 Info: _2_st0191 UserTop - index
+2021-03-18 17:02:21 Info: _2_st0151 UserTop - index
+2021-03-18 17:02:22 Info: _2_st0191 Logout - index
+2021-03-18 17:02:22 Info: unknown Portal - index
+2021-03-18 17:02:22 Info: _2_st0151 PreTest - index  eid: 12
+2021-03-18 17:02:23 Info: _2_st0171 PreTest - index  eid: 12
+2021-03-18 17:02:23 Info: unknown AdminLogin - index
+2021-03-18 17:02:24 Info: _2_st0181 PreTest - index  eid: 12
+2021-03-18 17:02:27 Info: unknown AdminLogin - index
+2021-03-18 17:02:27 Info: teacher AdminTop - index
+2021-03-18 17:02:29 Info: _2_st0151 PreTest - phase1  eid: 12
+2021-03-18 17:02:30 Info: _2_st0171 PreTest - phase1  eid: 12
+2021-03-18 17:02:32 Info: _2_st0171 Test - index(reading)  eid: 12 sid: 15
+2021-03-18 17:02:33 Info: _2_st0151 Test - index(reading)  eid: 12 sid: 15
+2021-03-18 17:02:41 Info: teacher StatTop - index
+2021-03-18 17:02:44 Info: teacher Stat - index  eid: 12
+2021-03-18 17:02:48 Info: _2_st0181 PreTest - phase1  eid: 12
+2021-03-18 17:02:51 Info: _2_st0181 Test - index(reading)  eid: 12 sid: 15
+2021-03-18 17:02:56 Info: _2_st0181 Test - readend  eid: 12 sid: 15
+2021-03-18 17:02:56 Info: _2_st0181 Test - index(asking)  eid: 12 sid: 15 subseq: 1
+2021-03-18 17:03:01 Info: _2_st0181 Test - askend  eid: 12 sid: 15 qid: 12
+2021-03-18 17:03:01 Info: _2_st0181 Test - index(collect)  eid: 12
+2021-03-18 17:03:01 Info: _2_st0181 Test - collect  eid: 12
+2021-03-18 17:03:02 Info: _2_st0181 UserTop - index
+2021-03-18 17:03:34 Info: _2_st0151 Test - readend  eid: 12 sid: 15
+2021-03-18 17:03:34 Info: _2_st0151 Test - index(asking)  eid: 12 sid: 15 subseq: 1
+2021-03-18 17:03:37 Info: _2_st0151 Test - askend  eid: 12 sid: 15 qid: 12
+2021-03-18 17:03:38 Info: _2_st0151 Test - index(collect)  eid: 12
+2021-03-18 17:03:38 Info: _2_st0151 Test - collect  eid: 12
+2021-03-18 17:03:40 Info: _2_st0151 UserTop - index
+2021-03-18 17:04:08 Info: teacher Stat - index  eid: 12
+2021-03-18 17:06:00 Info: _2_st0171 Test - index(asking)  eid: 12 sid: 15 subseq: 1
+2021-03-18 17:06:11 Info: _2_st0171 Test - askend  eid: 12 sid: 15 qid: 12
+2021-03-18 17:06:12 Info: _2_st0171 Test - index(collect)  eid: 12
+2021-03-18 17:06:13 Info: _2_st0171 Test - collect  eid: 12
+2021-03-18 17:06:18 Info: _2_st0171 UserTop - index
+2021-03-18 17:06:49 Info: teacher Stat - edownload  eid: 12
+2021-03-18 17:09:29 Info: teacher StatTop - index
+2021-03-18 17:09:34 Info: teacher AdminTop - index
+2021-03-18 17:09:39 Info: teacher EsetTop - index
+2021-03-18 17:10:03 Info: teacher EsetTop - createEset
+2021-03-18 17:10:03 Info: teacher EsetTop - index
+2021-03-18 17:10:15 Info: teacher Eset - index  eid : 14 mode: 0
+2021-03-18 17:10:32 Info: teacher Eset - createSec  eid : 14 mode: 0
+2021-03-18 17:10:33 Info: teacher Eset - index  eid : 14 mode: 0
+2021-03-18 17:10:38 Info: teacher Section - index  eid: 14 mode: 0 sid: 18
+2021-03-18 17:11:30 Info: teacher Section - save  eid: 14 mode: 0 sid: 18
+2021-03-18 17:11:30 Info: teacher Section - index  eid: 14 mode: 0 sid: 18
+2021-03-18 17:11:51 Info: teacher Section - createQuestion  eid: 14 mode: 0 sid: 18
+2021-03-18 17:11:51 Info: teacher Section - index  eid: 14 mode: 0 sid: 18
+2021-03-18 17:12:04 Info: teacher Question - index  eid: 14 mode: 0 sid: 18 qid: 14
+2021-03-18 17:12:12 Info: teacher Question - createChoice  eid: 14 mode: 0 sid: 18 qid: 14
+2021-03-18 17:12:12 Info: teacher Question - index  eid: 14 mode: 0 sid: 18 qid: 14
+2021-03-18 17:12:16 Info: teacher Question - createChoice  eid: 14 mode: 0 sid: 18 qid: 14
+2021-03-18 17:12:16 Info: teacher Question - index  eid: 14 mode: 0 sid: 18 qid: 14
+2021-03-18 17:12:19 Info: teacher Question - createChoice  eid: 14 mode: 0 sid: 18 qid: 14
+2021-03-18 17:12:19 Info: teacher Question - index  eid: 14 mode: 0 sid: 18 qid: 14
+2021-03-18 17:12:55 Info: teacher Question - save  eid: 14 mode: 0 sid: 18 qid: 14
+2021-03-18 17:12:55 Info: teacher Question - index  eid: 14 mode: 0 sid: 18 qid: 14
+2021-03-18 17:13:07 Info: teacher Section - index  eid: 14 mode: 0 sid: 18
+2021-03-18 17:13:14 Info: teacher Eset - index  eid : 14 mode: 0
+2021-03-18 17:13:28 Info: teacher Eset - save  eid : 14 mode: 0
+2021-03-18 17:13:28 Info: teacher Eset - index  eid : 14 mode: 0
+2021-03-18 17:13:31 Info: teacher AdminTop - index
+2021-03-18 17:13:39 Info: teacher EsetTop - index
+2021-03-18 17:14:57 Info: teacher EsetTop - changeMode  eid: 14 mode: 0
+2021-03-18 17:14:57 Info: teacher EsetTop - index
+2021-03-18 17:15:07 Info: _2_st0151 UserTop - index
+2021-03-18 17:15:20 Info: _2_st0151 PreTest - index  eid: 14
+2021-03-18 17:16:45 Info: _2_st0151 PreTest - phase1  eid: 14
+2021-03-18 17:16:46 Info: _2_st0151 Test - index(reading)  eid: 14 sid: 18
+2021-03-18 17:16:48 Info: _2_st0151 Test - readend  eid: 14 sid: 18
+2021-03-18 17:16:48 Info: _2_st0151 Test - index(asking)  eid: 14 sid: 18 subseq: 1
+2021-03-18 17:17:53 Info: teacher EsetTop - changeMode  eid: 14 mode: 1
+2021-03-18 17:17:53 Info: teacher EsetTop - index
+2021-03-18 17:17:57 Info: teacher Eset - index  eid : 14 mode: 0
+2021-03-18 17:18:02 Info: unknown Portal - index
+2021-03-18 17:18:09 Info: teacher Section - index  eid: 14 mode: 0 sid: 18
+2021-03-18 17:18:15 Info: teacher Question - index  eid: 14 mode: 0 sid: 18 qid: 14
+2021-03-18 17:18:25 Info: teacher Section - index  eid: 14 mode: 0 sid: 18
+2021-03-18 17:18:27 Info: teacher Eset - index  eid : 14 mode: 0
+2021-03-18 17:18:29 Info: teacher EsetTop - index
+2021-03-18 17:18:33 Info: teacher EsetTop - changeMode  eid: 14 mode: 0
+2021-03-18 17:18:33 Info: teacher EsetTop - index
+2021-03-18 17:18:42 Info: teacher Eset - index  eid : 14 mode: 1
+2021-03-18 17:18:45 Info: teacher EsetTop - index
+2021-03-18 17:18:49 Info: teacher AdminTop - index
+2021-03-18 17:18:53 Info: teacher StatTop - index
+2021-03-18 17:18:55 Info: teacher Stat - index  eid: 14
+2021-03-18 17:19:24 Info: teacher Stat - edownload  eid: 14
+2021-03-18 17:19:56 Info: teacher Stat - index  eid: 14
+2021-03-18 17:19:56 Info: _2_st0151 Test - askend  eid: 14 sid: 18 qid: 14
+2021-03-18 17:19:56 Info: _2_st0151 Test - index(collect)  eid: 14
+2021-03-18 17:19:56 Info: _2_st0151 Test - collect  eid: 14
+2021-03-18 17:19:56 Error: [Cake\Datasource\Exception\RecordNotFoundException] Record not found in table "rsets"
+#0 /sdb/atarime/local/CakePHP/apps/erams/vendor/cakephp/cakephp/src/ORM/Table.php(1620): Cake\ORM\Query->firstOrFail()
+#1 /sdb/atarime/local/CakePHP/apps/erams/src/Controller/TestController.php(390): Cake\ORM\Table->get(Array)
+#2 /sdb/atarime/local/CakePHP/apps/erams/vendor/cakephp/cakephp/src/Controller/Controller.php(610): App\Controller\TestController->collect()
+#3 /sdb/atarime/local/CakePHP/apps/erams/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(120): Cake\Controller\Controller->invokeAction()
+#4 /sdb/atarime/local/CakePHP/apps/erams/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\TestController))
+#5 /sdb/atarime/local/CakePHP/apps/erams/vendor/cakephp/cakephp/src/Http/BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#6 /sdb/atarime/local/CakePHP/apps/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#7 /sdb/atarime/local/CakePHP/apps/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 /sdb/atarime/local/CakePHP/apps/erams/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(108): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 /sdb/atarime/local/CakePHP/apps/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 /sdb/atarime/local/CakePHP/apps/erams/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 /sdb/atarime/local/CakePHP/apps/erams/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(168): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 /sdb/atarime/local/CakePHP/apps/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 /sdb/atarime/local/CakePHP/apps/erams/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 /sdb/atarime/local/CakePHP/apps/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#15 /sdb/atarime/local/CakePHP/apps/erams/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(96): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 /sdb/atarime/local/CakePHP/apps/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#17 /sdb/atarime/local/CakePHP/apps/erams/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#18 /sdb/atarime/local/CakePHP/apps/erams/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#19 /sdb/atarime/local/CakePHP/apps/erams/webroot/index.php(40): Cake\Http\Server->run()
+#20 {main}
+Request URL: /Test/collect
+Referer URL: https://atarime.cs.tohoku-gakuin.ac.jp/cake/erams/Test/index
+
+
+2021-03-18 17:20:06 Info: _2_st0151 Test - index(collect)  eid: 14
+2021-03-18 17:20:12 Info: teacher AdminTop - index
+2021-03-18 17:20:15 Info: teacher EsetTop - index
+2021-03-18 17:20:25 Info: teacher AdminTop - index
+2021-03-18 17:20:27 Info: teacher StatTop - index
+2021-03-18 17:20:33 Info: teacher Stat - index  eid: 14
+2021-03-18 17:20:40 Info: teacher Stat - sdownload  eid: 14
+2021-03-18 17:20:44 Info: teacher Stat - index  eid: 14
+2021-03-18 17:20:46 Info: teacher Stat - edownload  eid: 14
+2021-03-18 17:20:48 Info: teacher Stat - index  eid: 14
+2021-03-18 17:20:54 Info: unknown Portal - index
+2021-03-18 17:20:55 Info: teacher AdminTop - index
+2021-03-18 17:20:57 Info: unknown UserLogin - index
+2021-03-18 17:21:15 Info: unknown UserLogin - index
+2021-03-18 17:22:53 Info: unknown UserLogin - index
+2021-03-18 17:22:53 Info: _2_st0151 UserTop - index
+2021-03-18 17:22:56 Info: _2_st0151 PreTest - index  eid: 14
+2021-03-18 17:23:01 Info: _2_st0151 PreTest - phase1  eid: 14
+2021-03-18 17:23:11 Info: _2_st0151 Test - index(reading)  eid: 14 sid: 18
+2021-03-18 17:23:19 Info: _2_st0151 Test - readend  eid: 14 sid: 18
+2021-03-18 17:23:19 Info: _2_st0151 Test - index(asking)  eid: 14 sid: 18 subseq: 1
+2021-03-18 17:23:29 Info: _2_st0151 Test - askend  eid: 14 sid: 18 qid: 14
+2021-03-18 17:23:29 Info: _2_st0151 Test - index(collect)  eid: 14
+2021-03-18 17:23:29 Info: _2_st0151 Test - collect  eid: 14
+2021-03-18 17:23:34 Info: _2_st0151 UserTop - index
+2021-03-18 17:24:24 Info: teacher StatTop - index
+2021-03-18 17:24:27 Info: teacher Stat - index  eid: 14
+2021-03-18 17:24:39 Info: teacher Stat - edownload  eid: 14
+2021-03-18 17:24:54 Info: unknown Portal - index
+2021-03-18 17:24:56 Info: unknown AdminLogin - index
+2021-03-18 17:28:28 Info: teacher StatTop - index
+2021-03-18 17:28:30 Info: teacher AdminTop - index
+2021-03-18 17:28:33 Info: teacher EsetTop - index
+2021-03-18 17:28:41 Info: teacher EsetTop - changeMode  eid: 14 mode: 1
+2021-03-18 17:28:41 Info: teacher EsetTop - index
+2021-03-18 17:28:44 Info: teacher Eset - index  eid : 14 mode: 0
+2021-03-18 17:28:51 Info: teacher Section - index  eid: 14 mode: 0 sid: 18
+2021-03-18 17:30:16 Info: teacher Section - save  eid: 14 mode: 0 sid: 18
+2021-03-18 17:30:16 Info: teacher Section - index  eid: 14 mode: 0 sid: 18
+2021-03-18 17:30:21 Info: _2_st0151 UserTop - index
+2021-03-18 17:30:25 Info: teacher Eset - index  eid : 14 mode: 0
+2021-03-18 17:30:29 Info: teacher EsetTop - index
+2021-03-18 17:30:38 Info: teacher EsetTop - changeMode  eid: 14 mode: 0
+2021-03-18 17:30:38 Info: teacher EsetTop - index
+2021-03-18 17:31:21 Info: _2_st0151 Logout - index
+2021-03-18 17:31:21 Info: unknown Portal - index
+2021-03-18 17:31:24 Info: unknown UserLogin - index
+2021-03-18 17:31:36 Info: unknown UserLogin - index
+2021-03-18 17:31:36 Info: _2_st0151 UserTop - index
+2021-03-18 17:31:44 Info: _2_st0151 PreTest - index  eid: 14
+2021-03-18 17:32:32 Info: _2_st0151 PreTest - phase1  eid: 14
+2021-03-18 17:32:33 Info: _2_st0151 Test - index(reading)  eid: 14 sid: 18
+2021-03-18 17:32:43 Info: _2_st0151 Test - readend  eid: 14 sid: 18
+2021-03-18 17:32:44 Info: _2_st0151 Test - index(asking)  eid: 14 sid: 18 subseq: 1
+2021-03-18 17:32:50 Info: _2_st0151 Test - askend  eid: 14 sid: 18 qid: 14
+2021-03-18 17:32:50 Info: _2_st0151 Test - index(collect)  eid: 14
+2021-03-18 17:32:50 Info: _2_st0151 Test - collect  eid: 14
+2021-03-18 17:33:01 Info: _2_st0151 UserTop - index
+2021-03-18 17:33:18 Info: teacher AdminTop - index
+2021-03-18 17:33:20 Info: teacher StatTop - index
+2021-03-18 17:33:25 Info: teacher Stat - index  eid: 14
+2021-03-18 17:33:36 Info: teacher Stat - edownload  eid: 14
+2021-03-18 17:38:36 Info: unknown Portal - index
+2021-03-18 17:38:39 Info: unknown AdminLogin - index
+2021-03-18 17:38:45 Info: unknown AdminLogin - index
+2021-03-18 17:38:45 Info: teacher AdminTop - index
+2021-03-18 17:38:48 Info: teacher StatTop - index
+2021-03-18 17:38:50 Info: teacher Stat - index  eid: 14
+2021-03-18 17:38:54 Info: teacher Stat - edownload  eid: 14
+2021-03-18 17:39:38 Info: teacher AdminTop - index
+2021-03-18 17:39:41 Info: teacher EsetTop - index
+2021-03-18 17:39:51 Info: teacher AdminTop - index
+2021-03-18 17:39:53 Info: teacher StatTop - index
+2021-03-18 17:39:58 Info: teacher Stat - index  eid: 12
+2021-03-18 17:40:12 Info: teacher AdminTop - index
+2021-03-18 17:41:26 Info: teacher EsetTop - index
+2021-03-18 17:41:28 Info: teacher EsetTop - createEset
+2021-03-18 17:41:28 Info: teacher EsetTop - index
+2021-03-18 17:41:31 Info: teacher Eset - index  eid : 15 mode: 0
+2021-03-18 17:41:59 Info: teacher Eset - save  eid : 15 mode: 0
+2021-03-18 17:41:59 Info: teacher Eset - index  eid : 15 mode: 0
+2021-03-18 17:42:01 Info: teacher Eset - createSec  eid : 15 mode: 0
+2021-03-18 17:42:01 Info: teacher Eset - index  eid : 15 mode: 0
+2021-03-18 17:42:03 Info: teacher Section - index  eid: 15 mode: 0 sid: 19
+2021-03-18 17:42:32 Info: teacher Section - save  eid: 15 mode: 0 sid: 19
+2021-03-18 17:42:32 Info: teacher Section - index  eid: 15 mode: 0 sid: 19
+2021-03-18 17:42:35 Info: teacher Section - createQuestion  eid: 15 mode: 0 sid: 19
+2021-03-18 17:42:35 Info: teacher Section - index  eid: 15 mode: 0 sid: 19
+2021-03-18 17:42:38 Info: teacher Question - index  eid: 15 mode: 0 sid: 19 qid: 15
+2021-03-18 17:42:48 Info: teacher Question - save  eid: 15 mode: 0 sid: 19 qid: 15
+2021-03-18 17:42:48 Info: teacher Question - index  eid: 15 mode: 0 sid: 19 qid: 15
+2021-03-18 17:42:50 Info: teacher Question - createChoice  eid: 15 mode: 0 sid: 19 qid: 15
+2021-03-18 17:42:50 Info: teacher Question - index  eid: 15 mode: 0 sid: 19 qid: 15
+2021-03-18 17:42:51 Info: teacher Question - createChoice  eid: 15 mode: 0 sid: 19 qid: 15
+2021-03-18 17:42:51 Info: teacher Question - index  eid: 15 mode: 0 sid: 19 qid: 15
+2021-03-18 17:42:52 Info: teacher Question - createChoice  eid: 15 mode: 0 sid: 19 qid: 15
+2021-03-18 17:42:52 Info: teacher Question - index  eid: 15 mode: 0 sid: 19 qid: 15
+2021-03-18 17:42:56 Info: teacher Question - save  eid: 15 mode: 0 sid: 19 qid: 15
+2021-03-18 17:42:56 Info: teacher Question - index  eid: 15 mode: 0 sid: 19 qid: 15
+2021-03-18 17:43:00 Info: teacher AdminTop - index
+2021-03-18 17:43:02 Info: teacher EsetTop - index
+2021-03-18 17:43:06 Info: teacher EsetTop - changeMode  eid: 15 mode: 0
+2021-03-18 17:43:06 Info: teacher EsetTop - index
+2021-03-18 17:43:29 Info: teacher AdminTop - index
+2021-03-18 17:43:32 Info: teacher UserTop - index
+2021-03-18 17:43:37 Info: teacher PreTest - index  eid: 15
+2021-03-18 17:43:39 Info:  Logout - index
+2021-03-18 17:43:39 Info: unknown Portal - index
+2021-03-18 17:43:40 Info: unknown UserLogin - index
+2021-03-18 17:43:42 Info: teacher PreTest - phase1  eid: 15
+2021-03-18 17:43:44 Info: teacher Test - index(reading)  eid: 15 sid: 19
+2021-03-18 17:43:47 Info: teacher Test - readend  eid: 15 sid: 19
+2021-03-18 17:43:47 Info: teacher Test - index(asking)  eid: 15 sid: 19 subseq: 1
+2021-03-18 17:43:49 Info: teacher Test - askend  eid: 15 sid: 19 qid: 15
+2021-03-18 17:43:49 Info: teacher Test - index(collect)  eid: 15
+2021-03-18 17:43:49 Info: teacher Test - collect  eid: 15
+2021-03-18 17:43:51 Info: teacher AdminTop - index
+2021-03-18 17:43:53 Info: teacher StatTop - index
+2021-03-18 17:43:55 Info: teacher Stat - index  eid: 15
+2021-03-18 17:44:05 Info: teacher Stat - edownload  eid: 15
+2021-03-18 17:44:28 Info: unknown UserLogin - index
+2021-03-18 17:46:02 Info: teacher AdminTop - index
+2021-03-18 17:46:16 Info: teacher RegInstitute - index
+2021-03-18 17:46:52 Info: teacher AdminTop - index
+2021-03-18 17:46:53 Info: teacher AdminTop - index
+2021-03-18 17:46:57 Info: teacher UserTop - index
+2021-03-18 17:47:01 Info: teacher RegInstitute - index
+2021-03-18 17:47:10 Info: unknown Portal - index
+2021-03-18 17:47:12 Info: teacher AdminTop - index
+2021-03-18 17:47:14 Info: teacher RegInstitute - index
+2021-03-18 17:47:17 Info: teacher AdminTop - index
+2021-03-18 17:47:19 Info: teacher RegUser - index
+2021-03-18 17:47:29 Info: teacher RegUser - groupIndex  gid: 3
+2021-03-18 17:48:20 Info: teacher AdminTop - index
+2021-03-18 17:48:22 Info: teacher EsetTop - index
+2021-03-18 17:48:22 Info: teacher AdminTop - index
+2021-03-18 17:48:24 Info: teacher Logout - index
+2021-03-18 17:48:24 Info: unknown Portal - index
+2021-03-18 17:48:26 Info: unknown UserLogin - index
+2021-03-18 17:48:46 Info: teacher AdminTop - index
+2021-03-18 17:48:52 Info: unknown UserLogin - index
+2021-03-18 17:48:52 Info: _3_st0001 UserTop - index
+2021-03-18 17:48:52 Info: teacher RegUser - index
+2021-03-18 17:48:56 Info: teacher AdminTop - index

@@ -1,0 +1,168 @@
+2020-11-26 11:02:10 Info: unknown Portal - index
+2020-11-26 11:02:34 Info: unknown AdminLogin - index
+2020-11-26 11:02:42 Info: unknown AdminLogin - index
+2020-11-26 11:02:43 Info: teacher AdminTop - index
+2020-11-26 11:02:47 Info: teacher RegInstitute - index
+2020-11-26 11:02:50 Info: teacher AdminTop - index
+2020-11-26 11:02:52 Info: teacher RegUser - index
+2020-11-26 11:02:54 Info: teacher AdminTop - index
+2020-11-26 11:03:00 Info: teacher EsetTop - index
+2020-11-26 11:03:02 Info: teacher AdminTop - index
+2020-11-26 11:03:03 Info: teacher StatTop - index
+2020-11-26 11:03:04 Info: teacher AdminTop - index
+2020-11-26 11:03:12 Info: teacher EsetTop - index
+2020-11-26 11:03:14 Info: teacher AdminTop - index
+2020-11-26 11:03:31 Info: teacher UserTop - index
+2020-11-26 11:06:38 Info: teacher AdminTop - index
+2020-11-26 11:06:41 Info: teacher RegInstitute - index
+2020-11-26 11:06:56 Info: teacher RegInstitute - add  gname: test
+2020-11-26 11:06:56 Info: teacher RegInstitute - index
+2020-11-26 11:07:01 Info: teacher AdminTop - index
+2020-11-26 11:07:04 Info: teacher RegUser - index
+2020-11-26 11:07:08 Info: teacher RegUser - groupIndex  gid: 2
+2020-11-26 11:07:25 Info: teacher RegUser - add  gid: 2
+2020-11-26 11:07:25 Info: teacher RegUser - groupIndex  gid: 2
+2020-11-26 11:07:39 Info: teacher AdminTop - index
+2020-11-26 11:07:41 Info: teacher EsetTop - index
+2020-11-26 11:07:43 Info: teacher EsetTop - createEset
+2020-11-26 11:07:43 Info: teacher EsetTop - index
+2020-11-26 11:07:48 Info: teacher Eset - index  eid : 1 mode: 0
+2020-11-26 11:07:52 Info: teacher Eset - createSec  eid : 1 mode: 0
+2020-11-26 11:07:52 Info: teacher Eset - index  eid : 1 mode: 0
+2020-11-26 11:07:56 Info: teacher Section - index  eid: 1 mode: 0 sid: 1
+2020-11-26 11:08:11 Info: teacher Section - save  eid: 1 mode: 0 sid: 1
+2020-11-26 11:08:11 Info: teacher Section - index  eid: 1 mode: 0 sid: 1
+2020-11-26 11:08:18 Info: teacher Section - createQuestion  eid: 1 mode: 0 sid: 1
+2020-11-26 11:08:18 Info: teacher Section - index  eid: 1 mode: 0 sid: 1
+2020-11-26 11:08:21 Info: teacher Question - index  eid: 1 mode: 0 sid: 1 qid: 1
+2020-11-26 11:08:38 Info: teacher Question - save  eid: 1 mode: 0 sid: 1 qid: 1
+2020-11-26 11:08:53 Info: teacher Question - index  eid: 1 mode: 0 sid: 1 qid: 1
+2020-11-26 11:08:59 Info: teacher Question - createChoice  eid: 1 mode: 0 sid: 1 qid: 1
+2020-11-26 11:08:59 Info: teacher Question - index  eid: 1 mode: 0 sid: 1 qid: 1
+2020-11-26 11:09:27 Info: teacher Question - save  eid: 1 mode: 0 sid: 1 qid: 1
+2020-11-26 11:09:27 Info: teacher Question - index  eid: 1 mode: 0 sid: 1 qid: 1
+2020-11-26 11:09:31 Info: teacher Question - deleteChoice  eid: 1 mode: 0 sid: 1 qid: 1 cid: 1
+2020-11-26 11:09:31 Info: teacher Question - index  eid: 1 mode: 0 sid: 1 qid: 1
+2020-11-26 11:09:32 Info: teacher Question - save  eid: 1 mode: 0 sid: 1 qid: 1
+2020-11-26 11:09:34 Info: teacher Question - index  eid: 1 mode: 0 sid: 1 qid: 1
+2020-11-26 11:09:41 Info: teacher Question - save  eid: 1 mode: 0 sid: 1 qid: 1
+2020-11-26 11:09:43 Info: teacher Question - index  eid: 1 mode: 0 sid: 1 qid: 1
+2020-11-26 11:09:51 Info: teacher Question - createChoice  eid: 1 mode: 0 sid: 1 qid: 1
+2020-11-26 11:09:51 Info: teacher Question - index  eid: 1 mode: 0 sid: 1 qid: 1
+2020-11-26 11:09:54 Info: teacher Question - createChoice  eid: 1 mode: 0 sid: 1 qid: 1
+2020-11-26 11:09:54 Info: teacher Question - index  eid: 1 mode: 0 sid: 1 qid: 1
+2020-11-26 11:09:56 Info: teacher Question - createChoice  eid: 1 mode: 0 sid: 1 qid: 1
+2020-11-26 11:09:56 Info: teacher Question - index  eid: 1 mode: 0 sid: 1 qid: 1
+2020-11-26 11:09:57 Info: teacher Question - createChoice  eid: 1 mode: 0 sid: 1 qid: 1
+2020-11-26 11:09:57 Info: teacher Question - index  eid: 1 mode: 0 sid: 1 qid: 1
+2020-11-26 11:10:17 Info: teacher Question - save  eid: 1 mode: 0 sid: 1 qid: 1
+2020-11-26 11:10:17 Info: teacher Question - index  eid: 1 mode: 0 sid: 1 qid: 1
+2020-11-26 11:10:26 Info: teacher AdminTop - index
+2020-11-26 11:10:30 Info: teacher EsetTop - index
+2020-11-26 11:10:39 Info: teacher EsetTop - changeMode  eid: 1 mode: 0
+2020-11-26 11:10:39 Info: teacher EsetTop - index
+2020-11-26 11:10:45 Info: teacher AdminTop - index
+2020-11-26 11:10:46 Info: teacher UserTop - index
+2020-11-26 11:10:52 Info: teacher PreTest - index  eid: 1
+2020-11-26 11:11:16 Info: teacher PreTest - phase1  eid: 1
+2020-11-26 11:11:23 Info: teacher Test - index(reading)  eid: 1 sid: 1
+2020-11-26 11:11:30 Info: teacher Test - readend  eid: 1 sid: 1
+2020-11-26 11:11:30 Info: teacher Test - index(asking)  eid: 1 sid: 1 subseq: 1
+2020-11-26 11:11:38 Info: teacher Test - askend  eid: 1 sid: 1 qid: 1
+2020-11-26 11:11:38 Info: teacher Test - index(collect)  eid: 1
+2020-11-26 11:11:38 Info: teacher Test - collect  eid: 1
+2020-11-26 11:11:46 Info: teacher AdminTop - index
+2020-11-26 11:11:52 Info: teacher StatTop - index
+2020-11-26 11:11:57 Info: teacher Stat - index  eid: 1
+2020-11-26 11:12:57 Info: teacher Stat - sdownload  eid: 1
+2020-11-26 11:13:44 Info: teacher Stat - edownload  eid: 1
+2020-11-26 11:14:14 Info: teacher Stat - edownload  eid: 1
+2020-11-26 11:20:26 Info: teacher AdminTop - index
+2020-11-26 11:20:27 Info: teacher UserTop - index
+2020-11-26 11:20:52 Info: teacher AdminTop - index
+2020-11-26 11:20:54 Info: teacher StatTop - index
+2020-11-26 11:20:55 Info: teacher Stat - index  eid: 1
+2020-11-26 11:21:46 Info: teacher AdminTop - index
+2020-11-26 11:21:49 Info: teacher UserTop - index
+2020-11-26 11:21:52 Info: teacher PreTest - index  eid: 1
+2020-11-26 11:21:55 Info: teacher PreTest - phase1  eid: 1
+2020-11-26 11:21:58 Info: teacher Test - index(reading)  eid: 1 sid: 1
+2020-11-26 11:21:59 Info: teacher Test - readend  eid: 1 sid: 1
+2020-11-26 11:21:59 Info: teacher Test - index(asking)  eid: 1 sid: 1 subseq: 1
+2020-11-26 11:22:04 Info: teacher Test - askend  eid: 1 sid: 1 qid: 1
+2020-11-26 11:22:04 Info: teacher Test - index(collect)  eid: 1
+2020-11-26 11:22:04 Info: teacher Test - collect  eid: 1
+2020-11-26 11:22:08 Info: teacher UserTop - index
+2020-11-26 11:22:09 Info: teacher AdminTop - index
+2020-11-26 11:22:11 Info: teacher StatTop - index
+2020-11-26 11:22:12 Info: teacher Stat - index  eid: 1
+2020-11-26 11:22:46 Info: teacher AdminTop - index
+2020-11-26 11:22:51 Info: teacher EsetTop - index
+2020-11-26 11:22:54 Info: teacher EsetTop - createEset
+2020-11-26 11:22:54 Info: teacher EsetTop - index
+2020-11-26 11:22:56 Info: teacher Eset - index  eid : 2 mode: 0
+2020-11-26 11:23:10 Info: teacher Eset - save  eid : 2 mode: 0
+2020-11-26 11:23:10 Info: teacher Eset - index  eid : 2 mode: 0
+2020-11-26 11:23:13 Info: teacher Eset - createSec  eid : 2 mode: 0
+2020-11-26 11:23:13 Info: teacher Eset - index  eid : 2 mode: 0
+2020-11-26 11:23:14 Info: teacher Section - index  eid: 2 mode: 0 sid: 2
+2020-11-26 11:28:36 Info: teacher Section - save  eid: 2 mode: 0 sid: 2
+2020-11-26 11:28:36 Info: teacher Section - index  eid: 2 mode: 0 sid: 2
+2020-11-26 11:28:39 Info: teacher Section - createQuestion  eid: 2 mode: 0 sid: 2
+2020-11-26 11:28:39 Info: teacher Section - index  eid: 2 mode: 0 sid: 2
+2020-11-26 11:28:46 Info: teacher Question - index  eid: 2 mode: 0 sid: 2 qid: 2
+2020-11-26 11:29:05 Info: teacher Question - createChoice  eid: 2 mode: 0 sid: 2 qid: 2
+2020-11-26 11:29:05 Info: teacher Question - index  eid: 2 mode: 0 sid: 2 qid: 2
+2020-11-26 11:29:12 Info: teacher Question - createChoice  eid: 2 mode: 0 sid: 2 qid: 2
+2020-11-26 11:29:12 Info: teacher Question - index  eid: 2 mode: 0 sid: 2 qid: 2
+2020-11-26 11:29:21 Info: teacher Question - createChoice  eid: 2 mode: 0 sid: 2 qid: 2
+2020-11-26 11:29:21 Info: teacher Question - index  eid: 2 mode: 0 sid: 2 qid: 2
+2020-11-26 11:29:22 Info: teacher Question - createChoice  eid: 2 mode: 0 sid: 2 qid: 2
+2020-11-26 11:29:22 Info: teacher Question - index  eid: 2 mode: 0 sid: 2 qid: 2
+2020-11-26 11:29:59 Info: teacher Question - save  eid: 2 mode: 0 sid: 2 qid: 2
+2020-11-26 11:29:59 Info: teacher Question - index  eid: 2 mode: 0 sid: 2 qid: 2
+2020-11-26 11:30:06 Info: teacher AdminTop - index
+2020-11-26 11:30:12 Info: teacher EsetTop - index
+2020-11-26 11:30:16 Info: teacher EsetTop - changeMode  eid: 2 mode: 0
+2020-11-26 11:30:16 Info: teacher EsetTop - index
+2020-11-26 11:30:19 Info: teacher AdminTop - index
+2020-11-26 11:30:25 Info: teacher UserTop - index
+2020-11-26 11:30:31 Info: teacher PreTest - index  eid: 2
+2020-11-26 11:30:34 Info: teacher PreTest - phase1  eid: 2
+2020-11-26 11:30:35 Info: teacher Test - index(reading)  eid: 2 sid: 2
+2020-11-26 11:30:45 Info: teacher Test - readend  eid: 2 sid: 2
+2020-11-26 11:30:45 Info: teacher Test - index(asking)  eid: 2 sid: 2 subseq: 1
+2020-11-26 11:30:59 Info: teacher Test - askend  eid: 2 sid: 2 qid: 2
+2020-11-26 11:30:59 Info: teacher Test - index(collect)  eid: 2
+2020-11-26 11:30:59 Info: teacher Test - collect  eid: 2
+2020-11-26 11:31:01 Info: teacher AdminTop - index
+2020-11-26 11:31:04 Info: teacher UserTop - index
+2020-11-26 11:31:06 Info: teacher AdminTop - index
+2020-11-26 11:31:08 Info: teacher StatTop - index
+2020-11-26 11:31:10 Info: teacher Stat - index  eid: 2
+2020-11-26 12:34:25 Info: unknown Portal - index
+2020-11-26 12:34:28 Info: unknown AdminLogin - index
+2020-11-26 12:34:50 Info: unknown AdminLogin - index
+2020-11-26 12:34:50 Info: teacher AdminTop - index
+2020-11-26 12:35:09 Info: teacher UserTop - index
+2020-11-26 12:35:13 Info: teacher PreTest - index  eid: 2
+2020-11-26 12:35:17 Info: teacher PreTest - phase1  eid: 2
+2020-11-26 12:35:18 Info: teacher Test - index(reading)  eid: 2 sid: 2
+2020-11-26 12:35:20 Info: teacher Test - readend  eid: 2 sid: 2
+2020-11-26 12:35:20 Info: teacher Test - index(asking)  eid: 2 sid: 2 subseq: 1
+2020-11-26 12:35:23 Info: teacher Test - askend  eid: 2 sid: 2 qid: 2
+2020-11-26 12:35:23 Info: teacher Test - index(collect)  eid: 2
+2020-11-26 12:35:23 Info: teacher Test - collect  eid: 2
+2020-11-26 12:36:55 Info: teacher UserTop - index
+2020-11-26 12:41:55 Info:  Test - collect  eid: 
+2020-11-26 12:41:55 Info: teacher UserTop - index
+2020-11-26 12:41:57 Info: teacher AdminTop - index
+2020-11-26 12:42:01 Info: teacher StatTop - index
+2020-11-26 12:42:04 Info: teacher Stat - index  eid: 1
+2020-11-26 12:46:53 Info: teacher Stat - sdownload  eid: 1
+2020-11-26 12:47:11 Info: teacher StatTop - index
+2020-11-26 12:47:12 Info: teacher AdminTop - index
+2020-11-26 12:47:13 Info: teacher StatTop - index
+2020-11-26 12:47:13 Info: teacher AdminTop - index
+2020-11-26 12:54:01 Info: unknown Portal - index
+2020-11-26 12:57:20 Info: unknown Portal - index

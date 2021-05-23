@@ -1,0 +1,196 @@
+<?php
+//セット一覧ページ
+namespace App\Controller;
+
+use Cake\Controller\Controller;
+use Cake\Event\Event;
+use Cake\ORM\Table;
+
+class EsetListController extends AppAdminController {
+
+    public function initialize() {
+        // 親クラスをロードする
+        parent::initialize();
+        // ページのタイトルセット
+        $this->Erams->setTitle('セット一覧ページ');
+    }
+
+    public function index() {
+        // 必要なデータをView変数に保存
+        $esets = $this->EramsDB->get('esets', 'id');
+        // セクション情報を集計する
+        $setInfo = array();
+        foreach ( $esets as $eset ) {
+            $setInfo[$eset->id] = array();
+            $setInfo[$eset->id]['eid'] = $eset->id;
+            $setInfo[$eset->id]['title'] = $eset->title;
+            $setInfo[$eset->id]['mode'] = $eset->mode;
+            $setInfo[$eset->id]['version'] = $eset->version;
+//            echo 'ss'.$setInfo[$eset->id]['setid'];
+        }
+        $this->set('EramsSetInfo', $setInfo);
+    }
+
+    // セットを削除する
+    public function delEset() {
+        // post 変数を取得
+        $eid = h(trim($this->request->getData('eid')));        
+
+        // post 変数のチェック
+        if( empty($eid) ) {
+            $this->Flash->set('セットが見つかりません。');
+            $this->redirect('/EsetList');
+            return;
+        }
+        // セットテーブルを確保
+        $esets = $this->getTableLocator()->get('esets');
+        // 指定された id のレコードを取得
+        $row = $esets->find()->where([ 'id' => $eid ]);
+        // レコードがあれば削除
+        if( $row->count() == 1 ) {
+            $this->Flash->set('指定されたセット「'.$row->first()->title.'」を削除しました。');
+            $entity = $esets->get($eid);
+            $esets->delete($entity);
+        }
+        // レコードがなければメッセージを指定して表示
+        else {
+            $this->Flash->set('削除対象のセットが見つかりません。');
+        }
+        // ページを表示
+        $this->redirect('/EsetList');
+        return;
+    }
+
+    // セットのモードを変更する
+    public function mode() {
+        // post 変数を取得
+        $eid = h(trim($this->request->getData('eid')));
+
+        // post 変数のチェック
+        if( empty($eid) ) {
+            $this->Flash->set("セットが見つかりません。");
+            $this->redirect('/EsetList');
+            return;
+        }
+        // セットテーブルを確保
+        $esets = $this->getTableLocator()->get('esets');
+        // 指定された id のレコードを取得
+        $row = $esets->find()->where([ 'id' => $eid ]);
+        // レコードがあれば変更
+        if( $row->count() == 1 ) {
+            $entity = $esets->get($eid);
+            echo 'pppppppppppp';
+            if( $entity->mode == 'E' ) {
+                // セクションが含まれているかチェック
+                $sections = $this->EramsDB->get('sections', null, [ 'eid' => $eid ]);
+                
+                // セクションがあれば
+                if( count($sections) != 0 ) {                  
+                    // 問題が含まれているかチェック
+                    foreach( $sections as $section ) {
+                        $questions = $this->EramsDB->get('questions', null, [ 'sid' => $section->id ]);
+                        // 問題があれば
+                        if( count($questions) != 0 ) {
+                            // 選択肢が含まれているかチェック
+                            foreach( $questions as $question ) {
+                                $choices = $this->EramsDB->get('choices', null, [ 'qid' => $question->id ]);
+                                // 選択肢がなければ
+                                if( count($choices) == 0 ) {
+                                    $this->Flash->set("選択肢が含まれていない問題があります。");
+                                    $this->redirect('/EsetList');
+                                    return;
+                                }
+                            }
+                        }
+                        // 問題がなければ
+                        else {
+                            $this->Flash->set("問題が含まれていないセクションがあります。");
+                            $this->redirect('/EsetList');
+                            return;
+                        }
+                    }
+                    
+                    $entity->mode = 'W';
+                    // 保存してメッセージ表示
+                    if($esets->save($entity)){
+                        $this->Flash->set("セット「".$entity->title."」のモードを 提供中 に変更しました。");
+                    }else{
+                        $this->Flash->set("セット「".$entity->title."」のモードを 提供中 に変更できませんでした。");
+                    }
+                }
+                // セクションがなければ
+                else {
+                    $this->Flash->set("セットにセクションが含まれていません。");
+                    $this->redirect('/EsetList');
+                    return;
+                }
+            }else if($entity->mode == 'W') {
+                $entity->mode = 'F';
+                // 保存してメッセージ表示
+                if($esets->save($entity)){
+                    $this->Flash->set("セット「".$entity->title."」のモードを 終了 に変更しました。");
+                }else{
+                    $this->Flash->set("セット「".$entity->title."」のモードを 終了 に変更できませんでした。");
+                }
+            }else{
+                $this->Flash->set("セット「".$entity->title."」のモードは 終了 のため変更できません。");
+            }
+        }
+        // レコードがなければメッセージを指定して表示
+        else {
+            $this->Flash->set("変更対象のセットが見つかりません。");
+        }
+        // ページを表示
+        $this->redirect('/EsetList');
+        return;
+    }
+
+    // モードを戻す
+    // セットのコピーしか出来てない
+    public function returnMode() {
+        // post 変数を取得
+//        $version = $this->request->getData('version');
+        $eid = h(trim($this->request->getData('eid')));
+    
+        // post 変数のチェック
+        if( empty($eid) ) {
+            $this->Flash->set('セットが見つかりません。');
+            $this->redirect('/EsetList');
+            return;
+        }
+        /*
+        if( empty($version) ) {
+            $this->redirect('/EsetList');
+            return;
+            }*/
+        
+        // セットテーブルを確保
+        $esets = $this->getTableLocator()->get('esets');
+        // 指定された id のレコードを取得
+        $row = $esets->find()->where([ 'id' => $eid ]);
+        // レコードがあれば変更
+        if( $row->count() == 1 ) {
+            $eset = $row->first();
+            if($eset->mode == 'W') {
+                $eset->mode = 'E';
+                $eset->version = $eset->version + 1;
+                // 保存してメッセージ表示
+                if($esets->save($eset)){
+                    $this->Flash->set("セット「".$eset->title."」のモードを 編集中 に変更しました。");
+                }else{
+                    $this->Flash->set("セット「".$eset->title."」のモードを 編集中 に変更できませんでした。");
+                }
+            }else{
+                $this->Flash->set("セット「".$eset->title."」のモードは 提供中 ではないため変更できません。");
+            }
+        }
+        // レコードがなければメッセージを指定して表示
+        else {
+            $this->Flash->set("変更対象のセットが見つかりません。");
+        }
+        // ページを表示
+        $this->redirect('/EsetList');
+        return;
+    }
+}
+?>

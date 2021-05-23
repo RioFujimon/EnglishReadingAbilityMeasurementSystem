@@ -1,0 +1,300 @@
+/* ページ全体はブラウザの 90% を利用して中央寄せ */
+body {
+    width: 90%;
+    color: var(--site-text-color);
+    background-color: var(--site-bg-color);
+    margin-right: auto;
+    margin-left : auto;
+}
+
+/* <div class="header"> はヘッダ部分のみに利用 */
+div.header {
+    color: var(--thema-color-dark);
+    background-color: var(--thema-color);
+    margine: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+/* <div class="footer"> はフッダ部分のみに利用 */
+div.footer {
+    color: var(--thema-color-dark);
+    background-color: var(--thema-color);
+    margine: 5px;
+    padding: 5px;
+}
+
+/* <div class="context"> は一般的な内容の部分 */
+.context {
+    width: 90%;
+    margin-left : 5%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* <div class="center"> は一般的な内容の部分（中央寄せ） */
+div.center {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+}
+div.center div {
+    display: inline-block;
+    text-align: center;
+}
+div.center button {
+    display: inline-block;
+    text-align: center;
+}
+div.stat{
+    width: 100%;
+    max-height: 300px;
+    min-width: 100%;
+    display: inline-block;
+    overflow: auto;
+    table-layout: fixed;
+}
+
+/* <table> は一般的な一覧表 */
+table {
+    width: 90%;
+    background-color: var(--site-bg-color);
+    border: solid 1px var(--thema-color);
+    border-collapse: separate;
+    margin-left: 5%;
+    border-spacing: 0;
+    border-radius: 6px;
+    overflow: hidden;
+}
+table th, table td {
+    text-align: center;
+    border: solid 1px var(--thema-color);
+    background-color: 0;
+}
+table tbody tr:first-child th,
+table tbody tr:first-child td {
+    border-top: none;
+}
+table tbody tr:last-child th,
+table tbody tr:last-child td {
+    border-bottom: none;
+}
+
+/* <table class="noborder"> は罫線なしの表(今は使ってない) */
+table.noborder th,
+table.noborder td {
+    text-align: center;
+    border: none;
+}
+
+/* 小見出し*/
+.label {
+    width: 90%;
+    color: var(--thema-color-dark);
+    background-color: var(--label-color);
+    margin-left : 5%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* <div class="spacer"> はスペースを挿入 */
+.spacer {
+    margine: 5px;
+    padding: 5px;
+}
+
+/* <div class="reader"> は英文を読むためのウインドウ設定 */
+div.reader {
+    width: 90%;
+    word-wrap: break-word;
+    background-color: white;
+    text-align: justify;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* <div class="question"> は問題表示部分 */
+div.question {
+    width: 90%;
+    background-color: white;
+    text-align: justify;
+    padding: 10px;
+    margin-right: auto;
+    margin-left : auto;
+}
+div.question p.sentence {
+    text-align: justify;
+    margine-top: 5px;
+}
+div.question p.choice {
+    margine: 5px;
+    text-align: justify;
+    padding: 10px;
+    margin: 10px;
+}
+
+/* <div class="user_info"> でログインユーザの情報を画面上部に表示 */
+div.user_info {
+    color: var(--thema-color);
+    background-color: black;
+    padding-top: 0px;
+    padding-left: 10px;
+    margin: 0;
+    margin-right: auto;
+    margin-left : auto;
+}
+
+/* 読み取り専用の表示 */
+p.readonly {
+    width: 80%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    margin-left: 5%;    
+    color: yellow;
+    background-color: red;
+}
+
+/* 編集可能の表示 */
+p.writable {
+    width: 80%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    margin-left: 5%;
+    color: yellow;
+    background-color: blue;
+}
+
+/* <div class="formset"> に含まれるフォームは横並びにセット */
+.formset form {
+    display: table-cell;
+}
+.formset div {
+    display: table-cell;
+}
+
+/* <ul> <ol> (<ol>使ってない)*/
+ul, ol {
+    width: 80%;
+    color: var(--thema-color);
+    margin-left: 5%;
+}
+
+/* <div class="login"> <div class="item"> でログイン向けのレイアウト */
+div.login {
+    width: 50%;
+    background-color: var(--login-color);
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding:0;
+    border-spacing: 0;
+    border-radius: 6px;
+    border: solid 1px var(--login-color-dark);
+}
+
+div.login table {
+    width: 80%;
+    text-align: center;
+    display: inline-block;
+}
+
+/* <div class="test_set"> <div class="item"> でテストセット編集向けのレイアウト */
+div.test_set {
+    width: 90%;
+    background-color: var(--login-color);
+    margin-left: 5%;
+    text-align: center;
+    border-spacing: 0;
+    border-radius: 6px;
+    border: solid 1px var(--login-color-dark);
+}
+div.test_set div {
+    display: inline-block;
+}
+div.test_set input {
+    width: 90%;
+    display: inline-block;
+}
+div.test_set textarea {
+    width: 90%;
+    display: inline-block;
+}
+div.test_set div.left {
+    width: 20%;
+    text-align: right;
+    vertical-align: middle;
+    display: inline-block;    
+}
+div.test_set div.right {
+    width: 75%;
+    text-align: left;
+    vertical-align: middle;
+    margin-left: auto;
+    margin-right: auto;    
+    display: inline-block;
+}
+div.test_set div.center {
+    width: 100%;
+    text-align: center;
+    vertical-align: middle;
+    margin-left : 0%;
+    padding: 0px;
+}
+
+/* <div class="error"> でエラーメッセージの表示 */
+.error {
+    width: 90%;
+    color: var(--error-color-dark);
+    background-color: var(--error-color);
+    margin-right: auto;
+    margin-left : auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* <div class="warn"> でワーニングメッセージの表示 */
+/* $this->Flash->set('.....') は全てワーニング */
+.warn {
+    width: 90%;
+    color: var(--warn-color-dark);
+    background-color: var(--warn-color);
+    margin-right: auto;
+    margin-left : auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* <div class="info"> でインフォーメーションの表示 */
+/* $this->Flash->set('.....') は全てワーニング */
+.info {
+    width: 70%;
+    color: var(--info-color-dark);
+    background-color: var(--info-color);
+    margin-left : 10%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+}

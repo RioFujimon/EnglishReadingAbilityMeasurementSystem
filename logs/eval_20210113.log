@@ -1,0 +1,138 @@
+2021-01-13 13:54:43 Info: unknown Portal - index
+2021-01-13 13:54:46 Info: unknown AdminLogin - index
+2021-01-13 13:54:51 Info: unknown AdminLogin - index
+2021-01-13 13:54:52 Info: teacher AdminTop - index
+2021-01-13 13:54:55 Info: teacher UserTop - index
+2021-01-13 13:55:24 Info: teacher AdminTop - index
+2021-01-13 13:55:48 Info: teacher EsetTop - index
+2021-01-13 13:56:04 Info: teacher EsetTop - deleteEset  eid : 2
+2021-01-13 13:56:04 Info: teacher EsetTop - index
+2021-01-13 13:56:06 Info: teacher EsetTop - changeMode  eid: 11 mode: 0
+2021-01-13 13:56:22 Info: teacher AdminTop - index
+2021-01-13 13:56:24 Info: teacher EsetTop - index
+2021-01-13 13:56:25 Info: teacher Eset - index  eid : 11 mode: 0
+2021-01-13 13:56:35 Info: teacher Section - index  eid: 11 mode: 0 sid: 14
+2021-01-13 13:59:53 Info: teacher Section - save  eid: 11 mode: 0 sid: 14
+2021-01-13 13:59:53 Info: teacher Section - index  eid: 11 mode: 0 sid: 14
+2021-01-13 14:00:00 Info: teacher Section - createQuestion  eid: 11 mode: 0 sid: 14
+2021-01-13 14:00:00 Info: teacher Section - index  eid: 11 mode: 0 sid: 14
+2021-01-13 14:00:09 Info: teacher Question - index  eid: 11 mode: 0 sid: 14 qid: 10
+2021-01-13 14:00:23 Info: teacher Section - index  eid: 11 mode: 0 sid: 14
+2021-01-13 14:00:24 Info: teacher Question - index  eid: 11 mode: 0 sid: 14 qid: 10
+2021-01-13 14:00:50 Info: teacher Question - createChoice  eid: 11 mode: 0 sid: 14 qid: 10
+2021-01-13 14:00:50 Info: teacher Question - index  eid: 11 mode: 0 sid: 14 qid: 10
+2021-01-13 14:01:14 Info: teacher Question - createChoice  eid: 11 mode: 0 sid: 14 qid: 10
+2021-01-13 14:01:14 Info: teacher Question - index  eid: 11 mode: 0 sid: 14 qid: 10
+2021-01-13 14:01:18 Info: teacher Question - createChoice  eid: 11 mode: 0 sid: 14 qid: 10
+2021-01-13 14:01:18 Info: teacher Question - index  eid: 11 mode: 0 sid: 14 qid: 10
+2021-01-13 14:01:20 Info: teacher Question - createChoice  eid: 11 mode: 0 sid: 14 qid: 10
+2021-01-13 14:01:20 Info: teacher Question - index  eid: 11 mode: 0 sid: 14 qid: 10
+2021-01-13 14:02:10 Info: teacher Question - save  eid: 11 mode: 0 sid: 14 qid: 10
+2021-01-13 14:02:10 Info: teacher Question - index  eid: 11 mode: 0 sid: 14 qid: 10
+2021-01-13 14:02:16 Info: teacher Question - save  eid: 11 mode: 0 sid: 14 qid: 10
+2021-01-13 14:02:16 Info: teacher Question - index  eid: 11 mode: 0 sid: 14 qid: 10
+2021-01-13 14:02:21 Info: teacher Section - index  eid: 11 mode: 0 sid: 14
+2021-01-13 14:02:27 Info: teacher Section - delQuestion  eid: 11 mode: 0 sid: 14 qid: 11
+2021-01-13 14:02:27 Info: teacher Section - index  eid: 11 mode: 0 sid: 14
+2021-01-13 14:02:31 Info: teacher AdminTop - index
+2021-01-13 14:02:33 Info: teacher EsetTop - index
+2021-01-13 14:02:35 Info: teacher EsetTop - changeMode  eid: 11 mode: 0
+2021-01-13 14:02:35 Info: teacher EsetTop - index
+2021-01-13 14:02:40 Info: teacher AdminTop - index
+2021-01-13 14:02:43 Info: teacher RegUser - index
+2021-01-13 14:02:45 Info: teacher RegUser - groupIndex  gid: 2
+2021-01-13 14:02:56 Info: teacher AdminTop - index
+2021-01-13 14:03:02 Info: teacher Logout - index
+2021-01-13 14:03:02 Info: unknown Portal - index
+2021-01-13 14:03:04 Info: unknown UserLogin - index
+2021-01-13 14:03:11 Info: unknown UserLogin - index
+2021-01-13 14:03:11 Info: _2_st0100 UserTop - index
+2021-01-13 14:03:15 Info: _2_st0100 PreTest - index  eid: 11
+2021-01-13 14:03:17 Info: _2_st0100 PreTest - phase1  eid: 11
+2021-01-13 14:03:18 Info: _2_st0100 Test - index(reading)  eid: 11 sid: 14
+2021-01-13 14:03:20 Info: _2_st0100 Test - readend  eid: 11 sid: 14
+2021-01-13 14:03:20 Info: _2_st0100 Test - index(asking)  eid: 11 sid: 14 subseq: 1
+2021-01-13 14:03:23 Info: _2_st0100 Test - askend  eid: 11 sid: 14 qid: 10
+2021-01-13 14:03:23 Info: _2_st0100 Test - index(collect)  eid: 11
+2021-01-13 14:03:23 Info: _2_st0100 Test - collect  eid: 11
+2021-01-13 14:03:25 Info: _2_st0100 UserTop - index
+2021-01-13 14:03:36 Info: _2_st0100 UserTop - index
+2021-01-13 14:03:38 Info: _2_st0100 PreTest - index  eid: 1
+2021-01-13 14:03:40 Info: _2_st0100 PreTest - phase1  eid: 1
+2021-01-13 14:03:41 Info: _2_st0100 Test - index(reading)  eid: 1 sid: 1
+2021-01-13 14:03:42 Info: _2_st0100 Test - readend  eid: 1 sid: 1
+2021-01-13 14:03:42 Info: _2_st0100 Test - index(asking)  eid: 1 sid: 1 subseq: 1
+2021-01-13 14:03:46 Info: _2_st0100 Test - askend  eid: 1 sid: 1 qid: 1
+2021-01-13 14:03:46 Info: _2_st0100 Test - index(collect)  eid: 1
+2021-01-13 14:03:46 Info: _2_st0100 Test - collect  eid: 1
+2021-01-13 14:03:47 Info: _2_st0100 UserTop - index
+2021-01-13 14:04:02 Info: _2_st0100 UserTop - index
+2021-01-13 14:04:14 Info: _2_st0100 PreTest - index  eid: 11
+2021-01-13 14:04:17 Info: _2_st0100 PreTest - phase1  eid: 11
+2021-01-13 14:04:18 Info: _2_st0100 Test - index(reading)  eid: 11 sid: 14
+2021-01-13 14:04:19 Info: _2_st0100 Test - readend  eid: 11 sid: 14
+2021-01-13 14:04:19 Info: _2_st0100 Test - index(asking)  eid: 11 sid: 14 subseq: 1
+2021-01-13 14:04:21 Info: _2_st0100 Test - askend  eid: 11 sid: 14 qid: 10
+2021-01-13 14:04:21 Info: _2_st0100 Test - index(collect)  eid: 11
+2021-01-13 14:04:21 Info: _2_st0100 Test - collect  eid: 11
+2021-01-13 14:04:23 Info: _2_st0100 UserTop - index
+2021-01-13 14:04:44 Info: _2_st0100 UserTop - index
+2021-01-13 14:04:47 Info: _2_st0100 UserTop - index
+2021-01-13 14:04:52 Info: _2_st0100 UserTop - index
+2021-01-13 14:04:55 Info: _2_st0100 UserTop - index
+2021-01-13 14:05:06 Info: _2_st0100 UserTop - index
+2021-01-13 14:08:15 Info: _2_st0100 Logout - index
+2021-01-13 14:08:15 Info: unknown Portal - index
+2021-01-13 14:08:17 Info: unknown UserLogin - index
+2021-01-13 14:12:14 Info: unknown UserLogin - index
+2021-01-13 14:12:14 Info: _2_st0100 UserTop - index
+2021-01-13 15:08:36 Info: _2_st0100 UserTop - index
+2021-01-13 15:11:07 Info: _2_st0100 UserTop - index
+2021-01-13 15:15:55 Info: _2_st0100 UserTop - index
+2021-01-13 15:15:59 Info: _2_st0100 Logout - index
+2021-01-13 15:15:59 Info: unknown Portal - index
+2021-01-13 15:16:01 Info: unknown UserLogin - index
+2021-01-13 15:16:04 Info: unknown Portal - index
+2021-01-13 15:16:05 Info: unknown AdminLogin - index
+2021-01-13 15:16:11 Info: unknown AdminLogin - index
+2021-01-13 15:16:11 Info: teacher AdminTop - index
+2021-01-13 15:16:13 Info: teacher EsetTop - index
+2021-01-13 15:16:15 Info: teacher AdminTop - index
+2021-01-13 15:16:17 Info: teacher RegUser - index
+2021-01-13 15:16:19 Info: teacher RegUser - groupIndex  gid: 2
+2021-01-13 15:16:29 Info: teacher RegUser - index
+2021-01-13 15:16:31 Info: teacher AdminTop - index
+2021-01-13 15:16:34 Info: teacher UserTop - index
+2021-01-13 15:16:41 Info: teacher AdminTop - index
+2021-01-13 15:16:46 Info: teacher AdminTop - index
+2021-01-13 15:16:48 Info: teacher Logout - index
+2021-01-13 15:16:48 Info: unknown Portal - index
+2021-01-13 15:16:50 Info: unknown UserLogin - index
+2021-01-13 15:17:11 Info: unknown UserLogin - index
+2021-01-13 15:17:11 Info: _2_st0101 UserTop - index
+2021-01-13 15:17:20 Info: _2_st0101 PreTest - index  eid: 1
+2021-01-13 15:17:22 Info: _2_st0101 PreTest - phase1  eid: 1
+2021-01-13 15:17:23 Info: _2_st0101 Test - index(reading)  eid: 1 sid: 1
+2021-01-13 15:17:24 Info: _2_st0101 Test - readend  eid: 1 sid: 1
+2021-01-13 15:17:24 Info: _2_st0101 Test - index(asking)  eid: 1 sid: 1 subseq: 1
+2021-01-13 15:17:28 Info: _2_st0101 Test - askend  eid: 1 sid: 1 qid: 1
+2021-01-13 15:17:28 Info: _2_st0101 Test - index(collect)  eid: 1
+2021-01-13 15:17:28 Info: _2_st0101 Test - collect  eid: 1
+2021-01-13 15:17:29 Info: _2_st0101 UserTop - index
+2021-01-13 15:19:52 Info: _2_st0101 UserTop - index
+2021-01-13 15:36:16 Info: _2_st0101 Logout - index
+2021-01-13 15:36:16 Info: unknown Portal - index
+2021-01-13 15:36:17 Info: unknown UserLogin - index
+2021-01-13 15:36:23 Info: unknown Portal - index
+2021-01-13 15:36:25 Info: unknown AdminLogin - index
+2021-01-13 15:36:30 Info: unknown AdminLogin - index
+2021-01-13 15:36:30 Info: teacher AdminTop - index
+2021-01-13 15:36:35 Info: teacher RegUser - index
+2021-01-13 15:36:37 Info: teacher RegUser - groupIndex  gid: 2
+2021-01-13 15:36:50 Info: teacher AdminTop - index
+2021-01-13 15:36:53 Info: teacher Logout - index
+2021-01-13 15:36:53 Info: unknown Portal - index
+2021-01-13 15:36:54 Info: unknown UserLogin - index
+2021-01-13 15:37:00 Info: unknown UserLogin - index
+2021-01-13 15:37:00 Info: _2_st0100 UserTop - index
+2021-01-13 15:37:05 Info: _2_st0100 UserTop - index

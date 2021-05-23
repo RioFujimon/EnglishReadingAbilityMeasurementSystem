@@ -1,0 +1,29 @@
+2020-01-17 11:12:12 Info: unknown AdminLogin - index
+2020-01-17 11:14:49 Info: unknown AdminLogin - index
+2020-01-17 11:14:50 Info: teacher AdminTop - index
+2020-01-17 11:15:53 Info: teacher RegInstitute - index
+2020-01-17 11:15:56 Info: teacher AdminTop - index
+2020-01-17 11:15:57 Info: teacher RegUser - index
+2020-01-17 11:15:59 Info: teacher RegUser - groupIndex  gid: 6
+2020-01-17 11:16:01 Info: teacher AdminTop - index
+2020-01-17 11:16:02 Info: teacher EsetTop - index
+2020-01-17 11:16:07 Info: teacher Eset - index  eid : 8 mode: 0
+2020-01-17 11:16:09 Info: teacher Section - index  eid: 8 mode: 0 sid: 10
+2020-01-17 11:16:10 Info: teacher Question - index  eid: 8 mode: 0 sid: 10 qid: 7
+2020-01-17 11:16:14 Info: teacher AdminTop - index
+2020-01-17 11:16:15 Info: teacher StatTop - index
+2020-01-17 11:16:17 Info: teacher Stat - index  eid: 5
+2020-01-17 11:16:19 Info: teacher AdminTop - index
+2020-01-17 11:16:20 Info: teacher UserTop - index
+2020-01-17 11:16:21 Info: teacher PreTest - index  eid: 5
+2020-01-17 11:16:23 Info: teacher PreTest - phase1  eid: 5
+2020-01-17 11:16:25 Info: teacher AdminTop - index
+2020-01-17 11:16:27 Info: teacher Logout - index
+2020-01-17 11:16:27 Info: unknown Portal - index
+2020-01-17 11:16:28 Info: unknown UserLogin - index
+2020-01-17 11:17:29 Info: unknown Portal - index
+2020-01-17 11:17:30 Info: unknown AdminLogin - index
+2020-01-17 11:17:33 Info: unknown AdminLogin - index
+2020-01-17 11:17:33 Info: teacher AdminTop - index
+2020-01-17 11:17:35 Info: teacher StatTop - index
+2020-01-17 11:17:38 Info: teacher Stat - index  eid: 5

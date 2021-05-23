@@ -1,0 +1,256 @@
+2020-12-04 15:08:32 Info: unknown Portal - index
+2020-12-04 15:09:12 Info: unknown UserLogin - index
+2020-12-04 15:10:47 Info: unknown Portal - index
+2020-12-04 15:10:48 Info: unknown UserLogin - index
+2020-12-04 15:10:51 Info: unknown Portal - index
+2020-12-04 15:10:52 Info: unknown AdminLogin - index
+2020-12-04 15:12:04 Info: unknown Portal - index
+2020-12-04 15:12:05 Info: unknown UserLogin - index
+2020-12-04 15:12:10 Info: unknown Portal - index
+2020-12-04 15:12:11 Info: unknown AdminLogin - index
+2020-12-04 15:12:16 Info: unknown AdminLogin - index
+2020-12-04 15:12:16 Info: teacher AdminTop - index
+2020-12-04 15:12:31 Error: [Cake\Routing\Exception\MissingControllerException] Controller class TestResult could not be found.
+Exception Attributes: array (
+  'class' => 'TestResult',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+#0 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(39): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(91): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#5 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(108): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#6 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#7 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(168): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(96): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 /sdb/home/labadmin/yasube/www/cake/erams/webroot/index.php(40): Cake\Http\Server->run()
+#17 {main}
+Request URL: /TestResult
+
+
+2020-12-04 15:20:44 Info: unknown Portal - index
+2020-12-04 15:20:52 Info: unknown AdminLogin - index
+2020-12-04 15:20:58 Info: unknown AdminLogin - index
+2020-12-04 15:20:58 Info: teacher AdminTop - index
+2020-12-04 15:21:00 Info: teacher UserTop - index
+2020-12-04 15:39:26 Info: teacher UserTop - index
+2020-12-04 15:39:32 Info: teacher UserTop - index
+2020-12-04 15:41:23 Info: teacher UserTop - index
+2020-12-04 15:42:03 Info: teacher AdminTop - index
+2020-12-04 15:42:05 Info: teacher UserTop - index
+2020-12-04 15:54:15 Info: teacher UserTop - index
+2020-12-04 15:54:53 Info: teacher UserTop - index
+2020-12-04 16:29:52 Info: teacher UserTop - index
+2020-12-04 16:31:04 Info: teacher AdminTop - index
+2020-12-04 16:31:11 Info: teacher UserTop - index
+2020-12-04 16:31:59 Info: teacher UserTop - index
+2020-12-04 16:32:13 Info: teacher UserTop - index
+2020-12-04 16:32:17 Info: teacher UserTop - index
+2020-12-04 16:32:35 Info: teacher UserTop - index
+2020-12-04 16:33:04 Info: teacher UserTop - index
+2020-12-04 16:33:09 Info: teacher UserTop - index
+2020-12-04 16:33:12 Info: teacher UserTop - index
+2020-12-04 16:33:15 Info: teacher UserTop - index
+2020-12-04 16:33:19 Info: teacher UserTop - index
+2020-12-04 16:35:14 Info: teacher UserTop - index
+2020-12-04 16:35:24 Info: teacher UserTop - index
+2020-12-04 16:39:43 Info: teacher UserTop - index
+2020-12-04 16:39:53 Info: teacher UserTop - index
+2020-12-04 16:39:53 Info: teacher UserTop - index
+2020-12-04 16:40:05 Info: teacher UserTop - index
+2020-12-04 16:40:55 Info: teacher UserTop - index
+2020-12-04 16:41:13 Info: teacher UserTop - index
+2020-12-04 16:42:09 Info: teacher UserTop - index
+2020-12-04 16:42:09 Error: [ParseError] syntax error, unexpected '?'
+#0 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/View/View.php(1374): Cake\View\View->_evaluate('/sdb/home/labad...', Array)
+#1 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/View/View.php(880): Cake\View\View->_render('/sdb/home/labad...')
+#2 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Controller/Controller.php(791): Cake\View\View->render(NULL, NULL)
+#3 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(126): Cake\Controller\Controller->render()
+#4 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\UserTopController))
+#5 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#6 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#7 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(108): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(168): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#15 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(96): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#17 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#18 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#19 /sdb/home/labadmin/yasube/www/cake/erams/webroot/index.php(40): Cake\Http\Server->run()
+#20 {main}
+Request URL: /UserTop
+Referer URL: https://atarime.cs.tohoku-gakuin.ac.jp/~yasube/cake/erams/admin-top?
+
+
+2020-12-04 16:43:26 Info: teacher UserTop - index
+2020-12-04 16:43:26 Error: [ParseError] syntax error, unexpected '$uid' (T_VARIABLE), expecting ']'
+#0 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/View/View.php(1374): Cake\View\View->_evaluate('/sdb/home/labad...', Array)
+#1 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/View/View.php(880): Cake\View\View->_render('/sdb/home/labad...')
+#2 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Controller/Controller.php(791): Cake\View\View->render(NULL, NULL)
+#3 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(126): Cake\Controller\Controller->render()
+#4 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\UserTopController))
+#5 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#6 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#7 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(108): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(168): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#15 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(96): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#17 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#18 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#19 /sdb/home/labadmin/yasube/www/cake/erams/webroot/index.php(40): Cake\Http\Server->run()
+#20 {main}
+Request URL: /UserTop
+Referer URL: https://atarime.cs.tohoku-gakuin.ac.jp/~yasube/cake/erams/admin-top?
+
+
+2020-12-04 16:43:53 Info: teacher UserTop - index
+2020-12-04 16:50:03 Info: teacher UserTop - index
+2020-12-04 16:52:23 Info: teacher UserTop - index
+2020-12-04 16:52:32 Info: teacher UserTop - index
+2020-12-04 17:03:31 Info: teacher UserTop - index
+2020-12-04 17:11:07 Info: teacher UserTop - index
+2020-12-04 17:11:14 Info: teacher UserTop - index
+2020-12-04 17:11:18 Info: teacher UserTop - index
+2020-12-04 17:11:27 Info: teacher UserTop - index
+2020-12-04 17:13:33 Info: teacher UserTop - index
+2020-12-04 17:13:33 Error: [ParseError] syntax error, unexpected '<'
+#0 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/View/View.php(1374): Cake\View\View->_evaluate('/sdb/home/labad...', Array)
+#1 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/View/View.php(880): Cake\View\View->_render('/sdb/home/labad...')
+#2 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Controller/Controller.php(791): Cake\View\View->render(NULL, NULL)
+#3 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(126): Cake\Controller\Controller->render()
+#4 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\UserTopController))
+#5 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#6 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#7 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(108): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(168): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#15 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(96): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#17 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#18 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#19 /sdb/home/labadmin/yasube/www/cake/erams/webroot/index.php(40): Cake\Http\Server->run()
+#20 {main}
+Request URL: /UserTop
+Referer URL: https://atarime.cs.tohoku-gakuin.ac.jp/~yasube/cake/erams/admin-top?
+
+
+2020-12-04 17:14:08 Info: teacher UserTop - index
+2020-12-04 17:14:08 Error: [ParseError] syntax error, unexpected '<'
+#0 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/View/View.php(1374): Cake\View\View->_evaluate('/sdb/home/labad...', Array)
+#1 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/View/View.php(880): Cake\View\View->_render('/sdb/home/labad...')
+#2 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Controller/Controller.php(791): Cake\View\View->render(NULL, NULL)
+#3 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(126): Cake\Controller\Controller->render()
+#4 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\UserTopController))
+#5 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#6 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#7 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(108): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(168): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#15 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(96): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#17 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#18 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#19 /sdb/home/labadmin/yasube/www/cake/erams/webroot/index.php(40): Cake\Http\Server->run()
+#20 {main}
+Request URL: /UserTop
+Referer URL: https://atarime.cs.tohoku-gakuin.ac.jp/~yasube/cake/erams/admin-top?
+
+
+2020-12-04 17:14:51 Info: teacher UserTop - index
+2020-12-04 17:14:51 Error: [ParseError] syntax error, unexpected 'controller' (T_STRING), expecting ']'
+#0 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/View/View.php(1374): Cake\View\View->_evaluate('/sdb/home/labad...', Array)
+#1 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/View/View.php(880): Cake\View\View->_render('/sdb/home/labad...')
+#2 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Controller/Controller.php(791): Cake\View\View->render(NULL, NULL)
+#3 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(126): Cake\Controller\Controller->render()
+#4 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\UserTopController))
+#5 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#6 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#7 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(108): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(168): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#15 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(96): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#17 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#18 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#19 /sdb/home/labadmin/yasube/www/cake/erams/webroot/index.php(40): Cake\Http\Server->run()
+#20 {main}
+Request URL: /UserTop
+Referer URL: https://atarime.cs.tohoku-gakuin.ac.jp/~yasube/cake/erams/admin-top?
+
+
+2020-12-04 17:17:11 Info: teacher UserTop - index
+2020-12-04 17:17:21 Info: teacher UserTop - index
+2020-12-04 17:17:33 Info: teacher UserTop - index
+2020-12-04 17:29:48 Info: teacher UserTop - index
+2020-12-04 17:32:13 Info: teacher UserTop - index
+2020-12-04 17:37:58 Info: teacher UserTop - index
+2020-12-04 17:39:26 Info: teacher UserTop - index
+2020-12-04 17:39:28 Info: teacher UserTop - index
+2020-12-04 17:39:32 Info: teacher UserTop - index
+2020-12-04 17:40:29 Info: teacher UserTop - index
+2020-12-04 17:41:12 Info: teacher UserTop - index
+2020-12-04 17:41:35 Info: teacher UserTop - index
+2020-12-04 17:42:04 Info: teacher AdminTop - index
+2020-12-04 17:42:07 Info: teacher Logout - index
+2020-12-04 17:42:07 Info: unknown Portal - index
+2020-12-04 17:42:11 Info: unknown AdminLogin - index
+2020-12-04 17:42:16 Info: unknown AdminLogin - index
+2020-12-04 17:42:16 Info: teacher AdminTop - index
+2020-12-04 17:42:18 Info: teacher UserTop - index
+2020-12-04 17:42:53 Info: teacher UserTop - index
+2020-12-04 17:42:56 Info: teacher PreTest - index  eid: 2
+2020-12-04 17:44:19 Info: teacher UserTop - index
+2020-12-04 17:49:21 Info: teacher UserTop - index
+2020-12-04 18:09:12 Info: teacher UserTop - index
+2020-12-04 18:09:23 Info: teacher UserTop - index
+2020-12-04 18:09:29 Info: teacher UserTop - index
+2020-12-04 18:10:48 Info: teacher UserTop - index
+2020-12-04 18:11:41 Info: teacher UserTop - index
+2020-12-04 18:11:49 Info: teacher UserTop - index
+2020-12-04 18:12:19 Info: teacher UserTop - index
+2020-12-04 18:13:05 Info: teacher UserTop - index
+2020-12-04 18:13:11 Info: teacher UserTop - index
+2020-12-04 18:13:14 Info: teacher UserTop - index
+2020-12-04 18:13:30 Info: teacher UserTop - index
+2020-12-04 18:13:58 Info: teacher UserTop - index
+2020-12-04 18:14:04 Info: teacher UserTop - index
+2020-12-04 18:15:26 Info: teacher UserTop - index
+2020-12-04 18:20:57 Info: teacher UserTop - index
+2020-12-04 18:21:07 Info: teacher UserTop - index
+2020-12-04 18:21:11 Info: teacher UserTop - index

@@ -1,0 +1,30 @@
+2021-02-04 09:22:26 Info: unknown Portal - index
+2021-02-04 09:22:29 Info: unknown AdminLogin - index
+2021-02-04 09:22:35 Info: unknown AdminLogin - index
+2021-02-04 09:22:36 Info: teacher AdminTop - index
+2021-02-04 09:22:43 Info: teacher UserTop - index
+2021-02-04 09:23:05 Info: teacher UserTop - index
+2021-02-04 09:23:08 Info: teacher PreTest - index  eid: 1
+2021-02-04 09:23:13 Info: teacher PreTest - phase1  eid: 1
+2021-02-04 09:23:16 Info: teacher Test - index(reading)  eid: 1 sid: 1
+2021-02-04 09:23:18 Info: teacher Test - readend  eid: 1 sid: 1
+2021-02-04 09:23:18 Info: teacher Test - index(asking)  eid: 1 sid: 1 subseq: 1
+2021-02-04 09:23:28 Info: teacher Test - askend  eid: 1 sid: 1 qid: 1
+2021-02-04 09:23:28 Info: teacher Test - index(collect)  eid: 1
+2021-02-04 09:23:28 Info: teacher Test - collect  eid: 1
+2021-02-04 09:23:31 Info: teacher UserTop - index
+2021-02-04 09:23:40 Info: teacher UserTop - index
+2021-02-04 09:23:42 Info: teacher PreTest - index  eid: 11
+2021-02-04 09:23:45 Info: teacher PreTest - phase1  eid: 11
+2021-02-04 09:23:48 Info: teacher Test - index(reading)  eid: 11 sid: 14
+2021-02-04 09:23:56 Info: teacher Test - readend  eid: 11 sid: 14
+2021-02-04 09:23:56 Info: teacher Test - index(asking)  eid: 11 sid: 14 subseq: 1
+2021-02-04 09:24:02 Info: teacher Test - askend  eid: 11 sid: 14 qid: 10
+2021-02-04 09:24:02 Info: teacher Test - index(collect)  eid: 11
+2021-02-04 09:24:02 Info: teacher Test - collect  eid: 11
+2021-02-04 09:24:04 Info: teacher UserTop - index
+2021-02-04 09:24:18 Info: teacher UserTop - index
+2021-02-04 09:24:21 Info: teacher AdminTop - index
+2021-02-04 09:24:25 Info: teacher UserTop - index
+2021-02-04 13:13:36 Info: unknown Portal - index
+2021-02-04 13:13:42 Info: unknown AdminLogin - index

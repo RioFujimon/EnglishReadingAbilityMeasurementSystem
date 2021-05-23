@@ -1,0 +1,109 @@
+// モデルの追加
+cd ./bin
+./cake bake model [TABLE NAME];
+
+// テーブルの作成
+CREATE TABLE groups (
+       id serial primary key,
+       gname varchar(32) not null unique check(0 < length(gname)),
+       modified timestamptz,
+       created timestamptz
+);
+
+CREATE TABLE users (
+       id serial primary key,
+       gid integer references groups(id) not null,
+       uname varchar(32) not null unique check(0 < length(uname)),
+       passwd varchar(256) not null check(0 < length(passwd)),
+       modified timestamptz,
+       created timestamptz
+);
+
+CREATE TABLE esets (
+       id serial primary key,
+       title varchar(256) default '' not null,
+       property varchar(4096) default '' not null,
+       mode integer default 0 not null check (mode = 0 or mode = 1),
+       modified timestamptz,
+       created timestamptz
+);
+
+CREATE TABLE sections (
+       id serial primary key,
+       eid integer references esets(id) not null,
+       subseq integer default 1 not null check ( 0 < subseq ),
+       title varchar(256) default '' not null,
+       property varchar(4096) default '' not null,
+       text varchar(16384) default '' not null,
+       tlimit integer default 10 not null check ( 10 <= tlimit ), 
+       modified timestamptz,
+       created timestamptz
+);
+
+CREATE TABLE questions (
+       id serial primary key,
+       sid integer references sections(id) not null,
+       subseq integer default 1 not null check ( 0 < subseq ),
+       text varchar(1024) default '' not null,
+       modified timestamptz,
+       created timestamptz
+);
+
+CREATE TABLE choices (
+       id serial primary key,
+       qid integer references questions(id) not null,
+       subseq integer default 1 check ( 0 < subseq ),
+       text varchar(1024) default '' not null,
+       correct integer default 0 not null check (correct = 0 or correct = 1),
+       modified timestamptz,
+       created timestamptz
+);
+
+CREATE TABLE rsets (
+       id serial primary key,
+       eid integer references esets(id) not null,       
+       uid integer references users(id) not null,
+       starttime timestamptz not null,
+       endtime timestamptz not null,
+       valid integer default 0 not null check (valid = 0 or valid = 1),
+       modified timestamptz,
+       created timestamptz
+);
+
+CREATE TABLE rresults (
+       id serial primary key,
+       rid integer references rsets(id) not null,
+       sid integer references sections(id) not null,
+       starttime timestamptz not null,
+       endtime timestamptz not null,
+       readtime integer not null check ( 0 <= readtime),
+       valid integer default 0 not null check (valid = 0 or valid = 1),
+       modified timestamptz,
+       created timestamptz
+);
+
+CREATE TABLE aresults (
+       id serial primary key,
+       rid integer references rsets(id) not null,
+       qid integer references questions(id) not null,
+       correct integer not null,
+       answer integer not null,
+       iscorrect integer default 0 not null check (iscorrect = 0 or iscorrect = 1),
+       starttime timestamptz not null,
+       endtime timestamptz not null,
+       thinktime integer not null check ( 0 <= thinktime),
+       valid integer default 0 not null check (valid = 0 or valid = 1),
+       modified timestamptz,
+       created timestamptz
+);
+
+// テーブルの削除
+drop table aresults;
+drop table rresults;
+drop table rsets;
+drop table choices;
+drop table questions;
+drop table sections;
+drop table esets;
+drop table users;
+drop table groups;

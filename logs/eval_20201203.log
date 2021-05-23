@@ -1,0 +1,106 @@
+2020-12-03 17:24:56 Info: unknown Portal - index
+2020-12-03 17:25:38 Info: unknown AdminLogin - index
+2020-12-03 17:25:44 Info: unknown AdminLogin - index
+2020-12-03 17:25:44 Info: teacher AdminTop - index
+2020-12-03 17:25:47 Info: teacher UserTop - index
+2020-12-03 17:34:50 Info: teacher UserTop - index
+2020-12-03 17:42:28 Info: teacher UserTop - index
+2020-12-03 17:45:25 Info: teacher UserTop - index
+2020-12-03 17:47:32 Info: teacher UserTop - index
+2020-12-03 17:48:11 Info: teacher UserTop - index
+2020-12-03 17:52:36 Info: teacher UserTop - index
+2020-12-03 18:01:05 Info: teacher UserTop - index
+2020-12-03 18:01:05 Error: [PDOException] SQLSTATE[42703]: Undefined column: 7 ERROR:  列"eid"は存在しません
+LINE 1: SELECT (MAX(modified)) from esets where eid =1
+                                                ^
+HINT:  列"esets.id"を参照しようとしていたようです。
+#0 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php(173): PDOStatement->execute(NULL)
+#1 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Database/Connection.php(350): Cake\Database\Statement\StatementDecorator->execute()
+#2 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php(68): Cake\Database\Connection->Cake\Database\{closure}()
+#3 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Database/Connection.php(353): Cake\Core\Retry\CommandRetry->run(Object(Closure))
+#4 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Database/Connection.php(302): Cake\Database\Connection->query('SELECT (MAX(mod...')
+#5 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php(68): Cake\Database\Connection->Cake\Database\{closure}()
+#6 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Database/Connection.php(306): Cake\Core\Retry\CommandRetry->run(Object(Closure))
+#7 /sdb/home/labadmin/yasube/www/cake/erams/src/Controller/UserTopController.php(76): Cake\Database\Connection->execute('SELECT (MAX(mod...')
+#8 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Controller/Controller.php(610): App\Controller\UserTopController->index()
+#9 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(120): Cake\Controller\Controller->invokeAction()
+#10 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\UserTopController))
+#11 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(108): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#16 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(168): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#18 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#19 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#20 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#21 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(96): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#22 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#23 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#24 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#25 /sdb/home/labadmin/yasube/www/cake/erams/webroot/index.php(40): Cake\Http\Server->run()
+#26 {main}
+Request URL: /UserTop
+Referer URL: https://atarime.cs.tohoku-gakuin.ac.jp/~yasube/cake/erams/AdminTop
+
+
+2020-12-03 18:02:00 Info: teacher UserTop - index
+2020-12-03 18:03:25 Info: teacher UserTop - index
+2020-12-03 18:04:32 Info: teacher UserTop - index
+2020-12-03 18:04:33 Info: teacher UserTop - index
+2020-12-03 18:06:12 Info: teacher UserTop - index
+2020-12-03 18:10:11 Info: teacher UserTop - index
+2020-12-03 18:14:18 Info: teacher UserTop - index
+2020-12-03 18:15:42 Info: teacher UserTop - index
+2020-12-03 18:18:42 Info: teacher UserTop - index
+2020-12-03 18:20:39 Info: teacher UserTop - index
+2020-12-03 18:22:31 Info: teacher UserTop - index
+2020-12-03 18:30:07 Info: teacher UserTop - index
+2020-12-03 18:35:44 Info: teacher UserTop - index
+2020-12-03 18:47:49 Info: teacher UserTop - index
+2020-12-03 18:59:34 Info: teacher UserTop - index
+2020-12-03 19:00:18 Info: teacher UserTop - index
+2020-12-03 19:00:20 Info: teacher UserTop - index
+2020-12-03 19:00:58 Info: teacher UserTop - index
+2020-12-03 19:00:59 Info: teacher UserTop - index
+2020-12-03 19:01:34 Info: teacher UserTop - index
+2020-12-03 19:04:04 Info: teacher UserTop - index
+2020-12-03 19:05:56 Info: teacher UserTop - index
+2020-12-03 19:06:26 Info: teacher PreTest - index  eid: 2
+2020-12-03 19:06:50 Info: teacher UserTop - index
+2020-12-03 19:08:16 Info: teacher UserTop - index
+2020-12-03 19:11:31 Info: teacher UserTop - index
+2020-12-03 19:11:34 Info: teacher UserTop - index
+2020-12-03 19:11:35 Info: teacher UserTop - index
+2020-12-03 19:12:39 Info: teacher UserTop - index
+2020-12-03 19:16:11 Info: teacher UserTop - index
+2020-12-03 19:19:10 Info: teacher UserTop - index
+2020-12-03 19:20:07 Info: teacher UserTop - index
+2020-12-03 19:20:54 Info: teacher UserTop - index
+2020-12-03 19:22:54 Info: teacher UserTop - index
+2020-12-03 19:23:44 Info: teacher UserTop - index
+2020-12-03 19:25:24 Info: teacher PreTest - index  eid: 2
+2020-12-03 19:25:45 Info: teacher UserTop - index
+2020-12-03 19:40:49 Info: teacher UserTop - index
+2020-12-03 19:42:46 Info: teacher UserTop - index
+2020-12-03 19:42:47 Info: teacher UserTop - index
+2020-12-03 19:42:48 Info: teacher UserTop - index
+2020-12-03 19:44:28 Info: teacher UserTop - index
+2020-12-03 19:44:28 Info: teacher UserTop - index
+2020-12-03 19:53:09 Info: teacher UserTop - index
+2020-12-03 19:53:17 Info: teacher AdminTop - index
+2020-12-03 19:53:21 Info: teacher RegUser - index
+2020-12-03 19:53:22 Info: teacher RegUser - groupIndex  gid: 2
+2020-12-03 19:53:28 Info: teacher AdminTop - index
+2020-12-03 19:53:30 Info: teacher Logout - index
+2020-12-03 19:53:30 Info: unknown Portal - index
+2020-12-03 19:53:31 Info: unknown UserLogin - index
+2020-12-03 19:53:44 Info: unknown UserLogin - index
+2020-12-03 19:53:44 Info: _2_st0100 UserTop - index
+2020-12-03 19:54:18 Info: unknown UserLogin - index
+2020-12-03 19:54:26 Info: unknown Portal - index
+2020-12-03 19:54:35 Info: unknown AdminLogin - index
+2020-12-03 19:54:44 Info: unknown AdminLogin - index
+2020-12-03 19:54:44 Info: teacher AdminTop - index
+2020-12-03 19:54:46 Info: teacher UserTop - index

@@ -1,0 +1,89 @@
+<?php
+// 初期設定ページ
+namespace App\Controller;
+
+use Cake\Controller\Controller;
+use Cake\Event\Event;
+use Cake\ORM\Table;
+
+class InitController extends AppController {
+
+    public function initialize() {
+        // 親クラスをロードする
+        parent::initialize();
+        // ページのタイトルをセットする
+        $this->Erams->setTitle('管理者登録');
+        // セッションを取得
+        $session = $this->request->getSession();
+        // Erams で使うセッションを強制的に消去
+        $session->delete('Erams');
+    }
+    
+   public function index() {
+        // Users テーブルを確保
+        $settings = $this->getTableLocator()->get('Settings'); 
+        // Settings テーブルの中に admin フィールドがあるか
+        $query = $settings->find()->where(['vname' => 'admin']);
+        $results = $query->all();
+        // admin があれば不正アクセス処理へ
+        if ( count($results) != 0 ) {
+            $this->Erams->error("すでに管理者が登録されていますので、".
+            "このページは利用することができません。");
+        }
+        // post 変数を取得
+        $uname = trim($this->request->getData('uname'));
+        $passwd = $this->request->getData('passwd');
+        // post 変数のどちらかがセットされていればその内容をチェック 
+        if ( ! empty($uname) || ! empty($uname) ) {
+            $mess = "";
+            if ( strlen($uname) < 4 ) {
+                $mess .= "ユーザ名は4文字以上にする必要があります。\n";
+            }
+            if ( ! preg_match("/^[a-zA-Z_]+$/", $uname) ) {
+                $mess .= "ユーザ名には a-zA-Z, _ ".
+                    "以外の文字は利用することが出来ません。\n";
+            }
+            if ( strlen($passwd) < 4 ) {
+                $mess .= "パスワードは4文字以上にする必要があります。\n";
+            }
+            // エラーメッセージがあればそれをセットして再度フォームを表示
+            if ( $mess != "" ) {
+                $this->Flash->set($mess);
+                return;
+            }
+        }
+        // post 変数のどちらもセットされていなければフォームを表示
+        else {
+            return;
+        }
+        // パスワードをハッシュ化
+        $hashed_pass = password_hash($passwd, PASSWORD_BCRYPT);
+        // チェックの内容に問題がなければデータベースに登録
+        // Settings テーブルを確保
+        $settings = $this->getTableLocator()->get('Settings');
+        // 挿入するレコードを作成
+        $records = [
+            [ 'vname' => 'admin', 'val' => $uname ],
+            [ 'vname' => 'passwd', 'val' => $hashed_pass ]
+        ];
+        // 挿入するレコードを Entity に入れて
+        $entities = $settings->newEntities($records);
+        // トランザクション処理で登録を行う
+        $ret = $settings->getConnection()->transactional(
+            function () use ($settings, $entities) {
+                foreach ($entities as $entity) {
+                    if ( ! $settings->save($entity, ['atomic' => false]) ) {
+                        return false;
+                    }
+                }
+                return true;
+            });
+        // 結果を判断して表示を変える。
+        if ( $ret ) {
+            $this->render("saved");
+        } else {
+            $this->Erams->error("データベースのレコード登録に失敗しました。");
+        }
+    }
+}
+?>

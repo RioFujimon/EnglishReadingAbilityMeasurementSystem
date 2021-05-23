@@ -1,0 +1,25 @@
+2020-12-14 06:31:25 Info: unknown Portal - index
+2020-12-14 06:31:26 Info: unknown Portal - index
+2020-12-14 06:31:31 Info: unknown AdminLogin - index
+2020-12-14 06:31:36 Info: unknown AdminLogin - index
+2020-12-14 06:31:36 Info: teacher AdminTop - index
+2020-12-14 06:31:55 Info: teacher StatTop - index
+2020-12-14 06:31:58 Info: teacher AdminTop - index
+2020-12-14 06:32:02 Info: teacher UserTop - index
+2020-12-14 06:56:31 Info: teacher UserTop - index
+2020-12-14 06:56:32 Info: teacher AdminTop - index
+2020-12-14 06:56:36 Info: teacher EsetTop - index
+2020-12-14 06:56:43 Info: teacher Eset - index  eid : 11 mode: 0
+2020-12-14 06:56:47 Info: teacher Section - index  eid: 11 mode: 0 sid: 14
+2020-12-14 06:57:10 Info: teacher Section - delQuestion  eid: 11 mode: 0 sid: 14 qid: 9
+2020-12-14 06:57:10 Info: teacher Section - index  eid: 11 mode: 0 sid: 14
+2020-12-14 06:57:18 Info: teacher Section - createQuestion  eid: 11 mode: 0 sid: 14
+2020-12-14 06:57:18 Info: teacher Section - index  eid: 11 mode: 0 sid: 14
+2020-12-14 06:57:21 Info: teacher Section - save  eid: 11 mode: 0 sid: 14
+2020-12-14 06:57:21 Info: teacher Section - index  eid: 11 mode: 0 sid: 14
+2020-12-14 06:57:34 Info: teacher Question - index  eid: 11 mode: 0 sid: 14 qid: 10
+2020-12-14 06:57:47 Info: teacher Question - save  eid: 11 mode: 0 sid: 14 qid: 10
+2020-12-14 06:57:47 Info: teacher Question - index  eid: 11 mode: 0 sid: 14 qid: 10
+2020-12-14 06:57:49 Info: teacher Question - index  eid: 11 mode: 0 sid: 14 qid: 10
+2020-12-14 06:58:14 Info: teacher Question - save  eid: 11 mode: 0 sid: 14 qid: 10
+2020-12-14 06:58:14 Info: teacher Question - index  eid: 11 mode: 0 sid: 14 qid: 10

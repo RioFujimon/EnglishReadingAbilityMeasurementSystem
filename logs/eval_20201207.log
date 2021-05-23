@@ -1,0 +1,697 @@
+2020-12-07 00:29:44 Info: unknown Portal - index
+2020-12-07 00:29:49 Info: unknown AdminLogin - index
+2020-12-07 00:29:54 Info: unknown AdminLogin - index
+2020-12-07 00:29:55 Info: teacher AdminTop - index
+2020-12-07 00:30:03 Info: teacher UserTop - index
+2020-12-07 00:30:08 Info: teacher AdminTop - index
+2020-12-07 00:30:10 Info: teacher UserTop - index
+2020-12-07 00:50:11 Info: teacher UserTop - index
+2020-12-07 00:50:13 Error: [Error] Class 'App\Controller\ConnectionManager' not found
+#0 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Controller/Controller.php(610): App\Controller\TestResultController->index()
+#1 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(120): Cake\Controller\Controller->invokeAction()
+#2 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\TestResultController))
+#3 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#4 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#5 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(108): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(168): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(96): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#15 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 /sdb/home/labadmin/yasube/www/cake/erams/webroot/index.php(40): Cake\Http\Server->run()
+#18 {main}
+Request URL: /test-result?uid=1&eid=2
+Referer URL: https://atarime.cs.tohoku-gakuin.ac.jp/~yasube/cake/erams/UserTop
+
+
+2020-12-07 00:51:04 Info: teacher UserTop - index
+2020-12-07 00:51:06 Error: [Error] Class 'App\Controller\ConnectionManager' not found
+#0 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Controller/Controller.php(610): App\Controller\TestResultController->index()
+#1 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(120): Cake\Controller\Controller->invokeAction()
+#2 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\TestResultController))
+#3 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#4 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#5 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(108): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(168): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(96): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#15 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 /sdb/home/labadmin/yasube/www/cake/erams/webroot/index.php(40): Cake\Http\Server->run()
+#18 {main}
+Request URL: /test-result?uid=1&eid=2
+Referer URL: https://atarime.cs.tohoku-gakuin.ac.jp/~yasube/cake/erams/UserTop
+
+
+2020-12-07 00:51:13 Error: [Error] Class 'App\Controller\ConnectionManager' not found
+#0 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Controller/Controller.php(610): App\Controller\TestResultController->index()
+#1 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(120): Cake\Controller\Controller->invokeAction()
+#2 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\TestResultController))
+#3 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#4 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#5 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(108): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(168): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(96): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#15 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 /sdb/home/labadmin/yasube/www/cake/erams/webroot/index.php(40): Cake\Http\Server->run()
+#18 {main}
+Request URL: /test-result?uid=1&eid=2
+Referer URL: https://atarime.cs.tohoku-gakuin.ac.jp/~yasube/cake/erams/UserTop
+
+
+2020-12-07 00:51:22 Info: teacher UserTop - index
+2020-12-07 00:51:24 Error: [Error] Class 'App\Controller\ConnectionManager' not found
+#0 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Controller/Controller.php(610): App\Controller\TestResultController->index()
+#1 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(120): Cake\Controller\Controller->invokeAction()
+#2 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\TestResultController))
+#3 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#4 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#5 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(108): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(168): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(96): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#15 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 /sdb/home/labadmin/yasube/www/cake/erams/webroot/index.php(40): Cake\Http\Server->run()
+#18 {main}
+Request URL: /test-result?uid=1&eid=2
+Referer URL: https://atarime.cs.tohoku-gakuin.ac.jp/~yasube/cake/erams/UserTop
+
+
+2020-12-07 00:51:25 Info: teacher UserTop - index
+2020-12-07 00:53:02 Info: teacher UserTop - index
+2020-12-07 00:53:16 Info: teacher UserTop - index
+2020-12-07 00:57:49 Info: teacher UserTop - index
+2020-12-07 01:05:27 Info: teacher UserTop - index
+2020-12-07 01:09:26 Info: teacher AdminTop - index
+2020-12-07 01:09:30 Info: teacher UserTop - index
+2020-12-07 01:15:00 Info: teacher AdminTop - index
+2020-12-07 01:15:01 Info: teacher UserTop - index
+2020-12-07 01:18:17 Info: teacher UserTop - index
+2020-12-07 01:18:25 Info: teacher UserTop - index
+2020-12-07 01:18:35 Info: teacher UserTop - index
+2020-12-07 01:19:48 Info: teacher AdminTop - index
+2020-12-07 01:19:50 Info: teacher StatTop - index
+2020-12-07 01:19:52 Info: teacher Stat - index  eid: 1
+2020-12-07 01:23:14 Info: teacher AdminTop - index
+2020-12-07 01:23:16 Info: teacher UserTop - index
+2020-12-07 01:24:46 Info: teacher AdminTop - index
+2020-12-07 01:24:48 Info: teacher UserTop - index
+2020-12-07 01:26:26 Info: teacher UserTop - index
+2020-12-07 01:26:52 Info: teacher AdminTop - index
+2020-12-07 01:26:53 Info: teacher UserTop - index
+2020-12-07 01:26:58 Info: teacher AdminTop - index
+2020-12-07 01:27:37 Info: unknown Portal - index
+2020-12-07 01:27:40 Info: unknown UserLogin - index
+2020-12-07 01:27:43 Info: unknown AdminLogin - index
+2020-12-07 01:27:51 Info: unknown AdminLogin - index
+2020-12-07 01:27:51 Info: teacher AdminTop - index
+2020-12-07 01:27:56 Info: teacher UserTop - index
+2020-12-07 01:28:50 Info: teacher AdminTop - index
+2020-12-07 02:14:53 Info: unknown Portal - index
+2020-12-07 02:14:56 Info: unknown AdminLogin - index
+2020-12-07 02:15:00 Info: unknown AdminLogin - index
+2020-12-07 02:15:00 Info: teacher AdminTop - index
+2020-12-07 02:15:03 Info: teacher UserTop - index
+2020-12-07 02:15:07 Info: teacher UserTop - index
+2020-12-07 02:15:13 Info: teacher UserTop - index
+2020-12-07 02:15:17 Info: teacher UserTop - index
+2020-12-07 02:16:39 Info: unknown UserLogin - index
+2020-12-07 02:16:40 Info: unknown Portal - index
+2020-12-07 02:16:42 Info: unknown AdminLogin - index
+2020-12-07 02:16:51 Info: unknown AdminLogin - index
+2020-12-07 02:16:51 Info: teacher AdminTop - index
+2020-12-07 02:16:53 Info: teacher UserTop - index
+2020-12-07 02:27:29 Info: teacher AdminTop - index
+2020-12-07 02:27:35 Info: teacher EsetTop - index
+2020-12-07 02:27:38 Info: teacher EsetTop - createEset
+2020-12-07 02:27:38 Info: teacher EsetTop - index
+2020-12-07 02:27:44 Info: teacher EsetTop - createEset
+2020-12-07 02:27:44 Info: teacher EsetTop - index
+2020-12-07 02:27:50 Info: teacher EsetTop - deleteEset  eid : 4
+2020-12-07 02:27:50 Info: teacher EsetTop - index
+2020-12-07 02:28:08 Info: teacher Eset - index  eid : 3 mode: 0
+2020-12-07 02:28:40 Info: teacher Eset - save  eid : 3 mode: 0
+2020-12-07 02:28:40 Info: teacher Eset - index  eid : 3 mode: 0
+2020-12-07 02:28:42 Info: teacher Eset - createSec  eid : 3 mode: 0
+2020-12-07 02:28:42 Info: teacher Eset - index  eid : 3 mode: 0
+2020-12-07 02:28:48 Info: teacher Section - index  eid: 3 mode: 0 sid: 3
+2020-12-07 02:29:07 Info: teacher Section - save  eid: 3 mode: 0 sid: 3
+2020-12-07 02:29:07 Info: teacher Section - index  eid: 3 mode: 0 sid: 3
+2020-12-07 02:29:23 Info: teacher Section - index  eid: 3 mode: 0 sid: 3
+2020-12-07 02:29:42 Info: teacher Section - createQuestion  eid: 3 mode: 0 sid: 3
+2020-12-07 02:29:42 Info: teacher Section - index  eid: 3 mode: 0 sid: 3
+2020-12-07 02:29:49 Info: teacher Section - delQuestion  eid: 3 mode: 0 sid: 3 qid: 3
+2020-12-07 02:29:49 Info: teacher Section - index  eid: 3 mode: 0 sid: 3
+2020-12-07 02:29:54 Info: teacher AdminTop - index
+2020-12-07 02:29:57 Info: teacher EsetTop - index
+2020-12-07 02:30:08 Info: teacher EsetTop - deleteEset  eid : 3
+2020-12-07 02:30:08 Info: teacher EsetTop - index
+2020-12-07 02:30:09 Info: teacher EsetTop - createEset
+2020-12-07 02:30:09 Info: teacher EsetTop - index
+2020-12-07 02:30:24 Info: teacher Eset - index  eid : 5 mode: 0
+2020-12-07 02:31:03 Info: teacher Eset - createSec  eid : 5 mode: 0
+2020-12-07 02:31:03 Info: teacher Eset - index  eid : 5 mode: 0
+2020-12-07 02:31:09 Info: teacher Eset - createSec  eid : 5 mode: 0
+2020-12-07 02:31:09 Info: teacher Eset - index  eid : 5 mode: 0
+2020-12-07 02:31:12 Info: teacher Section - index  eid: 5 mode: 0 sid: 4
+2020-12-07 02:31:19 Info: teacher Section - save  eid: 5 mode: 0 sid: 4
+2020-12-07 02:31:19 Info: teacher Section - index  eid: 5 mode: 0 sid: 4
+2020-12-07 02:31:28 Info: teacher Section - createQuestion  eid: 5 mode: 0 sid: 4
+2020-12-07 02:31:28 Info: teacher Section - index  eid: 5 mode: 0 sid: 4
+2020-12-07 02:31:37 Info: teacher Section - save  eid: 5 mode: 0 sid: 4
+2020-12-07 02:31:37 Info: teacher Section - index  eid: 5 mode: 0 sid: 4
+2020-12-07 02:31:45 Info: teacher Section - delQuestion  eid: 5 mode: 0 sid: 4 qid: 4
+2020-12-07 02:31:45 Info: teacher Section - index  eid: 5 mode: 0 sid: 4
+2020-12-07 02:31:49 Info: teacher Section - index  eid: 5 mode: 0 sid: 4
+2020-12-07 02:32:08 Info: teacher AdminTop - index
+2020-12-07 02:32:10 Info: teacher StatTop - index
+2020-12-07 02:32:14 Info: teacher AdminTop - index
+2020-12-07 02:32:17 Info: teacher RegUser - index
+2020-12-07 02:32:18 Info: teacher AdminTop - index
+2020-12-07 02:32:19 Info: teacher EsetTop - index
+2020-12-07 02:32:22 Info: teacher Eset - index  eid : 5 mode: 0
+2020-12-07 02:32:32 Info: teacher Eset - createSec  eid : 5 mode: 0
+2020-12-07 02:32:33 Info: teacher Eset - index  eid : 5 mode: 0
+2020-12-07 02:32:36 Info: teacher Eset - deleteSec  eid : 5 mode: 0 sid: 6
+2020-12-07 02:32:36 Info: teacher Eset - index  eid : 5 mode: 0
+2020-12-07 02:32:39 Info: teacher Eset - deleteSec  eid : 5 mode: 0 sid: 4
+2020-12-07 02:32:39 Info: teacher Eset - index  eid : 5 mode: 0
+2020-12-07 02:32:42 Info: teacher Eset - deleteSec  eid : 5 mode: 0 sid: 5
+2020-12-07 02:32:42 Info: teacher Eset - index  eid : 5 mode: 0
+2020-12-07 02:32:43 Info: teacher Eset - save  eid : 5 mode: 0
+2020-12-07 02:32:43 Info: teacher Eset - index  eid : 5 mode: 0
+2020-12-07 02:32:55 Info: teacher Eset - createSec  eid : 5 mode: 0
+2020-12-07 02:32:55 Info: teacher Eset - index  eid : 5 mode: 0
+2020-12-07 02:33:00 Info: teacher Eset - swap  eid : 5 mode: 0 sid: 7 moveto: u
+2020-12-07 02:33:00 Info: teacher Eset - index  eid : 5 mode: 0
+2020-12-07 02:33:08 Info: teacher Section - index  eid: 5 mode: 0 sid: 7
+2020-12-07 02:33:18 Info: teacher Section - save  eid: 5 mode: 0 sid: 7
+2020-12-07 02:33:18 Info: teacher Section - index  eid: 5 mode: 0 sid: 7
+2020-12-07 02:33:25 Info: teacher Section - index  eid: 5 mode: 0 sid: 7
+2020-12-07 02:33:28 Info: teacher Section - createQuestion  eid: 5 mode: 0 sid: 7
+2020-12-07 02:33:28 Info: teacher Section - index  eid: 5 mode: 0 sid: 7
+2020-12-07 02:33:38 Info: teacher Section - delQuestion  eid: 5 mode: 0 sid: 7 qid: 5
+2020-12-07 02:33:38 Info: teacher Section - index  eid: 5 mode: 0 sid: 7
+2020-12-07 02:34:07 Info: teacher Section - index  eid: 5 mode: 0 sid: 7
+2020-12-07 02:34:10 Info: teacher AdminTop - index
+2020-12-07 02:34:13 Info: teacher EsetTop - index
+2020-12-07 02:34:21 Info: teacher EsetTop - deleteEset  eid : 5
+2020-12-07 02:34:21 Info: teacher EsetTop - index
+2020-12-07 02:35:45 Info: teacher Eset - index  eid : 2 mode: 1
+2020-12-07 02:35:51 Info: teacher AdminTop - index
+2020-12-07 02:35:53 Info: teacher EsetTop - index
+2020-12-07 02:35:54 Info: teacher EsetTop - createEset
+2020-12-07 02:35:54 Info: teacher EsetTop - index
+2020-12-07 02:36:00 Info: teacher EsetTop - deleteEset  eid : 6
+2020-12-07 02:36:00 Info: teacher EsetTop - index
+2020-12-07 02:36:16 Info: teacher EsetTop - createEset
+2020-12-07 02:36:16 Info: teacher EsetTop - index
+2020-12-07 02:36:21 Info: teacher Eset - index  eid : 7 mode: 0
+2020-12-07 02:36:27 Info: teacher Eset - save  eid : 7 mode: 0
+2020-12-07 02:36:28 Info: teacher Eset - index  eid : 7 mode: 0
+2020-12-07 02:36:37 Info: teacher Eset - createSec  eid : 7 mode: 0
+2020-12-07 02:36:37 Info: teacher Eset - index  eid : 7 mode: 0
+2020-12-07 02:36:40 Info: teacher Eset - createSec  eid : 7 mode: 0
+2020-12-07 02:36:40 Info: teacher Eset - index  eid : 7 mode: 0
+2020-12-07 02:36:43 Info: teacher Section - index  eid: 7 mode: 0 sid: 8
+2020-12-07 02:36:46 Info: teacher Eset - index  eid : 7 mode: 0
+2020-12-07 02:36:47 Info: teacher Section - index  eid: 7 mode: 0 sid: 9
+2020-12-07 02:36:48 Info: teacher Eset - index  eid : 7 mode: 0
+2020-12-07 02:36:49 Info: teacher Section - index  eid: 7 mode: 0 sid: 9
+2020-12-07 02:36:56 Info: teacher Section - index  eid: 7 mode: 0 sid: 9
+2020-12-07 02:37:04 Info: teacher Section - save  eid: 7 mode: 0 sid: 9
+2020-12-07 02:37:04 Info: teacher Section - index  eid: 7 mode: 0 sid: 9
+2020-12-07 02:37:09 Info: teacher Section - index  eid: 7 mode: 0 sid: 9
+2020-12-07 02:37:10 Info: teacher Eset - index  eid : 7 mode: 0
+2020-12-07 02:37:10 Info: teacher Eset - index  eid : 7 mode: 0
+2020-12-07 02:37:12 Info: teacher Eset - swap  eid : 7 mode: 0 sid: 8 moveto: u
+2020-12-07 02:37:12 Info: teacher Eset - index  eid : 7 mode: 0
+2020-12-07 02:37:15 Info: teacher Eset - swap  eid : 7 mode: 0 sid: 9 moveto: u
+2020-12-07 02:37:15 Info: teacher Eset - index  eid : 7 mode: 0
+2020-12-07 02:37:16 Info: teacher Eset - swap  eid : 7 mode: 0 sid: 8 moveto: u
+2020-12-07 02:37:16 Info: teacher Eset - index  eid : 7 mode: 0
+2020-12-07 02:37:20 Info: teacher Eset - save  eid : 7 mode: 0
+2020-12-07 02:37:20 Info: teacher Eset - index  eid : 7 mode: 0
+2020-12-07 02:37:32 Info: teacher Eset - deleteSec  eid : 7 mode: 0 sid: 9
+2020-12-07 02:37:32 Info: teacher Eset - index  eid : 7 mode: 0
+2020-12-07 02:37:45 Info: teacher Eset - deleteSec  eid : 7 mode: 0 sid: 8
+2020-12-07 02:37:45 Info: teacher Eset - index  eid : 7 mode: 0
+2020-12-07 02:37:51 Info: teacher Eset - save  eid : 7 mode: 0
+2020-12-07 02:37:51 Info: teacher Eset - index  eid : 7 mode: 0
+2020-12-07 02:37:56 Info: teacher Eset - save  eid : 7 mode: 0
+2020-12-07 02:37:56 Info: teacher Eset - index  eid : 7 mode: 0
+2020-12-07 02:38:09 Info: teacher EsetTop - index
+2020-12-07 02:38:14 Info: teacher EsetTop - deleteEset  eid : 7
+2020-12-07 02:38:14 Info: teacher EsetTop - index
+2020-12-07 02:39:55 Info: teacher AdminTop - index
+2020-12-07 02:39:57 Info: teacher EsetTop - index
+2020-12-07 02:39:59 Info: teacher AdminTop - index
+2020-12-07 02:40:02 Info: teacher UserTop - index
+2020-12-07 02:40:06 Info: teacher AdminTop - index
+2020-12-07 02:40:08 Info: teacher RegInstitute - index
+2020-12-07 02:40:13 Info: teacher AdminTop - index
+2020-12-07 02:40:14 Info: teacher RegUser - index
+2020-12-07 02:40:16 Info: teacher AdminTop - index
+2020-12-07 02:40:17 Info: teacher EsetTop - index
+2020-12-07 02:40:24 Info: teacher EsetTop - createEset
+2020-12-07 02:40:24 Info: teacher EsetTop - index
+2020-12-07 02:40:31 Info: teacher EsetTop - changeMode  eid: 8 mode: 0
+2020-12-07 02:40:38 Info: teacher Eset - index  eid : 8 mode: 0
+2020-12-07 02:40:45 Info: teacher Eset - save  eid : 8 mode: 0
+2020-12-07 02:40:45 Info: teacher Eset - index  eid : 8 mode: 0
+2020-12-07 02:40:48 Info: teacher Eset - save  eid : 8 mode: 0
+2020-12-07 02:40:49 Info: teacher Eset - index  eid : 8 mode: 0
+2020-12-07 02:40:50 Info: teacher Eset - save  eid : 8 mode: 0
+2020-12-07 02:40:50 Info: teacher Eset - index  eid : 8 mode: 0
+2020-12-07 02:40:52 Info: teacher Eset - createSec  eid : 8 mode: 0
+2020-12-07 02:40:52 Info: teacher Eset - index  eid : 8 mode: 0
+2020-12-07 02:40:58 Info: teacher Eset - save  eid : 8 mode: 0
+2020-12-07 02:40:58 Info: teacher Eset - index  eid : 8 mode: 0
+2020-12-07 02:40:59 Info: teacher Eset - save  eid : 8 mode: 0
+2020-12-07 02:40:59 Info: teacher Eset - index  eid : 8 mode: 0
+2020-12-07 02:41:04 Info: teacher Eset - deleteSec  eid : 8 mode: 0 sid: 10
+2020-12-07 02:41:04 Info: teacher Eset - index  eid : 8 mode: 0
+2020-12-07 02:41:22 Info: teacher EsetTop - index
+2020-12-07 02:41:28 Info: teacher Eset - index  eid : 8 mode: 0
+2020-12-07 02:41:31 Info: teacher EsetTop - index
+2020-12-07 02:41:34 Info: teacher EsetTop - changeMode  eid: 8 mode: 0
+2020-12-07 02:41:41 Info: teacher EsetTop - deleteEset  eid : 8
+2020-12-07 02:41:41 Info: teacher EsetTop - index
+2020-12-07 02:41:43 Info: teacher AdminTop - index
+2020-12-07 02:41:47 Info: teacher StatTop - index
+2020-12-07 02:41:50 Info: teacher Stat - index  eid: 1
+2020-12-07 02:42:15 Info: teacher AdminTop - index
+2020-12-07 02:42:16 Info: teacher EsetTop - index
+2020-12-07 02:42:18 Info: teacher EsetTop - createEset
+2020-12-07 02:42:18 Info: teacher EsetTop - index
+2020-12-07 02:42:20 Info: teacher Eset - index  eid : 9 mode: 0
+2020-12-07 02:42:22 Info: teacher Eset - createSec  eid : 9 mode: 0
+2020-12-07 02:42:22 Info: teacher Eset - index  eid : 9 mode: 0
+2020-12-07 02:42:24 Info: teacher Section - index  eid: 9 mode: 0 sid: 11
+2020-12-07 02:42:32 Info: teacher Section - save  eid: 9 mode: 0 sid: 11
+2020-12-07 02:42:32 Info: teacher Section - index  eid: 9 mode: 0 sid: 11
+2020-12-07 02:42:50 Info: teacher Section - save  eid: 9 mode: 0 sid: 11
+2020-12-07 02:42:50 Info: teacher Section - index  eid: 9 mode: 0 sid: 11
+2020-12-07 02:43:02 Info: teacher Section - index  eid: 9 mode: 0 sid: 11
+2020-12-07 02:43:04 Info: teacher Section - createQuestion  eid: 9 mode: 0 sid: 11
+2020-12-07 02:43:04 Info: teacher Section - index  eid: 9 mode: 0 sid: 11
+2020-12-07 02:43:14 Info: teacher Section - save  eid: 9 mode: 0 sid: 11
+2020-12-07 02:43:14 Info: teacher Section - index  eid: 9 mode: 0 sid: 11
+2020-12-07 02:43:26 Info: teacher Section - delQuestion  eid: 9 mode: 0 sid: 11 qid: 6
+2020-12-07 02:43:26 Info: teacher Section - index  eid: 9 mode: 0 sid: 11
+2020-12-07 02:43:32 Info: teacher Section - save  eid: 9 mode: 0 sid: 11
+2020-12-07 02:43:32 Info: teacher Section - index  eid: 9 mode: 0 sid: 11
+2020-12-07 02:43:39 Info: teacher Section - save  eid: 9 mode: 0 sid: 11
+2020-12-07 02:43:39 Info: teacher Section - index  eid: 9 mode: 0 sid: 11
+2020-12-07 02:43:47 Info: teacher Section - createQuestion  eid: 9 mode: 0 sid: 11
+2020-12-07 02:43:47 Info: teacher Section - index  eid: 9 mode: 0 sid: 11
+2020-12-07 02:43:53 Info: teacher Eset - index  eid : 9 mode: 0
+2020-12-07 02:43:58 Info: teacher Eset - deleteSec  eid : 9 mode: 0 sid: 11
+2020-12-07 02:43:58 Info: teacher Eset - index  eid : 9 mode: 0
+2020-12-07 02:44:00 Info: teacher EsetTop - index
+2020-12-07 02:44:07 Info: teacher EsetTop - deleteEset  eid : 9
+2020-12-07 02:44:07 Info: teacher EsetTop - index
+2020-12-07 02:44:35 Info: teacher EsetTop - createEset
+2020-12-07 02:44:35 Info: teacher EsetTop - index
+2020-12-07 02:44:37 Info: teacher Eset - index  eid : 10 mode: 0
+2020-12-07 02:44:40 Info: teacher Eset - save  eid : 10 mode: 0
+2020-12-07 02:44:40 Info: teacher Eset - index  eid : 10 mode: 0
+2020-12-07 02:44:41 Info: teacher Eset - createSec  eid : 10 mode: 0
+2020-12-07 02:44:41 Info: teacher Eset - index  eid : 10 mode: 0
+2020-12-07 02:44:43 Info: teacher Eset - swap  eid : 10 mode: 0 sid: 12 moveto: u
+2020-12-07 02:44:43 Info: teacher Eset - index  eid : 10 mode: 0
+2020-12-07 02:44:48 Info: teacher Section - index  eid: 10 mode: 0 sid: 12
+2020-12-07 02:44:56 Info: teacher Eset - index  eid : 10 mode: 0
+2020-12-07 02:45:00 Info: teacher Eset - createSec  eid : 10 mode: 0
+2020-12-07 02:45:00 Info: teacher Eset - index  eid : 10 mode: 0
+2020-12-07 02:45:01 Info: teacher Section - index  eid: 10 mode: 0 sid: 12
+2020-12-07 02:45:05 Info: teacher Section - createQuestion  eid: 10 mode: 0 sid: 12
+2020-12-07 02:45:05 Info: teacher Section - index  eid: 10 mode: 0 sid: 12
+2020-12-07 02:45:19 Info: teacher Section - save  eid: 10 mode: 0 sid: 12
+2020-12-07 02:45:19 Info: teacher Section - index  eid: 10 mode: 0 sid: 12
+2020-12-07 02:45:22 Info: teacher Question - index  eid: 10 mode: 0 sid: 12 qid: 8
+2020-12-07 02:45:36 Info: teacher Question - save  eid: 10 mode: 0 sid: 12 qid: 8
+2020-12-07 02:45:42 Info: teacher Question - index  eid: 10 mode: 0 sid: 12 qid: 8
+2020-12-07 02:46:05 Info: teacher Question - save  eid: 10 mode: 0 sid: 12 qid: 8
+2020-12-07 02:46:22 Info: teacher Question - index  eid: 10 mode: 0 sid: 12 qid: 8
+2020-12-07 02:52:20 Info: teacher AdminTop - index
+2020-12-07 02:52:22 Info: teacher EsetTop - index
+2020-12-07 02:52:26 Info: teacher EsetTop - deleteEset  eid : 10
+2020-12-07 02:52:26 Info: teacher EsetTop - index
+2020-12-07 12:52:03 Info: unknown Portal - index
+2020-12-07 12:52:06 Info: unknown AdminLogin - index
+2020-12-07 12:52:11 Info: unknown AdminLogin - index
+2020-12-07 12:52:11 Info: teacher AdminTop - index
+2020-12-07 12:52:20 Info: teacher UserTop - index
+2020-12-07 12:52:28 Info: teacher UserTop - index
+2020-12-07 13:00:42 Info: teacher UserTop - index
+2020-12-07 13:01:01 Info: teacher AdminTop - index
+2020-12-07 13:01:02 Info: teacher UserTop - index
+2020-12-07 13:01:07 Info: teacher AdminTop - index
+2020-12-07 13:06:23 Info: teacher UserTop - index
+2020-12-07 13:10:29 Info: teacher UserTop - index
+2020-12-07 13:21:50 Info: teacher UserTop - index
+2020-12-07 13:22:46 Info: teacher UserTop - index
+2020-12-07 13:27:58 Info: teacher UserTop - index
+2020-12-07 13:41:18 Info: teacher UserTop - index
+2020-12-07 14:43:28 Info: unknown Portal - index
+2020-12-07 14:43:30 Info: unknown UserLogin - index
+2020-12-07 14:43:31 Info: unknown Portal - index
+2020-12-07 14:43:32 Info: unknown AdminLogin - index
+2020-12-07 14:43:36 Info: unknown AdminLogin - index
+2020-12-07 14:43:36 Info: teacher AdminTop - index
+2020-12-07 14:43:39 Info: teacher UserTop - index
+2020-12-07 14:45:23 Info: teacher AdminTop - index
+2020-12-07 14:45:25 Info: teacher StatTop - index
+2020-12-07 14:45:26 Info: teacher Stat - index  eid: 1
+2020-12-07 14:45:48 Info: teacher AdminTop - index
+2020-12-07 14:46:04 Info: teacher StatTop - index
+2020-12-07 14:46:05 Info: teacher Stat - index  eid: 1
+2020-12-07 15:03:28 Info: teacher StatTop - index
+2020-12-07 15:03:30 Info: teacher AdminTop - index
+2020-12-07 15:03:31 Info: teacher UserTop - index
+2020-12-07 15:03:41 Info: teacher UserTop - index
+2020-12-07 15:07:29 Info: teacher UserTop - index
+2020-12-07 15:07:59 Info: teacher AdminTop - index
+2020-12-07 15:08:01 Info: teacher StatTop - index
+2020-12-07 15:08:02 Info: teacher Stat - index  eid: 1
+2020-12-07 15:24:25 Info: teacher AdminTop - index
+2020-12-07 15:24:27 Info: teacher UserTop - index
+2020-12-07 15:31:46 Info: teacher AdminTop - index
+2020-12-07 15:31:48 Info: teacher StatTop - index
+2020-12-07 15:31:50 Info: teacher Stat - index  eid: 1
+2020-12-07 15:37:11 Info: teacher AdminTop - index
+2020-12-07 15:37:13 Info: teacher UserTop - index
+2020-12-07 15:41:40 Info: teacher AdminTop - index
+2020-12-07 15:41:43 Info: teacher StatTop - index
+2020-12-07 15:41:45 Info: teacher Stat - index  eid: 1
+2020-12-07 15:57:12 Info: teacher AdminTop - index
+2020-12-07 15:57:13 Info: teacher UserTop - index
+2020-12-07 15:57:15 Error: [Error] Call to a member function i18nFormat() on string
+#0 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Controller/Controller.php(610): App\Controller\TestResultController->index()
+#1 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(120): Cake\Controller\Controller->invokeAction()
+#2 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\TestResultController))
+#3 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#4 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#5 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(108): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(168): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(96): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#15 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 /sdb/home/labadmin/yasube/www/cake/erams/webroot/index.php(40): Cake\Http\Server->run()
+#18 {main}
+Request URL: /test-result?uid=1&eid=2
+Referer URL: https://atarime.cs.tohoku-gakuin.ac.jp/~yasube/cake/erams/UserTop
+
+
+2020-12-07 16:00:09 Info: teacher UserTop - index
+2020-12-07 16:00:10 Error: [Error] Call to a member function i18nFormat() on string
+#0 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Controller/Controller.php(610): App\Controller\TestResultController->index()
+#1 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(120): Cake\Controller\Controller->invokeAction()
+#2 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\TestResultController))
+#3 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#4 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#5 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(108): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(168): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(96): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#15 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 /sdb/home/labadmin/yasube/www/cake/erams/webroot/index.php(40): Cake\Http\Server->run()
+#18 {main}
+Request URL: /test-result?uid=1&eid=2
+Referer URL: https://atarime.cs.tohoku-gakuin.ac.jp/~yasube/cake/erams/UserTop
+
+
+2020-12-07 16:00:45 Info: teacher UserTop - index
+2020-12-07 16:08:57 Info: teacher AdminTop - index
+2020-12-07 16:08:58 Info: teacher UserTop - index
+2020-12-07 16:09:44 Error: [Error] Call to a member function i18nFormat() on string
+#0 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Controller/Controller.php(610): App\Controller\TestResultController->index()
+#1 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(120): Cake\Controller\Controller->invokeAction()
+#2 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\TestResultController))
+#3 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#4 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#5 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(108): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(168): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(96): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#15 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 /sdb/home/labadmin/yasube/www/cake/erams/webroot/index.php(40): Cake\Http\Server->run()
+#18 {main}
+Request URL: /test-result?uid=1&eid=2
+Referer URL: https://atarime.cs.tohoku-gakuin.ac.jp/~yasube/cake/erams/UserTop
+
+
+2020-12-07 16:13:45 Info: teacher UserTop - index
+2020-12-07 16:15:13 Info: teacher UserTop - index
+2020-12-07 16:20:45 Info: teacher UserTop - index
+2020-12-07 16:22:24 Info: teacher UserTop - index
+2020-12-07 16:24:05 Info: teacher UserTop - index
+2020-12-07 16:24:22 Info: teacher UserTop - index
+2020-12-07 16:24:26 Info: teacher UserTop - index
+2020-12-07 16:27:21 Info: teacher UserTop - index
+2020-12-07 16:27:43 Info: teacher AdminTop - index
+2020-12-07 16:27:45 Info: teacher StatTop - index
+2020-12-07 16:27:46 Info: teacher Stat - index  eid: 1
+2020-12-07 16:42:58 Info: teacher AdminTop - index
+2020-12-07 16:43:00 Info: teacher UserTop - index
+2020-12-07 16:48:46 Info: teacher UserTop - index
+2020-12-07 16:54:07 Info: teacher UserTop - index
+2020-12-07 16:54:07 Info: teacher UserTop - index
+2020-12-07 16:55:52 Info: teacher AdminTop - index
+2020-12-07 16:55:55 Info: teacher StatTop - index
+2020-12-07 16:55:57 Info: teacher Stat - index  eid: 1
+2020-12-07 17:19:33 Info: teacher StatTop - index
+2020-12-07 17:19:35 Info: teacher AdminTop - index
+2020-12-07 17:19:36 Info: teacher UserTop - index
+2020-12-07 17:19:51 Info: teacher AdminTop - index
+2020-12-07 17:19:52 Info: teacher StatTop - index
+2020-12-07 17:19:54 Info: teacher Stat - index  eid: 1
+2020-12-07 17:27:46 Info: teacher AdminTop - index
+2020-12-07 17:27:48 Info: teacher UserTop - index
+2020-12-07 17:35:42 Info: teacher UserTop - index
+2020-12-07 17:35:44 Info: teacher AdminTop - index
+2020-12-07 17:35:45 Info: teacher StatTop - index
+2020-12-07 17:35:47 Info: teacher Stat - index  eid: 1
+2020-12-07 17:46:56 Info: teacher AdminTop - index
+2020-12-07 17:46:58 Info: teacher UserTop - index
+2020-12-07 17:47:29 Info: teacher UserTop - index
+2020-12-07 17:47:31 Info: teacher AdminTop - index
+2020-12-07 17:47:33 Info: teacher StatTop - index
+2020-12-07 17:47:35 Info: teacher Stat - index  eid: 1
+2020-12-07 17:47:48 Info: teacher AdminTop - index
+2020-12-07 17:47:49 Info: teacher UserTop - index
+2020-12-07 17:47:52 Info: teacher AdminTop - index
+2020-12-07 17:47:54 Info: teacher StatTop - index
+2020-12-07 17:47:55 Info: teacher Stat - index  eid: 2
+2020-12-07 17:48:01 Info: teacher AdminTop - index
+2020-12-07 17:48:03 Info: teacher UserTop - index
+2020-12-07 17:48:08 Info: teacher AdminTop - index
+2020-12-07 17:48:10 Info: teacher UserTop - index
+2020-12-07 17:48:17 Info: teacher AdminTop - index
+2020-12-07 17:48:25 Info: teacher StatTop - index
+2020-12-07 17:48:26 Info: teacher Stat - index  eid: 1
+2020-12-07 17:50:52 Info: teacher AdminTop - index
+2020-12-07 17:50:54 Info: teacher UserTop - index
+2020-12-07 17:50:59 Info: teacher AdminTop - index
+2020-12-07 17:51:01 Info: teacher UserTop - index
+2020-12-07 17:51:04 Info: teacher UserTop - index
+2020-12-07 17:51:06 Info: teacher UserTop - index
+2020-12-07 17:51:09 Info: teacher UserTop - index
+2020-12-07 17:51:13 Info: teacher AdminTop - index
+2020-12-07 17:51:15 Info: teacher StatTop - index
+2020-12-07 17:51:17 Info: teacher Stat - index  eid: 1
+2020-12-07 17:52:16 Info: teacher AdminTop - index
+2020-12-07 17:59:02 Info: teacher UserTop - index
+2020-12-07 18:00:31 Info: teacher AdminTop - index
+2020-12-07 18:00:33 Info: teacher StatTop - index
+2020-12-07 18:00:34 Info: teacher Stat - index  eid: 1
+2020-12-07 18:04:22 Info: teacher AdminTop - index
+2020-12-07 18:04:23 Info: teacher UserTop - index
+2020-12-07 18:04:31 Info: teacher UserTop - index
+2020-12-07 18:05:13 Info: teacher AdminTop - index
+2020-12-07 18:05:15 Info: teacher UserTop - index
+2020-12-07 18:11:56 Info: teacher AdminTop - index
+2020-12-07 18:11:57 Info: teacher UserTop - index
+2020-12-07 18:12:05 Info: teacher AdminTop - index
+2020-12-07 18:12:07 Info: teacher StatTop - index
+2020-12-07 18:12:08 Info: teacher Stat - index  eid: 1
+2020-12-07 18:16:34 Info: teacher AdminTop - index
+2020-12-07 18:16:35 Info: teacher UserTop - index
+2020-12-07 18:16:40 Info: teacher UserTop - index
+2020-12-07 18:17:18 Info: teacher AdminTop - index
+2020-12-07 18:17:20 Info: teacher StatTop - index
+2020-12-07 18:17:21 Info: teacher Stat - index  eid: 2
+2020-12-07 18:23:52 Info: teacher AdminTop - index
+2020-12-07 18:23:53 Info: teacher UserTop - index
+2020-12-07 18:23:56 Error: [Error] Call to undefined function App\Controller\set()
+#0 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Controller/Controller.php(610): App\Controller\TestResultController->index()
+#1 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(120): Cake\Controller\Controller->invokeAction()
+#2 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\TestResultController))
+#3 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#4 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#5 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(108): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(168): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(96): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#15 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 /sdb/home/labadmin/yasube/www/cake/erams/webroot/index.php(40): Cake\Http\Server->run()
+#18 {main}
+Request URL: /test-result?uid=1&eid=2
+Referer URL: https://atarime.cs.tohoku-gakuin.ac.jp/~yasube/cake/erams/UserTop
+
+
+2020-12-07 18:25:51 Info: teacher UserTop - index
+2020-12-07 18:37:03 Info: teacher AdminTop - index
+2020-12-07 18:37:05 Info: teacher UserTop - index
+2020-12-07 18:53:46 Info: teacher UserTop - index
+2020-12-07 18:54:18 Info: teacher UserTop - index
+2020-12-07 18:54:58 Info: teacher UserTop - index
+2020-12-07 19:00:27 Info: teacher UserTop - index
+2020-12-07 19:04:59 Info: teacher UserTop - index
+2020-12-07 19:06:04 Info: teacher UserTop - index
+2020-12-07 19:06:19 Info: teacher UserTop - index
+2020-12-07 19:06:22 Info: teacher UserTop - index
+2020-12-07 19:07:30 Info: teacher UserTop - index
+2020-12-07 19:09:11 Info: teacher UserTop - index
+2020-12-07 19:12:51 Info: teacher UserTop - index
+2020-12-07 19:12:53 Error: [Error] Call to undefined function App\Controller\set()
+#0 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Controller/Controller.php(610): App\Controller\TestResultController->index()
+#1 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(120): Cake\Controller\Controller->invokeAction()
+#2 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\TestResultController))
+#3 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#4 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#5 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(108): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(168): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(96): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#15 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 /sdb/home/labadmin/yasube/www/cake/erams/webroot/index.php(40): Cake\Http\Server->run()
+#18 {main}
+Request URL: /test-result?uid=1&eid=2
+Referer URL: https://atarime.cs.tohoku-gakuin.ac.jp/~yasube/cake/erams/user-top
+
+
+2020-12-07 19:13:53 Info: teacher UserTop - index
+2020-12-07 19:17:28 Info: teacher UserTop - index
+2020-12-07 19:18:40 Info: teacher UserTop - index
+2020-12-07 19:20:33 Info: teacher UserTop - index
+2020-12-07 19:20:47 Info: teacher UserTop - index
+2020-12-07 19:21:03 Info: teacher UserTop - index
+2020-12-07 19:22:03 Info: teacher UserTop - index
+2020-12-07 19:22:10 Info: teacher UserTop - index
+2020-12-07 19:22:31 Info: teacher UserTop - index
+2020-12-07 19:25:32 Info: teacher UserTop - index
+2020-12-07 19:25:34 Error: [ParseError] syntax error, unexpected '>'
+#0 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/View/View.php(1374): Cake\View\View->_evaluate('/sdb/home/labad...', Array)
+#1 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/View/View.php(880): Cake\View\View->_render('/sdb/home/labad...')
+#2 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Controller/Controller.php(791): Cake\View\View->render(NULL, NULL)
+#3 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(126): Cake\Controller\Controller->render()
+#4 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\TestResultController))
+#5 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#6 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#7 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(108): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(168): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#15 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(96): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#17 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#18 /sdb/home/labadmin/yasube/www/cake/erams/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#19 /sdb/home/labadmin/yasube/www/cake/erams/webroot/index.php(40): Cake\Http\Server->run()
+#20 {main}
+Request URL: /test-result?uid=1&eid=2
+Referer URL: https://atarime.cs.tohoku-gakuin.ac.jp/~yasube/cake/erams/user-top
+
+
+2020-12-07 19:26:20 Info: teacher UserTop - index
+2020-12-07 19:26:25 Info: teacher UserTop - index
+2020-12-07 19:29:32 Info: teacher UserTop - index
+2020-12-07 19:30:59 Info: teacher UserTop - index
+2020-12-07 19:32:18 Info: teacher UserTop - index
+2020-12-07 19:32:21 Info: teacher AdminTop - index
+2020-12-07 19:32:22 Info: teacher StatTop - index
+2020-12-07 19:32:24 Info: teacher Stat - index  eid: 1
+2020-12-07 19:32:53 Info: teacher AdminTop - index
+2020-12-07 19:32:54 Info: teacher UserTop - index
+2020-12-07 19:34:09 Info: teacher UserTop - index
+2020-12-07 19:34:14 Info: teacher UserTop - index
+2020-12-07 19:34:16 Info: teacher AdminTop - index
+2020-12-07 19:34:17 Info: teacher StatTop - index
+2020-12-07 19:34:18 Info: teacher Stat - index  eid: 1
+2020-12-07 19:34:22 Info: teacher AdminTop - index
+2020-12-07 19:34:24 Info: teacher StatTop - index
+2020-12-07 19:34:25 Info: teacher Stat - index  eid: 2
+2020-12-07 19:41:15 Info: teacher AdminTop - index
+2020-12-07 19:41:43 Info: teacher UserTop - index
+2020-12-07 19:41:57 Info: teacher UserTop - index
+2020-12-07 19:42:03 Info: teacher UserTop - index
+2020-12-07 19:42:04 Info: teacher AdminTop - index
+2020-12-07 19:42:07 Info: teacher UserTop - index
+2020-12-07 19:43:39 Info: teacher UserTop - index
